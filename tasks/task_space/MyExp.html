@@ -5,6 +5,7 @@
     <script src="jspsych-6.0.5/jspsych.js"></script>
     <script src="jspsych-6.0.5/plugins/jspsych-html-keyboard-response.js"></script>
     <script src="jspsych-6.0.5/plugins/jspsych-image-keyboard-response.js"></script>
+		<script src = "jspsych-6.0.5/plugins/jspsych-fullscreen.js"></script>
     <link rel="stylesheet" href="jspsych-6.0.5/css/jspsych.css"></link>
   </head>
   <body></body>
@@ -24,6 +25,11 @@
 		////////	CREATE TIMELINE		////////
 		////////////////////////////////////////
     var timeline = [];
+
+		timeline.push({
+			type: 'fullscreen',
+			fullscreen_mode: true
+		});
 
     /* define welcome message trial */
     var welcome_block = {
@@ -283,24 +289,32 @@
 		////////	 START EXPERIMENT		////////
 		////////////////////////////////////////////
 
-		function saveData(name, data){
-			var xhr = new XMLHttpRequest();
-			xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
-			xhr.setRequestHeader('Content-Type', 'application/json');
-			xhr.send(JSON.stringify({filename: name, filedata: data}));
-		}
-
 		jsPsych.init({
-			timeline: timeline,
-			on_interaction_data_update: function(data) {
-				console.log(JSON.stringify(data))
-			},
-			on_finish: function() {
-				//jsPsych.data.displayData();
-				//jsPsych.data.get().filter({test_part: 'test'}).localSave('csv',subject_id+'.csv');
-				saveData("ID_events_"+subject_id, jsPsych.data.getInteractionData().csv());
-				saveData("ID_"+subject_id, jsPsych.data.get().filter({test_part: 'test'}).csv());
-			}
-		});
+					timeline: timeline,
+					on_finish: function() {
+						// jsPsych.data.displayData();
+						jsPsych.data.get().filter({test_part: 'test'}).localSave('csv','/data/'+subject_id+'.csv');
+					}
+				});
+
+		// function saveData(name, data){
+		// 	var xhr = new XMLHttpRequest();
+		// 	xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
+		// 	xhr.setRequestHeader('Content-Type', 'application/json');
+		// 	xhr.send(JSON.stringify({filename: name, filedata: data}));
+		// }
+
+		// jsPsych.init({
+		// 	timeline: timeline,
+		// 	on_interaction_data_update: function(data) {
+		// 		console.log(JSON.stringify(data))
+		// 	},
+		// 	on_finish: function() {
+		// 		//jsPsych.data.displayData();
+		// 		//jsPsych.data.get().filter({test_part: 'test'}).localSave('csv',subject_id+'.csv');
+		// 		saveData("ID_events_"+subject_id, jsPsych.data.getInteractionData().csv());
+		// 		saveData("ID_"+subject_id, jsPsych.data.get().filter({test_part: 'test'}).csv());
+		// 	}
+		// });
   </script>
 </html>
