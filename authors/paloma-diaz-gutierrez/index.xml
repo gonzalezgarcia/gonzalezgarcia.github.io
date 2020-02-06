@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Paloma Díaz-Gutiérrez | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/paloma-diaz-gutierrez/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/paloma-diaz-gutierrez/index.xml" rel="self" type="application/rss+xml" />
+    <description>Paloma Díaz-Gutiérrez</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Paloma Díaz-Gutiérrez</title>
+      <link>https://gonzalezgarcia.github.io/authors/paloma-diaz-gutierrez/</link>
+    </image>
+    
+    <item>
+      <title>Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis</title>
+      <link>https://gonzalezgarcia.github.io/publication/arco-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/arco-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural mechanisms of cognitive control</title>
+      <link>https://gonzalezgarcia.github.io/publication/palenciano-2017/</link>
+      <pubDate>Sat, 01 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/palenciano-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

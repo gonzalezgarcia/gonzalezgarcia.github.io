@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Richard Hardstone | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/richard-hardstone/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/richard-hardstone/index.xml" rel="self" type="application/rss+xml" />
+    <description>Richard Hardstone</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Richard Hardstone</title>
+      <link>https://gonzalezgarcia.github.io/authors/richard-hardstone/</link>
+    </image>
+    
+    <item>
+      <title>Neural dynamics of visual ambiguity resolution by perceptual prior</title>
+      <link>https://gonzalezgarcia.github.io/publication/flounders-2019/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/flounders-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

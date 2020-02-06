@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Raymond Chang | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/raymond-chang/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/raymond-chang/index.xml" rel="self" type="application/rss+xml" />
+    <description>Raymond Chang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jul 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Raymond Chang</title>
+      <link>https://gonzalezgarcia.github.io/authors/raymond-chang/</link>
+    </image>
+    
+    <item>
+      <title>Content-specific activity in frontoparietal and default-mode networks during prior-guided visual perception</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2018/</link>
+      <pubDate>Sun, 01 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

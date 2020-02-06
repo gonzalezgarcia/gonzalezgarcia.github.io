@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David Wisniewski | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/david-wisniewski/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/david-wisniewski/index.xml" rel="self" type="application/rss+xml" />
+    <description>David Wisniewski</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>David Wisniewski</title>
+      <link>https://gonzalezgarcia.github.io/authors/david-wisniewski/</link>
+    </image>
+    
+    <item>
+      <title>Investigating the effect of trustworthiness on instruction-based reflexivity</title>
+      <link>https://gonzalezgarcia.github.io/publication/biest/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/biest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frontoparietal action-oriented codes support novel task set implementation</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shared Neural Representations of Cognitive Conflict and Negative Affect in the Dorsal Anterior Cingulate Cortex</title>
+      <link>https://gonzalezgarcia.github.io/publication/vermeylen-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/vermeylen-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

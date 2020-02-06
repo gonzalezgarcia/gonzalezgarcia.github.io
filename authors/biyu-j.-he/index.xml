@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biyu J. He | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/biyu-j.-he/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/biyu-j.-he/index.xml" rel="self" type="application/rss+xml" />
+    <description>Biyu J. He</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Biyu J. He</title>
+      <link>https://gonzalezgarcia.github.io/authors/biyu-j.-he/</link>
+    </image>
+    
+    <item>
+      <title>Neural dynamics of visual ambiguity resolution by perceptual prior</title>
+      <link>https://gonzalezgarcia.github.io/publication/flounders-2019/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/flounders-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

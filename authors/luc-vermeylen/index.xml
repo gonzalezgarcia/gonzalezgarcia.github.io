@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Luc Vermeylen | Home</title>
+    <link>https://gonzalezgarcia.github.io/authors/luc-vermeylen/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/luc-vermeylen/index.xml" rel="self" type="application/rss+xml" />
+    <description>Luc Vermeylen</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Luc Vermeylen</title>
+      <link>https://gonzalezgarcia.github.io/authors/luc-vermeylen/</link>
+    </image>
+    
+    <item>
+      <title>Shared Neural Representations of Cognitive Conflict and Negative Affect in the Dorsal Anterior Cingulate Cortex</title>
+      <link>https://gonzalezgarcia.github.io/publication/vermeylen-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/vermeylen-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
