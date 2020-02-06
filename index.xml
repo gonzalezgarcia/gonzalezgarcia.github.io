@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home</title>
+    <title>Carlos González-García</title>
     <link>https://gonzalezgarcia.github.io/</link>
       <atom:link href="https://gonzalezgarcia.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <description>Home</description>
+    <description>Carlos González-García</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 16:30:17 +0100</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
-      <title>Home</title>
+      <title>Carlos González-García</title>
       <link>https://gonzalezgarcia.github.io/</link>
     </image>
     
@@ -61,6 +61,14 @@
       <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior</title>
+      <link>https://gonzalezgarcia.github.io/publication/palenciano-2019-a/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/palenciano-2019-a/</guid>
       <description></description>
     </item>
     

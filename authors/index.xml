@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Authors | Home</title>
+    <title>Authors | Carlos González-García</title>
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
@@ -79,7 +79,7 @@
     <item>
       <title>Ana F Palenciano</title>
       <link>https://gonzalezgarcia.github.io/authors/ana-f-palenciano/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/ana-f-palenciano/</guid>
       <description></description>
     </item>
@@ -87,8 +87,16 @@
     <item>
       <title>Juan E Arco</title>
       <link>https://gonzalezgarcia.github.io/authors/juan-e-arco/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/juan-e-arco/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>María Ruz</title>
+      <link>https://gonzalezgarcia.github.io/authors/maria-ruz/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/maria-ruz/</guid>
       <description></description>
     </item>
     
@@ -97,14 +105,6 @@
       <link>https://gonzalezgarcia.github.io/authors/luiz-pessoa/</link>
       <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/luiz-pessoa/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>María Ruz</title>
-      <link>https://gonzalezgarcia.github.io/authors/maria-ruz/</link>
-      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/maria-ruz/</guid>
       <description></description>
     </item>
     
@@ -257,7 +257,8 @@
       <link>https://gonzalezgarcia.github.io/authors/admin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/admin/</guid>
-      <description>&lt;p&gt;I am a cognitive neuroscientist interested in how the brain takes advantage of available information when facing complex scenarios. I am currently a &lt;b&gt;Marie Skłodowska-Curie&lt;/b&gt; postdoc fellow in Prof. &lt;b&gt;Marcel Brass&lt;/b&gt; lab at &lt;b&gt;Ghent University&lt;/b&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;I am a cognitive neuroscientist interested in how the brain takes advantage of available information when facing complex scenarios. I am currently a &lt;b&gt;Marie Skłodowska-Curie&lt;/b&gt; postdoc fellow in Prof. &lt;b&gt;&lt;a href=&#34;https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html&#34; target=&#34;_blank&#34;&gt;Marcel Brass&lt;/a&gt;&lt;/b&gt; lab at &lt;b&gt;Ghent University&lt;/b&gt;.&lt;/p&gt;
+&lt;p&gt;I received my PhD from the &lt;b&gt;University of Granada&lt;/b&gt;, where I worked with &lt;b&gt;&lt;a href=&#34;https://www.ugr.es/~mruz/esp/Inicio.html&#34; target=&#34;_blank&#34;&gt;María Ruz&lt;/a&gt;&lt;/b&gt;. As a grad student, I also spent some time as a Fulbright scholar at &lt;b&gt;&lt;a href=&#34;https://med.nyu.edu/helab/&#34; target=&#34;_blank&#34;&gt;Biyu He&lt;/a&gt;&lt;/b&gt;&#39;s lab at &lt;b&gt;NIH and NYU&lt;b/&gt;.&lt;/p&gt;
 &lt;p&gt;You can contact me at &lt;code&gt;cgonzalgarcia (at) gmail (dot) com&lt;/code&gt;&lt;/p&gt;
 </description>
     </item>
