@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-voxel pattern analysis | Home</title>
+    <link>https://gonzalezgarcia.github.io/tags/multi-voxel-pattern-analysis/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/multi-voxel-pattern-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Multi-voxel pattern analysis</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Multi-voxel pattern analysis</title>
+      <link>https://gonzalezgarcia.github.io/tags/multi-voxel-pattern-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis</title>
+      <link>https://gonzalezgarcia.github.io/publication/arco-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/arco-2018/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

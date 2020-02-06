@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cognition | Home</title>
+    <link>https://gonzalezgarcia.github.io/tags/cognition/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/cognition/index.xml" rel="self" type="application/rss+xml" />
+    <description>Cognition</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Cognition</title>
+      <link>https://gonzalezgarcia.github.io/tags/cognition/</link>
+    </image>
+    
+    <item>
+      <title>Functional Magnetic Resonance: Technical, statistical and theoretical implications in Human Neuroscience</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2014/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

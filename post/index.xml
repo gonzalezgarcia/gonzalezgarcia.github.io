@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Home</title>
+    <link>https://gonzalezgarcia.github.io/post/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 16:30:17 +0100</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Projects</title>
+      <link>https://gonzalezgarcia.github.io/post/</link>
+    </image>
+    
+    <item>
+      <title>MSCA IF - InstrAct</title>
+      <link>https://gonzalezgarcia.github.io/post/msca/</link>
+      <pubDate>Wed, 05 Feb 2020 16:30:17 +0100</pubDate>
+      <guid>https://gonzalezgarcia.github.io/post/msca/</guid>
+      <description>&lt;p&gt;From air traffic control to large surgery teams, some of the most advanced human collaborative achievements largely rely on our ability to successfully give and follow instructions. Given the combination of novelty, speed, complexity and efficiency, significant effort has been devoted to characterize the mechanisms underlying this ability. However, how the human brain rapidly (i.e. in a matter of seconds) transforms the content of instructions into actions is still poorly understood. This project aims at providing a fundamental description of this transformation by combining recently developed behavioral paradigms and cutting edge methodological and analytical tools. This combination is expected to result in a significant step forward in the understanding of instructions following, compared to the state-of-the-art.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

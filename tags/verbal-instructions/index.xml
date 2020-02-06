@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Verbal instructions | Home</title>
+    <link>https://gonzalezgarcia.github.io/tags/verbal-instructions/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/verbal-instructions/index.xml" rel="self" type="application/rss+xml" />
+    <description>Verbal instructions</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Verbal instructions</title>
+      <link>https://gonzalezgarcia.github.io/tags/verbal-instructions/</link>
+    </image>
+    
+    <item>
+      <title>Encoding, preparation and implementation of novel complex verbal instructions</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

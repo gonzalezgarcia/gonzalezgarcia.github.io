@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cognitive control | Home</title>
+    <link>https://gonzalezgarcia.github.io/tags/cognitive-control/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/cognitive-control/index.xml" rel="self" type="application/rss+xml" />
+    <description>cognitive control</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>cognitive control</title>
+      <link>https://gonzalezgarcia.github.io/tags/cognitive-control/</link>
+    </image>
+    
+    <item>
+      <title>Investigating the effect of trustworthiness on instruction-based reflexivity</title>
+      <link>https://gonzalezgarcia.github.io/publication/biest/</link>
+      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/biest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attentional prioritization reconfigures novel instructions into action-oriented task sets</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2020/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2020/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unconscious biases in task choices depend on conscious expectations</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2015-b/</link>
+      <pubDate>Tue, 01 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2015-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Task-specific preparatory neural activations in low-interference contexts</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2015-a/</link>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2015-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
