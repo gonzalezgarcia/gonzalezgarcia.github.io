@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Authors</title>
@@ -15,16 +15,56 @@
     <item>
       <title>**Carlos González-García**</title>
       <link>https://gonzalezgarcia.github.io/authors/carlos-gonzalez-garcia/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/carlos-gonzalez-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Nico Boehler</title>
+      <link>https://gonzalezgarcia.github.io/authors/c.-nico-boehler/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/c.-nico-boehler/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Carsten Bundt</title>
+      <link>https://gonzalezgarcia.github.io/authors/carsten-bundt/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/carsten-bundt/</guid>
       <description></description>
     </item>
     
     <item>
       <title>David Wisniewski</title>
       <link>https://gonzalezgarcia.github.io/authors/david-wisniewski/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/david-wisniewski/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Haeme R.P. Park</title>
+      <link>https://gonzalezgarcia.github.io/authors/haeme-r.p.-park/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/haeme-r.p.-park/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mariam Kostandyan</title>
+      <link>https://gonzalezgarcia.github.io/authors/mariam-kostandyan/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/mariam-kostandyan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ruth M. Krebs</title>
+      <link>https://gonzalezgarcia.github.io/authors/ruth-m.-krebs/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/ruth-m.-krebs/</guid>
       <description></description>
     </item>
     
@@ -165,6 +205,22 @@
     </item>
     
     <item>
+      <title>...</title>
+      <link>https://gonzalezgarcia.github.io/authors/.../</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/.../</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Felix Holzmeister</title>
+      <link>https://gonzalezgarcia.github.io/authors/felix-holzmeister/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/felix-holzmeister/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Luc Vermeylen</title>
       <link>https://gonzalezgarcia.github.io/authors/luc-vermeylen/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
@@ -173,10 +229,42 @@
     </item>
     
     <item>
+      <title>Rotem Botvinik-Nezer</title>
+      <link>https://gonzalezgarcia.github.io/authors/rotem-botvinik-nezer/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/rotem-botvinik-nezer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Russell A. Poldrack</title>
+      <link>https://gonzalezgarcia.github.io/authors/russell-a.-poldrack/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/russell-a.-poldrack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Senne Braem</title>
       <link>https://gonzalezgarcia.github.io/authors/senne-braem/</link>
       <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/senne-braem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas E. Nichols</title>
+      <link>https://gonzalezgarcia.github.io/authors/thomas-e.-nichols/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/thomas-e.-nichols/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tom Schonberg</title>
+      <link>https://gonzalezgarcia.github.io/authors/tom-schonberg/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/tom-schonberg/</guid>
       <description></description>
     </item>
     

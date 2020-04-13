@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom Schonberg | Carlos González-García</title>
+    <link>https://gonzalezgarcia.github.io/authors/tom-schonberg/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/tom-schonberg/index.xml" rel="self" type="application/rss+xml" />
+    <description>Tom Schonberg</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Tom Schonberg</title>
+      <link>https://gonzalezgarcia.github.io/authors/tom-schonberg/</link>
+    </image>
+    
+    <item>
+      <title>Variability in the analysis of a single neuroimaging dataset by many teams</title>
+      <link>https://gonzalezgarcia.github.io/publication/botvinik-nezer-2019/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/botvinik-nezer-2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
