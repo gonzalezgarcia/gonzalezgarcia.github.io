@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Working memory | Carlos González-García</title>
+    <link>https://gonzalezgarcia.github.io/tags/working-memory/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/working-memory/index.xml" rel="self" type="application/rss+xml" />
+    <description>Working memory</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Working memory</title>
+      <link>https://gonzalezgarcia.github.io/tags/working-memory/</link>
+    </image>
+    
+    <item>
+      <title>The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings</title>
+      <link>https://gonzalezgarcia.github.io/publication/formica-2020-a/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/formica-2020-a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
