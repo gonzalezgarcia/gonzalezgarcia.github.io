@@ -5,12 +5,20 @@
     <link>https://gonzalezgarcia.github.io/authors/marcel-brass/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/marcel-brass/index.xml" rel="self" type="application/rss+xml" />
     <description>Marcel Brass</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Marcel Brass</title>
       <link>https://gonzalezgarcia.github.io/authors/marcel-brass/</link>
     </image>
+    
+    <item>
+      <title>The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings</title>
+      <link>https://gonzalezgarcia.github.io/publication/formica-2020-b/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/formica-2020-b/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Investigating the effect of trustworthiness on instruction-based reflexivity</title>
@@ -33,14 +41,6 @@
       <link>https://gonzalezgarcia.github.io/publication/formica-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/formica-2020/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings</title>
-      <link>https://gonzalezgarcia.github.io/publication/formica-2020-a/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/publication/formica-2020-a/</guid>
       <description></description>
     </item>
     

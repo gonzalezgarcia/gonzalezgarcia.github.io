@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Authors</title>
@@ -15,8 +15,24 @@
     <item>
       <title>**Carlos González-García**</title>
       <link>https://gonzalezgarcia.github.io/authors/carlos-gonzalez-garcia/</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/carlos-gonzalez-garcia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcel Brass</title>
+      <link>https://gonzalezgarcia.github.io/authors/marcel-brass/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/marcel-brass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Silvia Formica</title>
+      <link>https://gonzalezgarcia.github.io/authors/silvia-formica/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/silvia-formica/</guid>
       <description></description>
     </item>
     
@@ -73,14 +89,6 @@
       <link>https://gonzalezgarcia.github.io/authors/emiel-cracco/</link>
       <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/emiel-cracco/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Marcel Brass</title>
-      <link>https://gonzalezgarcia.github.io/authors/marcel-brass/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/marcel-brass/</guid>
       <description></description>
     </item>
     
@@ -153,14 +161,6 @@
       <link>https://gonzalezgarcia.github.io/authors/mehdi-senoussi/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/mehdi-senoussi/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Silvia Formica</title>
-      <link>https://gonzalezgarcia.github.io/authors/silvia-formica/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/silvia-formica/</guid>
       <description></description>
     </item>
     
