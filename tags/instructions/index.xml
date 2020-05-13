@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>instructions | Carlos González-García</title>
+    <title>Instructions | Carlos González-García</title>
     <link>https://gonzalezgarcia.github.io/tags/instructions/</link>
       <atom:link href="https://gonzalezgarcia.github.io/tags/instructions/index.xml" rel="self" type="application/rss+xml" />
-    <description>instructions</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 05 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <description>Instructions</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
-      <title>instructions</title>
+      <title>Instructions</title>
       <link>https://gonzalezgarcia.github.io/tags/instructions/</link>
     </image>
     
     <item>
       <title>Investigating the effect of trustworthiness on instruction-based reflexivity</title>
-      <link>https://gonzalezgarcia.github.io/publication/biest-2020/</link>
-      <pubDate>Wed, 05 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/publication/biest-2020/</guid>
+      <link>https://gonzalezgarcia.github.io/publication/vander-biest-2020/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/vander-biest-2020/</guid>
       <description></description>
     </item>
     
