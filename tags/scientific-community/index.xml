@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Felix Holzmeister | Carlos González-García</title>
-    <link>https://gonzalezgarcia.github.io/authors/felix-holzmeister/</link>
-      <atom:link href="https://gonzalezgarcia.github.io/authors/felix-holzmeister/index.xml" rel="self" type="application/rss+xml" />
-    <description>Felix Holzmeister</description>
+    <title>Scientific community | Carlos González-García</title>
+    <link>https://gonzalezgarcia.github.io/tags/scientific-community/</link>
+      <atom:link href="https://gonzalezgarcia.github.io/tags/scientific-community/index.xml" rel="self" type="application/rss+xml" />
+    <description>Scientific community</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
-      <title>Felix Holzmeister</title>
-      <link>https://gonzalezgarcia.github.io/authors/felix-holzmeister/</link>
+      <title>Scientific community</title>
+      <link>https://gonzalezgarcia.github.io/tags/scientific-community/</link>
     </image>
     
     <item>
