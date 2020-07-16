@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arco, J.E. | Carlos González-García</title>
+    <link>https://gonzalezgarcia.github.io/authors/arco-j.e./</link>
+      <atom:link href="https://gonzalezgarcia.github.io/authors/arco-j.e./index.xml" rel="self" type="application/rss+xml" />
+    <description>Arco, J.E.</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
+      <title>Arco, J.E.</title>
+      <link>https://gonzalezgarcia.github.io/authors/arco-j.e./</link>
+    </image>
+    
+    <item>
+      <title>Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior</title>
+      <link>https://gonzalezgarcia.github.io/publication/palenciano-2019-a/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/palenciano-2019-a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representational organization of novel task sets during proactive encoding</title>
+      <link>https://gonzalezgarcia.github.io/publication/palenciano-2019/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/palenciano-2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis</title>
+      <link>https://gonzalezgarcia.github.io/publication/arco-2018/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/arco-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Encoding, preparation and implementation of novel complex verbal instructions</title>
+      <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
