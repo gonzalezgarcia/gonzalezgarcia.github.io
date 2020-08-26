@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/brass-m./</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/brass-m./index.xml" rel="self" type="application/rss+xml" />
     <description>Brass, M.</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Brass, M.</title>
@@ -13,15 +13,7 @@
     </image>
     
     <item>
-      <title>The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings</title>
-      <link>https://gonzalezgarcia.github.io/publication/formica-2020-b/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/publication/formica-2020-b/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Investigating the effect of trustworthiness on instruction-based reflexivity</title>
+      <title>Investigating the effect of trustworthiness on instruction-based reflexivity.</title>
       <link>https://gonzalezgarcia.github.io/publication/vander-biest-2020/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/vander-biest-2020/</guid>
@@ -29,7 +21,15 @@
     </item>
     
     <item>
-      <title>Attentional prioritization reconfigures novel instructions into action-oriented task sets</title>
+      <title>The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings.</title>
+      <link>https://gonzalezgarcia.github.io/publication/formica-2020-b/</link>
+      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/publication/formica-2020-b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Attentional prioritization reconfigures novel instructions into action-oriented task sets.</title>
       <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2020/</guid>
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>Neural oscillations dissociate between memorization and proceduralization of novel instructions</title>
+      <title>Neural oscillations dissociate between memorization and proceduralization of novel instructions.</title>
       <link>https://gonzalezgarcia.github.io/publication/formica-2020/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/formica-2020/</guid>
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>Frontoparietal action-oriented codes support novel task set implementation</title>
+      <title>Frontoparietal action-oriented codes support novel task set implementation.</title>
       <link>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</link>
       <pubDate>Fri, 01 Nov 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/publication/gonzalez-garcia-2019/</guid>

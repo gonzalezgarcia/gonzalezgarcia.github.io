@@ -5,12 +5,60 @@
     <link>https://gonzalezgarcia.github.io/tags/</link>
       <atom:link href="https://gonzalezgarcia.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Tags</title>
       <link>https://gonzalezgarcia.github.io/tags/</link>
     </image>
+    
+    <item>
+      <title>attitudes</title>
+      <link>https://gonzalezgarcia.github.io/tags/attitudes/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/attitudes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>beliefs</title>
+      <link>https://gonzalezgarcia.github.io/tags/beliefs/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/beliefs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>determinism</title>
+      <link>https://gonzalezgarcia.github.io/tags/determinism/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/determinism/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>experimental philosophy</title>
+      <link>https://gonzalezgarcia.github.io/tags/experimental-philosophy/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/experimental-philosophy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>open science</title>
+      <link>https://gonzalezgarcia.github.io/tags/open-science/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/open-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Subject Category: Psychology and cognitive neurosc</title>
+      <link>https://gonzalezgarcia.github.io/tags/subject-category-psychology-and-cognitive-neurosc/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/tags/subject-category-psychology-and-cognitive-neurosc/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cognitive control</title>

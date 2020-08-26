@@ -13,12 +13,22 @@
   </url>
   
   <url>
+    <loc>https://gonzalezgarcia.github.io/tags/attitudes/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gonzalezgarcia.github.io/authors/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/authors/brass-m./</loc>
+    <loc>https://gonzalezgarcia.github.io/tags/beliefs/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/braem-s./</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,7 +38,32 @@
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/authors/formica-s./</loc>
+    <loc>https://gonzalezgarcia.github.io/authors/cracco-c./</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/publication/cracco-2020/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/tags/determinism/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/tags/experimental-philosophy/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/hussey-i./</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/tags/open-science/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -43,17 +78,52 @@
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/publication/formica-2020-b/</loc>
+    <loc>https://gonzalezgarcia.github.io/tags/subject-category-psychology-and-cognitive-neurosc/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/tags/cognitive-control/</loc>
+    <loc>https://gonzalezgarcia.github.io/tags/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/wisniewski-d./</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/alguacil-s./</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/arco-j.e./</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/diaz-gutierrez-p./</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/publication/diaz-gutierrez-2020/</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/ruz-m./</loc>
+    <lastmod>2020-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/authors/brass-m./</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/authors/cracco-c./</loc>
+    <loc>https://gonzalezgarcia.github.io/tags/cognitive-control/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -78,22 +148,12 @@
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/tags/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gonzalezgarcia.github.io/tags/trustworthiness/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gonzalezgarcia.github.io/authors/van-der-biest-m./</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gonzalezgarcia.github.io/authors/wisniewski-d./</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -173,6 +233,11 @@
   </url>
   
   <url>
+    <loc>https://gonzalezgarcia.github.io/authors/formica-s./</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gonzalezgarcia.github.io/authors/kostandyan-m./</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
@@ -184,6 +249,11 @@
   
   <url>
     <loc>https://gonzalezgarcia.github.io/authors/park-h.r.p./</loc>
+    <lastmod>2020-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gonzalezgarcia.github.io/publication/formica-2020-b/</loc>
     <lastmod>2020-04-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -219,11 +289,6 @@
   
   <url>
     <loc>https://gonzalezgarcia.github.io/tags/psychology-research/</loc>
-    <lastmod>2020-02-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gonzalezgarcia.github.io/authors/ruz-m./</loc>
     <lastmod>2020-02-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -288,11 +353,6 @@
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/authors/arco-j.e./</loc>
-    <lastmod>2019-10-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gonzalezgarcia.github.io/authors/palenciano-a.f./</loc>
     <lastmod>2019-10-01T00:00:00+00:00</lastmod>
   </url>
@@ -333,11 +393,6 @@
   </url>
   
   <url>
-    <loc>https://gonzalezgarcia.github.io/authors/braem-s./</loc>
-    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gonzalezgarcia.github.io/authors/hoofs-v./</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -355,11 +410,6 @@
   <url>
     <loc>https://gonzalezgarcia.github.io/authors/vermeylen-l./</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gonzalezgarcia.github.io/authors/diaz-gutierrez-p./</loc>
-    <lastmod>2018-10-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
