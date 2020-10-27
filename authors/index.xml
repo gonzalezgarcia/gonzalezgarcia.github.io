@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Authors</title>
@@ -15,7 +15,7 @@
     <item>
       <title>**González-García, C.**</title>
       <link>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</guid>
       <description></description>
     </item>
@@ -23,8 +23,40 @@
     <item>
       <title>Braem, S.</title>
       <link>https://gonzalezgarcia.github.io/authors/braem-s./</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/braem-s./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hoofs, V.</title>
+      <link>https://gonzalezgarcia.github.io/authors/hoofs-v./</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/hoofs-v./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Notebaert, W.</title>
+      <link>https://gonzalezgarcia.github.io/authors/notebaert-w./</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/notebaert-w./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vermeylen, L.</title>
+      <link>https://gonzalezgarcia.github.io/authors/vermeylen-l./</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/vermeylen-l./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisniewski, D.</title>
+      <link>https://gonzalezgarcia.github.io/authors/wisniewski-d./</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/wisniewski-d./</guid>
       <description></description>
     </item>
     
@@ -41,14 +73,6 @@
       <link>https://gonzalezgarcia.github.io/authors/hussey-i./</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/hussey-i./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Wisniewski, D.</title>
-      <link>https://gonzalezgarcia.github.io/authors/wisniewski-d./</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/wisniewski-d./</guid>
       <description></description>
     </item>
     
@@ -297,30 +321,6 @@
       <link>https://gonzalezgarcia.github.io/authors/he-b.j./</link>
       <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/he-b.j./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Hoofs, V.</title>
-      <link>https://gonzalezgarcia.github.io/authors/hoofs-v./</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/hoofs-v./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Notebaert, W.</title>
-      <link>https://gonzalezgarcia.github.io/authors/notebaert-w./</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/notebaert-w./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vermeylen, L.</title>
-      <link>https://gonzalezgarcia.github.io/authors/vermeylen-l./</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/vermeylen-l./</guid>
       <description></description>
     </item>
     
