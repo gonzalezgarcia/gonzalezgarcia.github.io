@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Authors</title>
@@ -15,8 +15,16 @@
     <item>
       <title>**González-García, C.**</title>
       <link>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</link>
-      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>He, B. J.</title>
+      <link>https://gonzalezgarcia.github.io/authors/he-b.-j./</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/he-b.-j./</guid>
       <description></description>
     </item>
     
@@ -197,7 +205,7 @@
     </item>
     
     <item>
-      <title>Formica, S.</title>
+      <title>Formica S.</title>
       <link>https://gonzalezgarcia.github.io/authors/formica-s./</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/formica-s./</guid>
