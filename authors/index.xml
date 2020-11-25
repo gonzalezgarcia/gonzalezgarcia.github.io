@@ -5,7 +5,7 @@
     <link>https://gonzalezgarcia.github.io/authors/</link>
       <atom:link href="https://gonzalezgarcia.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 25 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://gonzalezgarcia.github.io/img/brain.jpg</url>
       <title>Authors</title>
@@ -15,8 +15,32 @@
     <item>
       <title>**González-García, C.**</title>
       <link>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/gonzalez-garcia-c./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Brass, M.</title>
+      <link>https://gonzalezgarcia.github.io/authors/brass-m./</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/brass-m./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Formica, S.</title>
+      <link>https://gonzalezgarcia.github.io/authors/formica-s./</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/formica-s./</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wisniewskim, D.</title>
+      <link>https://gonzalezgarcia.github.io/authors/wisniewskim-d./</link>
+      <pubDate>Wed, 25 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://gonzalezgarcia.github.io/authors/wisniewskim-d./</guid>
       <description></description>
     </item>
     
@@ -117,14 +141,6 @@
     </item>
     
     <item>
-      <title>Brass, M.</title>
-      <link>https://gonzalezgarcia.github.io/authors/brass-m./</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/brass-m./</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Van der Biest, M.*</title>
       <link>https://gonzalezgarcia.github.io/authors/van-der-biest-m./</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
@@ -201,14 +217,6 @@
       <link>https://gonzalezgarcia.github.io/authors/bundt-c./</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://gonzalezgarcia.github.io/authors/bundt-c./</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Formica S.</title>
-      <link>https://gonzalezgarcia.github.io/authors/formica-s./</link>
-      <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
-      <guid>https://gonzalezgarcia.github.io/authors/formica-s./</guid>
       <description></description>
     </item>
     
