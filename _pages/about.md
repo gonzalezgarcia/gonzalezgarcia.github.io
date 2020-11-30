@@ -8,19 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-At the moment, **Marie Skłodowska-Curie** postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at **Ghent University**. I received my PhD from the **University of Granada** where I worked with [María Ruz]("https://www.ugr.es/~mruz/esp/Inicio.html" target="_blank">María Ruz){:target="_blank" rel="noopener"} and **Pío Tudela**. As a grad student, I also spent some time as a Fulbright scholar at [Biyu He]("https://med.nyu.edu/helab/"){:target="_blank" rel="noopener"}'s lab at **NIH and NYU**.
+At the moment, **Marie Skłodowska-Curie** postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at **Ghent University**. I received my PhD from the **University of Granada** where I worked with [María Ruz]("https://www.ugr.es/~mruz/esp/Inicio.html"){:target="_blank" rel="noopener"} and **Pío Tudela**. As a grad student, I also spent some time as a Fulbright scholar at [Biyu He]("https://med.nyu.edu/helab/"){:target="_blank" rel="noopener"}'s lab at **NIH and NYU**.
 In Spring 2021, I will be going back to Granada as a Juan de la Cierva fellow!
-<p>You can contact me at ``cgonzalgarcia (at) gmail (dot) com``
+<p>You can contact me at ``cgonzalgarcia (at) gmail (dot) com``.
 
-
-
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 Research interests
-======
-My research interests concern the neurocognitive mechanisms underlying perception, attention and control processes. Specifically, I am interested in how the brain uses available (internal or external) information to guide cognition. I mostly follow a multivariate approach to combine neuroimaging data modalities with the ultimate goal of resolving in time and space how the brain drives flexible behavior.</p>
+------
+My research interests concern the neurocognitive mechanisms underlying perception, attention and control processes. Specifically, I am interested in how the brain uses available (internal or external) information to guide cognition. I mostly follow a multivariate approach to combine neuroimaging data modalities with the ultimate goal of resolving in time and space how the brain drives flexible behavior.
 
-Getting started
+<!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
@@ -51,4 +48,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
