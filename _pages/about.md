@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-this is a test [go](http://google.com){:target="_blank" rel="noopener"}
-
-At the moment, **Marie Skłodowska-Curie** postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at **Ghent University **. I received my PhD from the <b>University of Granada</b>, where I worked with <b><a href="https://www.ugr.es/~mruz/esp/Inicio.html" target="_blank">María Ruz</a></b> and <b>Pío Tudela</b>. As a grad student, I also spent some time as a Fulbright scholar at <b><a href="https://med.nyu.edu/helab/" target="_blank">Biyu He</a></b>'s lab at <b>NIH and NYU<b/>.</b></b></p>
-<p>In Spring 2021, I will be going back to Granada as a Juan de la Cierva fellow!</p>
-<p>You can contact me at <code>cgonzalgarcia (at) gmail (dot) com</code></p>
+At the moment, **Marie Skłodowska-Curie** postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at **Ghent University**. I received my PhD from the **University of Granada** where I worked with [María Ruz]("https://www.ugr.es/~mruz/esp/Inicio.html" target="_blank">María Ruz){:target="_blank" rel="noopener"} and **Pío Tudela**. As a grad student, I also spent some time as a Fulbright scholar at [Biyu He]("https://med.nyu.edu/helab/"){:target="_blank" rel="noopener"}'s lab at **NIH and NYU**.
+In Spring 2021, I will be going back to Granada as a Juan de la Cierva fellow!
+<p>You can contact me at ``cgonzalgarcia (at) gmail (dot) com``
 
 
 
