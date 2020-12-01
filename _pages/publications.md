@@ -25,25 +25,25 @@ Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural o
 ### 2020
  **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920310934){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-c/gonzalez-garcia-2020-c.pdf){:target="_blank" rel="noopener"}
 
- **González-García, C.**, He, B. J. (2020). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-b/gonzalez-garcia-2020-c.pdf){:target="_blank" rel="noopener"}
+ **González-García, C.**, He, B. J. (2020). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-b/gonzalez-garcia-2020-b.pdf){:target="_blank" rel="noopener"}
 
- **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. 
+ **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/40/45/8715){:target="_blank" rel="noopener"} [[pdf]](../files/vermeylen-2020/vermeylen-2020.pdf){:target="_blank" rel="noopener"}
 
- Cracco, C.\*, **González-García, C.**\*, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
+ Cracco, C.\*, **González-García, C.**\*, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. [[url]](https://royalsocietypublishing.org/doi/10.1098/rsos.191824){:target="_blank" rel="noopener"} [[pdf]](../files/cracco-2020/cracco-2020.pdf){:target="_blank" rel="noopener"}
 
- Díaz-Gutiérrez, P., Arco, J.E., Alguacil, S., **González-García, C.**, Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. _Neuropsychologia_, 147, 107584. 
+ Díaz-Gutiérrez, P., Arco, J.E., Alguacil, S., **González-García, C.**, Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. _Neuropsychologia_, 147, 107584. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S0028393220302578){:target="_blank" rel="noopener"} [[pdf]](../files/diaz-gutierrez-2020/diaz-gutierrez-2020.pdf){:target="_blank" rel="noopener"}
 
- Van der Biest, M.\*, Cracco, C.\*, Wisniewski, D., Brass, M., **González-García, C.** (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. _Acta Psychologica_, 207, 103085. 
+ Van der Biest, M.\*, Cracco, C.\*, Wisniewski, D., Brass, M., **González-García, C.** (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. _Acta Psychologica_, 207, 103085. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S0001691820300111){:target="_blank" rel="noopener"} [[pdf]](../files/vander-biest-2020/vander-biest-2020.pdf){:target="_blank" rel="noopener"}
 
- Botvinik-Nezer, R.\*, Holzmeister, F.\*, …, **González-García, C.**, …, Nichols, T.E., Poldrack, R.A., Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. _Nature_, 5, 1-7. 
+ Botvinik-Nezer, R.\*, Holzmeister, F.\*, …, **González-García, C.**, …, Nichols, T.E., Poldrack, R.A., Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. _Nature_, 5, 1-7. [[url]](https://www.nature.com/articles/s41586-020-2314-9){:target="_blank" rel="noopener"} [[pdf]](../files/botvinik-nezer-2020/botvinik-nezer-2020.pdf){:target="_blank" rel="noopener"}
 
- Formica S., **González-García**, C., Brass, M. (2020). The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings. _Cognition_, 201, 104295.
+ Formica S., **González-García**, C., Brass, M. (2020). The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings. _Cognition_, 201, 104295. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S0010027720301141){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020-a/formica-2020-a.pdf){:target="_blank" rel="noopener"}
 
- Kostandyan, M., Park, H.R.P., Bundt, C., **González-García, C.**, Wisniewski, D., Krebs, R.M., Boehler, C.N. (2020). Are all behavioral reward benefits created equally? An EEG-fMRI study. _NeuroImage_, 116829.
+ Kostandyan, M., Park, H.R.P., Bundt, C., **González-García, C.**, Wisniewski, D., Krebs, R.M., Boehler, C.N. (2020). Are all behavioral reward benefits created equally? An EEG-fMRI study. _NeuroImage_, 116829. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920303165){:target="_blank" rel="noopener"} [[pdf]](../files/Kostandyan-2020/Kostandyan-2020.pdf){:target="_blank" rel="noopener"}
 
- **González-García, C.**, García-Carrión, B., López-Benítez, R., Sobrado, A., Acosta, A., Ruz, M. (2020). Induced affective states do not modulate effort avoidance. _Psychological Research_, 1-13. 
+ **González-García, C.**, García-Carrión, B., López-Benítez, R., Sobrado, A., Acosta, A., Ruz, M. (2020). Induced affective states do not modulate effort avoidance. _Psychological Research_, 1-13. [[url]](https://link.springer.com/article/10.1007%2Fs00426-020-01300-9){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-a/gonzalez-garcia-2020-a.pdf){:target="_blank" rel="noopener"}
 
- **González-García, C.**, Formica, S., Liefooghe, B., Brass, M. (2020). Attentional prioritization reconfigures novel instructions into action-oriented task sets. _Cognition_, 194, 104059.
+ **González-García, C.**, Formica, S., Liefooghe, B., Brass, M. (2020). Attentional prioritization reconfigures novel instructions into action-oriented task sets. _Cognition_, 194, 104059. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S001002771930232X){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020/gonzalez-garcia-2020.pdf){:target="_blank" rel="noopener"}
 
 ### 2019
 Palenciano, A.F., **González-García, C.**, Arco, J.E., Ruz, M. (2019). Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior. _Cerebral Cortex_, 29(9), 3948-3960.
