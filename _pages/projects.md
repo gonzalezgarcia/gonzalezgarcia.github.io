@@ -17,4 +17,3 @@ From air traffic control to large surgery teams, some of the most advanced human
 **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920310934){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-c/gonzalez-garcia-2020-c.pdf){:target="_blank" rel="noopener"}
 
 
-
