@@ -86,7 +86,7 @@ author:
   location         : 
   employer         :
   pubmed           : 
-  googlescholar    : [Google scholar](https://scholar.google.com/citations?hl=en&user=4RU_vSQAAAAJ}
+  googlescholar    : "https://scholar.google.com/citations?hl=en&user=4RU_vSQAAAAJ"
   email            : "cgonzalgarcia@gmail.com"
   researchgate     : "https://www.researchgate.net/profile/Carlos_Gonzalez-Garcia4"
   uri              :
