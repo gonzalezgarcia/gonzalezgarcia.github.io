@@ -27,7 +27,7 @@ Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural o
 
  **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. 
 
- Cracco, C.&ast;, **González-García, C.**&ast;, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
+ Cracco, C.\*\;, **González-García, C.**\*\;, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
 
  Díaz-Gutiérrez, P., Arco, J.E., Alguacil, S., **González-García, C.**, Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. _Neuropsychologia_, 147, 107584. 
 
