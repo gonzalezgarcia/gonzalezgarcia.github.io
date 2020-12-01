@@ -17,35 +17,55 @@ author_profile: true
  -->
 
 ## Preprints
-Cole MW, **Ito T**, Cocuzza CV, Sanchez-Romero R (2020). "The functional relevance of task-state functional connectivity". bioRxiv. [[url]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} [[pdf]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"}
+Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural oscillations dissociate between memorization and proceduralization of novel instructions. bioRxiv.  [[url]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} [[pdf]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"}
 
 ## Peer-reviewed publications
 ### 2020
+ **González-García, C.**, Formica, S., Wisniewskim, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. 
 
-Spronk M, Keane BP, **Ito T**, Kulkarni K, Ji JL, Anticevic A, Cole MW (2020). A whole-brain and cross-diagnostic perspective on functional brain network dysfunction. Cerebral Cortex. [https://doi.org/10.1093/cercor/bhaa242](https://doi.org/10.1093/cercor/bhaa242)
+ **González-García, C.**, He, B. J. (2020). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. 
 
-**Ito T**, Hearne LJ, Cole MW (2020). [A cortical hierarchy of localized and distributed processes revealed via dissociation of task activations, connectivity changes, and intrinsic timescales](../files/publications/Ito et al_2020_A cortical hierarchy of localized and distributed processes revealed via.pdf). NeuroImage. [https://doi.org/10.1016/j.neuroimage.2020.117141](https://doi.org/10.1016/j.neuroimage.2020.117141)
+ **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. 
 
-Cocuzza CV, **Ito T**, Schultz DH, Bassett DS, Cole MW (2020). Flexible coordinator and switcher hubs for adaptive task control. Journal of Neuroscience. [https://doi.org/10.1523/JNEUROSCI.2559-19.2020](https://doi.org/10.1523/JNEUROSCI.2559-19.2020)
+ Cracco, C.*, **González-García, C.***, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
 
-**Ito T**, Brincat SL, Siegel M, Mill RD, He BJ, Miller EK, Rotstein HG, Cole MW (2020). Task-evoked activity quenches neural correlations and variability across cortical areas. PLoS Computational Biology. [https://doi.org/10.1371/journal.pcbi.1007983](https://doi.org/10.1371/journal.pcbi.1007983)
+ Díaz-Gutiérrez, P., Arco, J.E., Alguacil, S., **González-García, C.**, Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. _Neuropsychologia_, 147, 107584. 
 
-Kar K, **Ito T**, Cole MW, Krekelberg B (2020). [Transcranial alternating current stimulation reduces BOLD adaptation and increases functional connectivity](../files/publications/Kar et al. - 2019 - Transcranial alternating current stimulation atten.pdf). Journal of Neurophysiology. [https://doi.org/10.1152/jn.00376.2019](https://doi.org/10.1152/jn.00376.2019)
-#### 2019
-**Ito T**, Hearne LJ, Mill RD, Cocuzza CV, Cole MW (2019). [Discovering the Computational Relevance of Brain Network Organization](../files/publications/Ito et al_2019_Discovering the Computational Relevance of Brain Network Organization.pdf). Trends in Cognitive Sciences. [https://doi.org/10.1016/j.tics.2019.10.005](https://doi.org/10.1016/j.tics.2019.10.005)
+ Van der Biest, M.*, Cracco, C.*, Wisniewski, D., Brass, M., **González-García, C.** (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. _Acta Psychologica_, 207, 103085. 
 
-Cole MW, **Ito T**, Schultz DH, Mill RD, Chen RH, Cocuzza CV (2019). [Task activations produce spurious but systematic inflation of task functional connectivity estimates](../files/publications/Cole et al. - 2019 - Task activations produce spurious but systematic i.pdf). NeuroImage. [https://doi.org/10.1016/j.neuroimage.2018.12.054](https://doi.org/10.1016/j.neuroimage.2018.12.054)
+ Botvinik-Nezer, R., Holzmeister, F., …, **González-García, C.**, …, Nichols, T.E., Poldrack, R.A., Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. _Nature_, 5, 1-7. 
 
-Schultz DH, **Ito T**, Solomyak LI, Chen RH, Mill RD, Kulkarni KR, Cole MW (2019). [Global connectivity of the frontoparietal cognitive control network is related to depression symptoms in undiagnosed individuals](../files/publications/Schultz et al. - 2019 - Global connectivity of the fronto-parietal cogniti.pdf). Network Neuroscience. [doi:10.1101/185306](https://www.biorxiv.org/content/early/2018/01/25/185306)
-#### 2018
-Chen RH, **Ito T**, Kulkarni KR, Cole MW. (2018). [The human brain traverses a common activation-pattern state space across task and rest](../files/publications/Chen et al. - 2018 - The Human Brain Traverses a Common Activation-Patt.pdf). Brain Connectivity. [https://doi.org/10.1089/brain.2018.0586](https://doi.org/10.1089/brain.2018.0586)
-#### 2017
-**Ito T**, Kulkarni KR, Schultz DH, Mill RD, Chen RH, Solomyak LI, & Cole MW (2017). [Cognitive task information is transferred between brain regions via resting-state network topology](https://ito-takuya.github.io/files/publications/Ito%20et%20al.%20-%202017%20-%20Cognitive%20task%20information%20is%20transferred%20between%20brain%20regions%20via%20resting-state%20network%20topology.pdf). Nature Communications. doi:10.1038/s41467-017-01000-w. [Blog post](https://blog.colelab.org/2017/10/18/a-network-mechanism-for-the-transfer-of-cognitive-information-between-brain-regions/).
+ Formica S., **González-García**, C., Brass, M. (2020). The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings. _Cognition_, 201, 104295.
 
-Mill RD, **Ito T**, Cole MW (2017). [From connectome to cognition: The search for mechanism in human functional brain networks](../files/publications/Mill, Ito, Cole - 2017 - From connectome to cognition The search for mechanism in human functional brain networks.pdf). NeuroImage. http://dx.doi.org/10.1016/j.neuroimage.2017.01.060
-#### 2016
-Cole MW, **Ito T**, Bassett DS, & Schultz DH (2016). [Activity flow over resting-state networks shapes cognitive task activations](../files/publications/Cole et al. - 2016 - Activity flow over resting-state networks shapes cognitive task activations.pdf). Nature Neuroscience. doi:10.1038/nn.4406
-#### 2015
-Cole MW, **Ito T**, & Braver TS (2015). [Lateral prefrontal cortex contributes to fluid intelligence through multinetwork connectivity](../files/publications/Cole, Ito, Braver_2015_Lateral Prefrontal Cortex Contributes to Fluid Intelligence Through Multinetwork Connectivity.pdf). Brain Connectivity, 5(8), 497–504. http://doi.org/10.1089/brain.2015.0357
+ Kostandyan, M., Park, H.R.P., Bundt, C., **González-García, C.**, Wisniewski, D., Krebs, R.M., Boehler, C.N. (2020). Are all behavioral reward benefits created equally? An EEG-fMRI study. _NeuroImage_, 116829.
 
-Cole MW, **Ito T**, & Braver TS (2015). [The behavioral relevance of task information in human prefrontal cortex](../files/publications/Cole, Ito, Braver - 2015 - The Behavioral Relevance of Task Information in Human Prefrontal Cortex.pdf). Cerebral Cortex (New York, N.Y. : 1991), bhv072–. http://doi.org/10.1093/cercor/bhv072
+ **González-García, C.**, García-Carrión, B., López-Benítez, R., Sobrado, A., Acosta, A., Ruz, M. (2020). Induced affective states do not modulate effort avoidance. _Psychological Research_, 1-13. 
+
+ **González-García, C.**, Formica, S., Liefooghe, B., Brass, M. (2020). Attentional prioritization reconfigures novel instructions into action-oriented task sets. _Cognition_, 194, 104059.
+
+### 2019
+Palenciano, A.F., **González-García, C.**, Arco, J.E., Ruz, M. (2019). Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior. _Cerebral Cortex_, 29(9), 3948-3960.
+
+Palenciano, A.F., **González-García, C.**, Arco, J.E., Pessoa, L., Ruz, M. (2019). Representational organization of novel task sets during proactive encoding. The Journal of Neuroscience,39(42), 8386-8397. 
+
+Flounders, M.W., **González-García, C.**, Hardstone, R., He, B.J. (2019). Neural dynamics of visual ambiguity resolution by perceptual prior. _eLife_, 8, e41861.
+
+### 2018
+Arco, J.E., **González-García, C.**, Díaz-Gutiérrez, P., Ramírez, J., Ruz, M. (2018). Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis. _Journal of Neuroscience Methods_, 308, 248-260.
+
+**González-García, C.**, Flounders, M.W., Chang, R., Baria, A.T., He, B.J. (2018). Content-specific activity in frontoparietal and default-mode networks during prior-guided visual perception. _eLife_, 7, e36068. 
+
+### 2017
+Palenciano, A.F., Díaz-Gutiérrez, P., **González-García**, C., Ruz, M. (2017). Neural mechanisms of cognitive control. _Estudios de Psicología_, 38(2), 311-337
+
+**González-García, C.**, Arco, J.E., Palenciano, A.F., Ramírez, J., Ruz, M. (2017). Encoding, preparation and implementation of novel complex verbal instructions. _NeuroImage_, 148, 64-273. 
+
+### 2015
+**González-García, C.**, Tudela, P., Ruz, M. (2015). Unconscious biases in task choices depend on conscious expectations. _Consciousness and Cognition_, 37, 44-56. 
+
+ **González-García, C.**, Mas-Herrero, E., de Diego-Balaguer, R., Ruz, M. (2015). Task-specific preparatory neural activations in low-interference contexts. _Brain Structure and Function_, 221(8), 3997-4006. 
+
+### 2014
+ **González-García, C.**, Tudela, P., Ruz, M. (2014). Functional Magnetic Resonance: Technical, statistical and theoretical implications in Human Neuroscience. _Revista de Neurologia_, 58(7), 318-325. 
+
+
