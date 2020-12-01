@@ -27,7 +27,7 @@ Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural o
 
  **González-García, C.**, He, B. J. (2020). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-b/gonzalez-garcia-2020-b.pdf){:target="_blank" rel="noopener"}
 
- **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/40/45/8715){:target="_blank" rel="noopener"} [[pdf]](../files/vermeylen-2020/vermeylen-2020.pdf){:target="_blank" rel="noopener"}
+ Vermeylen, L., Wisniewski, D., **González-García, C.**, Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/40/45/8715){:target="_blank" rel="noopener"} [[pdf]](../files/vermeylen-2020/vermeylen-2020.pdf){:target="_blank" rel="noopener"}
 
  Cracco, C.\*, **González-García, C.**\*, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. [[url]](https://royalsocietypublishing.org/doi/10.1098/rsos.191824){:target="_blank" rel="noopener"} [[pdf]](../files/cracco-2020/cracco-2020.pdf){:target="_blank" rel="noopener"}
 
