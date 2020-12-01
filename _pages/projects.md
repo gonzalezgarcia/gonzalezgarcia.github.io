@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-### From instructions to actions: characterizing the spatiotemporal neural signatures of instructions following
+# From instructions to actions: characterizing the spatiotemporal neural signatures of instructions following
 
 ------
 
