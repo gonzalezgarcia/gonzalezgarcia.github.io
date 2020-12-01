@@ -16,12 +16,14 @@ author_profile: true
 {% endfor %}
  -->
 
- ### Publications
-#### Preprint papers
+Preprints
+======
 Cole MW, **Ito T**, Cocuzza CV, Sanchez-Romero R (2020). "The functional relevance of task-state functional connectivity". bioRxiv. [https://www.biorxiv.org/content/10.1101/2020.07.06.187245v1](https://www.biorxiv.org/content/10.1101/2020.07.06.187245v1)
 
-#### Peer-reviewed publications
-#### 2020
+Peer-reviewed publications
+======
+2020
+------
 Spronk M, Keane BP, **Ito T**, Kulkarni K, Ji JL, Anticevic A, Cole MW (2020). A whole-brain and cross-diagnostic perspective on functional brain network dysfunction. Cerebral Cortex. [https://doi.org/10.1093/cercor/bhaa242](https://doi.org/10.1093/cercor/bhaa242)
 
 **Ito T**, Hearne LJ, Cole MW (2020). [A cortical hierarchy of localized and distributed processes revealed via dissociation of task activations, connectivity changes, and intrinsic timescales](../files/publications/Ito et al_2020_A cortical hierarchy of localized and distributed processes revealed via.pdf). NeuroImage. [https://doi.org/10.1016/j.neuroimage.2020.117141](https://doi.org/10.1016/j.neuroimage.2020.117141)
