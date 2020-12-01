@@ -16,24 +16,26 @@ author_profile: true
 {% endfor %}
  -->
 
+###### \* denotes equal contribution
+
 ## Preprints
 Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural oscillations dissociate between memorization and proceduralization of novel instructions. bioRxiv.  [[url]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} [[pdf]](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"}
 
 ## Peer-reviewed publications
 ### 2020
- **González-García, C.**, Formica, S., Wisniewskim, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. 
+ **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. 
 
  **González-García, C.**, He, B. J. (2020). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. 
 
  **Vermeylen, L.**, Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. 
 
- Cracco, C.\*\;, **González-García, C.**\*\;, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
+ Cracco, C.\*, **González-García, C.**\*, Hussey, I., Braem, S., Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. _Royal Society Open Science_, 7, 191824. 
 
  Díaz-Gutiérrez, P., Arco, J.E., Alguacil, S., **González-García, C.**, Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. _Neuropsychologia_, 147, 107584. 
 
- Van der Biest, M., Cracco, C., Wisniewski, D., Brass, M., **González-García, C.** (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. _Acta Psychologica_, 207, 103085. 
+ Van der Biest, M.\*, Cracco, C.\*, Wisniewski, D., Brass, M., **González-García, C.** (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. _Acta Psychologica_, 207, 103085. 
 
- Botvinik-Nezer, R., Holzmeister, F., …, **González-García, C.**, …, Nichols, T.E., Poldrack, R.A., Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. _Nature_, 5, 1-7. 
+ Botvinik-Nezer, R.\*, Holzmeister, F.\*, …, **González-García, C.**, …, Nichols, T.E., Poldrack, R.A., Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. _Nature_, 5, 1-7. 
 
  Formica S., **González-García**, C., Brass, M. (2020). The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings. _Cognition_, 201, 104295.
 
