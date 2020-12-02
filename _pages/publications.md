@@ -62,10 +62,12 @@ Palenciano, A.F., Díaz-Gutiérrez, P., **González-García**, C., Ruz, M. (2017
 
 **González-García, C.**, Arco, J.E., Palenciano, A.F., Ramírez, J., Ruz, M. (2017). Encoding, preparation and implementation of novel complex verbal instructions. _NeuroImage_, 148, 64-273. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S1053811917300447){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2017/gonzalez-garcia-2017.pdf){:target="_blank" rel="noopener"}
 
+### 2016
+ **González-García, C.**, Mas-Herrero, E., de Diego-Balaguer, R., Ruz, M. (2016). Task-specific preparatory neural activations in low-interference contexts. _Brain Structure and Function_, 221(8), 3997-4006. [[url]](https://link.springer.com/article/10.1007%2Fs00429-015-1141-5){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2015-a/gonzalez-garcia-2015-a.pdf){:target="_blank" rel="noopener"} 
+
 ### 2015
 **González-García, C.**, Tudela, P., Ruz, M. (2015). Unconscious biases in task choices depend on conscious expectations. _Consciousness and Cognition_, 37, 44-56. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S1053810015300179){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2015-b/gonzalez-garcia-2015-b.pdf){:target="_blank" rel="noopener"} 
 
- **González-García, C.**, Mas-Herrero, E., de Diego-Balaguer, R., Ruz, M. (2015). Task-specific preparatory neural activations in low-interference contexts. _Brain Structure and Function_, 221(8), 3997-4006. [[url]](https://link.springer.com/article/10.1007%2Fs00429-015-1141-5){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2015-a/gonzalez-garcia-2015-a.pdf){:target="_blank" rel="noopener"} 
 
 ### 2014
  **González-García, C.**, Tudela, P., Ruz, M. (2014). Functional Magnetic Resonance: Technical, statistical and theoretical implications in Human Neuroscience. _Revista de Neurologia_, 58(7), 318-325. [[url]](https://www.neurologia.com/articulo/2013212/eng){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2014/gonzalez-garcia-2014.pdf){:target="_blank" rel="noopener"} 
