@@ -3,6 +3,8 @@ layout: archive
 title: ""
 permalink: /projects/
 author_profile: true
+redirect_from: 
+  - /projects/instract
 ---
 
 # From instructions to actions: characterizing the spatiotemporal neural signatures of instructions following
