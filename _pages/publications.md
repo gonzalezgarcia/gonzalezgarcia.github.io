@@ -25,8 +25,9 @@ Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2020). Neural o
 ### 2021
  **González-García, C.**, He, B. J. (2021). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2021/gonzalez-garcia-2021.pdf){:target="_blank" rel="noopener"}
 
+  **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920310934){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2021-b/gonzalez-garcia-2021-b.pdf){:target="_blank" rel="noopener"}
+
 ### 2020
- **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2020). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920310934){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2020-c/gonzalez-garcia-2020-c.pdf){:target="_blank" rel="noopener"}
 
  Vermeylen, L., Wisniewski, D., **González-García, C.**, Hoofs, V., Notebaert, W., Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/40/45/8715){:target="_blank" rel="noopener"} [[pdf]](../files/vermeylen-2020/vermeylen-2020.pdf){:target="_blank" rel="noopener"}
 
