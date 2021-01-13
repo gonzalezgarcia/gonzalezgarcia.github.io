@@ -1,21 +1,19 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "About"
+excerpt: "About"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-About me
-======
 I am a **Marie Skłodowska-Curie** postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at **Ghent University**. I received my PhD from the **University of Granada** where I worked with [María Ruz](https://www.ugr.es/~mruz/esp/Inicio.html){:target="_blank" rel="noopener"} and **Pío Tudela**. As a grad student, I also spent some time as a Fulbright scholar at [Biyu He](https://med.nyu.edu/helab/){:target="_blank" rel="noopener"}'s lab at **NIH and NYU**.
 
 In Spring 2021, I will be going back to Granada as a Juan de la Cierva fellow!
 
-Research interests
-======
+### Research interests
+
 My research interests concern the neurocognitive mechanisms underlying perception, attention and control processes. Specifically, I am interested in how the brain uses available (internal or external) information to guide cognition. I mostly follow a multivariate approach to combine neuroimaging data modalities with the ultimate goal of resolving in time and space how the brain drives flexible behavior.
 
 <!-- Getting started
