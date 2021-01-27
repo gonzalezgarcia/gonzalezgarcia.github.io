@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+## About
+
 I am a Marie Skłodowska-Curie postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"} lab at Ghent University. I received my PhD from the University of Granada where I worked with [María Ruz](https://www.ugr.es/~mruz/esp/Inicio.html){:target="_blank" rel="noopener"} and Pío Tudela. As a grad student, I also spent some time as a Fulbright scholar at [Biyu He](https://med.nyu.edu/helab/){:target="_blank" rel="noopener"}'s lab at NIH and NYU.
 
 In Spring 2021, I will be going back to Granada as a Juan de la Cierva fellow!
