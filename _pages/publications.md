@@ -21,6 +21,9 @@ author_profile: true
 <!-- ## Preprints -->
 
 ## Peer-reviewed publications
+### in press
+Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (in press). Neural oscillations dissociate between memorization and proceduralization of novel instructions. NeuroImage. [[url]](https://www.biorxiv.org/content/10.1101/2020.01.20.912162v2){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
+
 ### 2021
 Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2021). Neural oscillations dissociate between memorization and proceduralization of novel instructions. NeuroImage. [[url]](https://www.biorxiv.org/content/10.1101/2020.01.20.912162v2){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
 
