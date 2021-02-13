@@ -25,8 +25,6 @@ author_profile: true
 Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (in press). Neural oscillations dissociate between memorization and proceduralization of novel instructions. NeuroImage. [[url]](https://www.biorxiv.org/content/10.1101/2020.01.20.912162v2){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
 
 ### 2021
-Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (2021). Neural oscillations dissociate between memorization and proceduralization of novel instructions. NeuroImage. [[url]](https://www.biorxiv.org/content/10.1101/2020.01.20.912162v2){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
-
  **González-García, C.**, He, B. J. (2021). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2021/gonzalez-garcia-2021.pdf){:target="_blank" rel="noopener"}
 
   **González-García, C.**, Formica, S., Wisniewski, D., Brass, M. (2021). Frontoparietal action-oriented codes support novel task set implementation. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811920310934){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2021-b/gonzalez-garcia-2021-b.pdf){:target="_blank" rel="noopener"}
