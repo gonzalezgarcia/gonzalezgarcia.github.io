@@ -22,7 +22,7 @@ author_profile: true
 
 ## Peer-reviewed publications
 ### in press
-Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (in press). Neural oscillations dissociate between memorization and proceduralization of novel instructions. NeuroImage. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811921001476){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
+Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (in press). Neural oscillations dissociate between memorization and proceduralization of novel instructions. _NeuroImage_. [[url]](https://www.sciencedirect.com/science/article/pii/S1053811921001476){:target="_blank" rel="noopener"} [[pdf]](../files/formica-2020/formica-2020.pdf){:target="_blank" rel="noopener"}
 
 ### 2021
  **González-García, C.**, He, B. J. (2021). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. _The Journal of Neuroscience_. [[url]](https://www.jneurosci.org/content/early/2020/11/16/JNEUROSCI.2023-20.2020){:target="_blank" rel="noopener"} [[pdf]](../files/gonzalez-garcia-2021/gonzalez-garcia-2021.pdf){:target="_blank" rel="noopener"}
@@ -52,9 +52,9 @@ Formica, S., **González-García, C.**, Senoussi, M., Brass, M. (in press). Neur
 ### 2019
 Palenciano, A.F., **González-García, C.**, Arco, J.E., Ruz, M. (2019). Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior. _Cerebral Cortex_, 29(9), 3948-3960. [[url]](https://academic.oup.com/cercor/article-abstract/29/9/3948/5144876){:target="_blank" rel="noopener"} [[pdf]](../files/palenciano-2019-a/palenciano-2019-a.pdf){:target="_blank" rel="noopener"}
 
-Palenciano, A.F., **González-García, C.**, Arco, J.E., Pessoa, L., Ruz, M. (2019). Representational organization of novel task sets during proactive encoding. The Journal of Neuroscience,39(42), 8386-8397. [[url]](https://www.jneurosci.org/content/39/42/8386){:target="_blank" rel="noopener"} [[pdf]](../files/palenciano-2019/palenciano-2019.pdf){:target="_blank" rel="noopener"}
+Palenciano, A.F., **González-García, C.**, Arco, J.E., Pessoa, L., Ruz, M. (2019). Representational organization of novel task sets during proactive encoding. _The Journal of Neuroscience_,39(42), 8386-8397. [[url]](https://www.jneurosci.org/content/39/42/8386){:target="_blank" rel="noopener"} [[pdf]](../files/palenciano-2019/palenciano-2019.pdf){:target="_blank" rel="noopener"}
 
-Flounders, M.W., **González-García, C.**, Hardstone, R., He, B.J. (2019). https://elifesciences.org/articles/41861. _eLife_, 8, e41861. [[url]](https://www.jneurosci.org/content/39/42/8386){:target="_blank" rel="noopener"} [[pdf]](../files/flounders-2019/flounders-2019.pdf){:target="_blank" rel="noopener"}
+Flounders, M.W., **González-García, C.**, Hardstone, R., He, B.J. (2019). _eLife_, 8, e41861. [[url]](https://elifesciences.org/articles/41861){:target="_blank" rel="noopener"} [[pdf]](../files/flounders-2019/flounders-2019.pdf){:target="_blank" rel="noopener"}
 
 ### 2018
 Arco, J.E., **González-García, C.**, Díaz-Gutiérrez, P., Ramírez, J., Ruz, M. (2018). Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis. _Journal of Neuroscience Methods_, 308, 248-260. [[url]](https://www.sciencedirect.com/science/article/abs/pii/S016502701830195X){:target="_blank" rel="noopener"} [[pdf]](../files/arco-2018/arco-2018.pdf){:target="_blank" rel="noopener"}
