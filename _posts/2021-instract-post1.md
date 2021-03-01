@@ -1,6 +1,6 @@
 ---
 title: 'How does our brain implement novel instructed actions?'
-date: 2021
+date: 2021-03-01
 permalink: /posts/instract1/
 tags:
   - instract
