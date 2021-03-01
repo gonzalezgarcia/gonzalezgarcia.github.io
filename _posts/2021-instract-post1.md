@@ -20,6 +20,8 @@ To do so, we had human participants perform an instruction following task inside
 
 And what did we find? First, we found that templates of the relevant instructions of the trial were reinstantiated to a larger extent than irrelevant ones, suggesting that our tracking procedure was efficient. And what about the procedural vs. declarative question? Well, contrary to a hard version of the serial-coding hypothesis, *both declarative and procedural* representations seem to explain unique parts of neural activity in relevant brain regions.  So, it does not seem to be the case that only procedural information explains the implementation stage, and rather, some declarative information might be needed as well. However, we did find some evidence that suggests a more **crucial role of procedural representations.** Specifically, the strength of these representations predicted behavioral performance: the more an instruction was coded in a procedural format, the faster and more efficient participants would later on exceute that instruction. And this was not the case for declarative information!
 
+![MSCA1](../files/blog/cor_FPN_templates.png)
+
 We interpret this result in the context of **output gating**. Similar to the idea of an input gate that limits what information enters working memory, some models propose an additional output gate that determines what information will drive behavior. We believe implementation might be a particular instance of output gating that engages relevant brain regions to transfer relevant content into a state that is optimal for behavior. But of course, further research is needed in this regard... Stay tuned!
 
 ## Related publication
