@@ -13,7 +13,9 @@ tags:
 
 Did you? If so, think about it for a second. Probably, it's your first time in this website, you did not expect such as subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about *anything*: touch your nose with your left pinky while looking to your right and singing [whatever song comes to mind](https://www.youtube.com/watch?v=I0PjuPu78rQ){:target="_blank" rel="noopener"}. Easy, right? this is just an example of how remarkably good humans are at following instructions,. But... **how does the brain does.. that?**
 
-![mindblow](https://media.tenor.co/images/b0aae6c2cf98ba2146231275e7479cfa/raw)
+<p align="center">
+  <img width="460" height="300" src="https://media.tenor.co/images/b0aae6c2cf98ba2146231275e7479cfa/raw">
+</p>
 
 Let me start by mentioning a quite intriguing finding: humans are really fast at preparing to execute a novel instruction, and this rapid configuration towards action (or *implementation*) has pervasive effects on behavior and brain activity that have been largely reported in previous studies. How do current models account for these effects? The most prominent one puts forward a *serial-coding hypothesis*: first, instructions are represented in the brain in a **declarative** format (that is, a represenation of the contents of the instructions, not specifically linked to action); then, during implementation, a **procedural** format takes over, optimizing representations for future actions. However, to what extent declarative and procedural representation organize brain activity during implementation is unclear. And.. that's what [this project](../../projects/) was set out to find!
 
