@@ -6,6 +6,7 @@ author_profile: true
 redirect_from: 
   - /projects/instract
 ---
+<style>body {text-align: justify}</style>
 
 # From instructions to actions: characterizing the spatiotemporal neural signatures of instructions following
 
