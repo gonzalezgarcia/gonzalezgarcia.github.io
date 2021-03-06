@@ -18,7 +18,7 @@ author_profile: true
 
 ###### (\* denotes equal contribution)
 
-### Preprints
+### preprints
 Desender, K.\*, Teuchies, M.\*, **Gonzalez Garcia, C.**, De Baene, W., Demanet, J., & Brass, M.. Metacognitive awareness of difficulty in action selection: the role of the cingulo-opercular network. BioRxiv. [[url]](https://www.biorxiv.org/content/10.1101/641340v1){:target="_blank" rel="noopener"} 
 
 <!-- ## Peer-reviewed publications -->
