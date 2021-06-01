@@ -13,7 +13,8 @@ I am a Juan de la Cierva-Incorporación fellow at the University of Granada, whe
 
 Research interests
 ======
-My research interests concern the neurocognitive mechanisms underlying perception, attention and control processes. Specifically, I am interested in how the brain uses available (internal or external) information to guide cognition. I mostly follow a multivariate approach to combine neuroimaging data modalities with the ultimate goal of resolving in time and space how the brain drives flexible behavior.ss
+My research interests concern the neurocognitive mechanisms underlying perception, attention and control processes. Specifically, I am interested in how the brain uses available (internal or external) information to guide cognition. I mostly follow a multivariate approach to combine neuroimaging data modalities with the ultimate goal of resolving in time and space how the brain drives flexible behavior.
+
 
 <!-- Getting started
 ======
