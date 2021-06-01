@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 <style>body {text-align: justify}</style>
-I am a Juan de la Cierva-Incorporación fellow at the University of Granada, where I did my PhD with [María Ruz](https://www.ugr.es/~mruz/esp/Inicio.html){:target="_blank" rel="noopener"} and Pío Tudela. Before, I spent some time as a Fulbright scholar in [Biyu He](https://med.nyu.edu/helab/){:target="_blank" rel="noopener"}’s lab at NIH and NYU, and as a Marie Skłodowska-Curie postdoc fellow in Prof. Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"}' lab at Ghent University.
+I am a Juan de la Cierva-Incorporación fellow at the University of Granada, where I did my PhD with [María Ruz](https://www.ugr.es/~mruz/esp/Inicio.html){:target="_blank" rel="noopener"} and Pío Tudela. Before, I spent some time as a Fulbright scholar in [Biyu He](https://med.nyu.edu/helab/){:target="_blank" rel="noopener"}’s lab at NIH and NYU, and as a Marie Skłodowska-Curie postdoc fellow in Prof. [Marcel Brass](https://users.ugent.be/~mbrass/Web-Site/Dr._Marcel_Brass.html){:target="_blank" rel="noopener"}' lab at Ghent University.
 
 
 Research interests
