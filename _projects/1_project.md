@@ -1,80 +1,57 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: How do we follow instructed actions?
+description: 
+img: assets/img/instruct.jpg
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+**PLEASE, READ THE TITLE AGAIN!**
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Did you? If so, think about it for a second. Probably, it’s your first time in this website, you did not expect such as subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about *anything*: touch your nose with your left pinky while looking to your right and singing [whatever song comes to mind](https://www.youtube.com/watch?v=EHfx9LXzxpw). Easy, right? this is just an example of how remarkably good humans are at following instructions,. But… **how does the brain does... that?**
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+ 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row" style="text-align: center;">
+    <div class="col-sm mt-0 mt-md-0">
+        {% include figure.html path="https://media.tenor.co/images/b0aae6c2cf98ba2146231275e7479cfa/raw" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+Let me start by mentioning a quite intriguing finding: humans are really fast at preparing to execute a novel instruction, and this rapid configuration towards action (or *implementation*) has pervasive effects on behavior and brain activity that have been largely reported in previous studies. How do current models account for these effects? The most prominent one puts forward a *serial-coding hypothesis*: first, instructions are represented in the brain in a **declarative** format (that is, a representation of the contents of the instructions, not specifically linked to action); then, during implementation, a **procedural** format takes over, optimizing representations for future actions. However, to what extent declarative and procedural representation organize brain activity during implementation is unclear. And.. that’s what this project was set out to find!
 
+To do so, we had human participants perform an instruction following task inside an MRI scanner. Importantly, our task allowed to tag, within each trial, instructions that were relevant for future behavior and instructions that were irrelevant.  But, how can we now what happens exactly during the implementation stage of our task? We tried to answer this question by creating **canonical templates** of procedural and declarative representations. That is, in two separate tasks, we tried to approximate to process-pure measures of procedural and declarative coding formats. Then, we tracked to what extent these templates were **reinstantiated** during implementation in the main task.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/mri.jpg" title="mri scanner" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/brain_scan2.jpg" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Can we capture the activation of specific representations in the brain?
 </div>
 
+And what did we find? First, we found that templates of the relevant instructions of the trial were reinstantiated to a larger extent than irrelevant ones, suggesting that our tracking procedure was efficient. And what about the procedural vs. declarative question? Well, contrary to a hard interpretation of the serial-coding hypothesis, both declarative and procedural representations seem to explain unique parts of neural activity in relevant brain regions.  So, it does not seem to be the case that only procedural information explains the implementation stage, and rather, some declarative information might be needed as well. However, we did find some evidence that suggests a more **crucial role of procedural representations**. Specifically, the strength of these representations predicted behavioral performance: the more an instruction was coded in a procedural format, the faster and more efficient participants would later on exceute that instruction. And this was not the case for declarative information!
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+We interpret this result in the context of *output gating*. Similar to the idea of an input gate that limits what information enters working memory, some models propose an additional output gate that determines what information will drive behavior. We believe implementation might be a particular instance of output gating that engages relevant brain regions to transfer relevant content into a state that is optimal for behavior. But of course, further research is needed in this regard… Stay tuned!
 
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+ 
+  
+   
+    
+    
+*Want to read the actual paper?*
+
+[Click here for the pdf version](https://web.archive.org/web/20210717050415id_/https://biblio.ugent.be/publication/8699558/file/8701388)
+
+González-García, C., Formica, S., Wisniewski, D., & Brass, M. (2021). Frontoparietal action-oriented codes support novel instruction implementation. NeuroImage, 226, 117608.
+
+
+

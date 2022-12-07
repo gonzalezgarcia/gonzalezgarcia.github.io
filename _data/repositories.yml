@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - gonzalezgarcia
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - gonzalezgarcia/sepex_ontology
+  - AnaPalenciano/Canonical_Template_Tracking
+  - davidwisniewski/fmri-extract-HCP-mask 
+  - Human-Neuroscience/fMRI-demos 
