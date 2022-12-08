@@ -9,7 +9,7 @@ category: work
 
 **PLEASE, READ THE TITLE AGAIN!**
 
-Did you? If so, think about it for a second. Probably, it’s your first time in this website, you did not expect such as subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about *anything*: touch your nose with your left pinky while looking to your right and singing [whatever song comes to mind](https://www.youtube.com/watch?v=EHfx9LXzxpw). Easy, right? this is just an example of how remarkably good humans are at following instructions,. But… **how does the brain does... that?**
+Did you? If so, think about it for a second. Probably, it’s your first time in this website, you did not expect such subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about *anything*: touch your nose with your left pinky while looking to your right and singing [whatever song comes to mind](https://www.youtube.com/watch?v=EHfx9LXzxpw). Easy, right? this is just an example of how remarkably good humans are at following instructions,. But… **how does the brain does... that?**
 
  
 
