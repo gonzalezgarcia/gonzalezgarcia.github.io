@@ -15,6 +15,7 @@ titles:
 descriptions:
   publications: "* denotes equal contribution."
   code: A quick look at stuff I have shared on GitHub. You can also see my statistics.
+  #teaching: teaching
 projects:
   titles:
     project1: How do we follow instructed actions?

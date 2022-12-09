@@ -16,6 +16,7 @@ titles:
 descriptions:
   publications: "* indica igual contribución"
   code: "Un vistazo rápido a las cosas que he compartido en GitHub. También puedes ver mis estadísticas."
+  teaching: "Materiales de cursos y asignaturas"
 projects:
   titles:
     project1: "¿Cómo seguimos instrucciones?"
