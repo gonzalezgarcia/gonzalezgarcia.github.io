@@ -1,16 +1,15 @@
 main:
-  description: 'Personal information, tutorials, and open repositories.'
+  description: ''
   footer_text: 'Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. '
 titles:
   about: about
-  blog: blog
   cv: cv
   news: news
   projects: projects
   publications: publications
   code: code
-  teaching: teaching
+  #teaching: teaching
   submenus: submenus
   unk: page not found
 descriptions:

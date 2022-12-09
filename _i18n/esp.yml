@@ -1,11 +1,10 @@
 
 main:
-  description: 'Informações pessoais, tutoriais e repositórios abertos.'
+  description: ''
   footer_text: 'Desarrollado en <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> con <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
   Alojado en <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>. '
 titles:
   about: hola
-  blog: blog
   cv: cv
   news: noticias
   projects: proyectos
@@ -16,10 +15,10 @@ titles:
   unk: página no encontrada
 descriptions:
   publications: "* indica igual contribución"
-  code: Un vistazo rápido a las cosas que he compartido en GitHub. También puedes ver mis estadísticas.
+  code: "Un vistazo rápido a las cosas que he compartido en GitHub. También puedes ver mis estadísticas."
 projects:
   titles:
-    project1: ¿Cómo seguimos instrucciones?
+    project1: "¿Cómo seguimos instrucciones?"
     project2: Proyecto 2
     project3: Proyecto 3
     project4: Proyecto 4
