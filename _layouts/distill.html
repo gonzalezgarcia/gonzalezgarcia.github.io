@@ -21,7 +21,7 @@
   <d-front-matter>
     <script async type="text/json">{
       "title": "{{ page.title }}",
-      "description": "{{ page.description }}",
+      "description": "{{t page.description }}",
       "published": "{{ page.date | date: '%B %-d, %Y' }}",
       "authors": [
         {% for author in page.authors -%}
@@ -63,8 +63,8 @@
     <div class="post distill">
 
       <d-title>
-        <h1>{{ page.title }}</h1>
-        <p>{{ page.description }}</p>
+        <h1>{{t page.title }}</h1>
+        <p>{{t page.description }}</p>
       </d-title>
 
       <d-byline></d-byline>

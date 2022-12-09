@@ -190,7 +190,7 @@ plugins:
   - jekyll-link-attributes
   - jekyll-twitter-plugin
   - jemoji
-  #- jekyll-multiple-languages-plugin
+  - jekyll-multiple-languages-plugin
 
 # Sitemap settings
 defaults:
@@ -199,9 +199,9 @@ defaults:
     values:
       sitemap: false
 
-# # multi language settings
-# languages: ["en", "esp"]
-# default_locale_in_subfolder: false
+# multi language settings
+languages: ["en", "esp"]
+default_locale_in_subfolder: false
 
 # -----------------------------------------------------------------------------
 # Jekyll Minifier

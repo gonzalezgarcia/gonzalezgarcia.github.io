@@ -1,14 +1,18 @@
----
-layout: page
-title: projects.titles.project1
-description: 
-img: assets/img/instruct.jpg
-importance: 1
-category: work
----
+**PLEASE, READ THE TITLE AGAIN!**
 
-{% translate_file projects/1_project.md %}
-<!-- 
+Did you? If so, think about it for a second. Probably, it’s your first time in this website, you did not expect such subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about *anything*: touch your nose with your left pinky while looking to your right and singing [whatever song comes to mind](https://www.youtube.com/watch?v=EHfx9LXzxpw). Easy, right? this is just an example of how remarkably good humans are at following instructions,. But… **how does the brain does... that?**
+
+ 
+
+<div class="row" style="text-align: center;">
+    <div class="col-sm mt-0 mt-md-0">
+        {% include figure.html path="https://media.tenor.co/images/b0aae6c2cf98ba2146231275e7479cfa/raw" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
 Let me start by mentioning a quite intriguing finding: humans are really fast at preparing to execute a novel instruction, and this rapid configuration towards action (or *implementation*) has pervasive effects on behavior and brain activity that have been largely reported in previous studies. How do current models account for these effects? The most prominent one puts forward a *serial-coding hypothesis*: first, instructions are represented in the brain in a **declarative** format (that is, a representation of the contents of the instructions, not specifically linked to action); then, during implementation, a **procedural** format takes over, optimizing representations for future actions. However, to what extent declarative and procedural representation organize brain activity during implementation is unclear. And.. that’s what this project was set out to find!
 
 To do so, we had human participants perform an instruction following task inside an MRI scanner. Importantly, our task allowed to tag, within each trial, instructions that were relevant for future behavior and instructions that were irrelevant.  But, how can we now what happens exactly during the implementation stage of our task? We tried to answer this question by creating **canonical templates** of procedural and declarative representations. That is, in two separate tasks, we tried to approximate to process-pure measures of procedural and declarative coding formats. Then, we tracked to what extent these templates were **reinstantiated** during implementation in the main task.
@@ -38,7 +42,7 @@ We interpret this result in the context of *output gating*. Similar to the idea 
 
 [Click here for the pdf version](https://web.archive.org/web/20210717050415id_/https://biblio.ugent.be/publication/8699558/file/8701388)
 
-González-García, C., Formica, S., Wisniewski, D., & Brass, M. (2021). Frontoparietal action-oriented codes support novel instruction implementation. NeuroImage, 226, 117608. -->
+González-García, C., Formica, S., Wisniewski, D., & Brass, M. (2021). Frontoparietal action-oriented codes support novel instruction implementation. NeuroImage, 226, 117608.
 
 
 
