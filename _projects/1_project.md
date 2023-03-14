@@ -3,7 +3,7 @@ layout: page
 title: projects.titles.project1
 description: 
 img: assets/img/instruct.jpg
-importance: 2
+importance: 100
 category: work
 ---
 
