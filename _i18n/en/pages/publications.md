@@ -1,7 +1,7 @@
 <p>An up-to-date list is available on <a href="https://scholar.google.com/citations?user=4RU_vSQAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a>.</p>
 <div class="publications">
 
-<h2 class="year">Preprints</h2>
+<!-- <h2 class="year">Preprints</h2> -->
 {% bibliography -f preprints %}
 
 
