@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: foto.png
+  image: new_pic.webp
   image_circular: false # crops the image to make it circular
   address: >
     
