@@ -126,7 +126,7 @@ pagination:
 giscus:
   repo: gonzalezgarcia/gonzalezgarcia.github.io      # <your-github-user-name>/<your-github-repo-name>
   repo_id: R_kgDOIkuj8Q
-  category: Comments             # name of the category under which discussions will be created
+  category: General             # name of the category under which discussions will be created
   category_id: DIC_kwDOIkuj8c4CeOoL
   mapping: title                 # identify discussions by post title
   strict: 0                      # use strict identification mode
