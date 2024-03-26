@@ -13,6 +13,11 @@
     <!-- Code Syntax Highlighting -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/{{ site.highlight_theme_light | append: '.css' }}" media="" id="highlight_theme_light" />
 
+    {% if page.toc and page.toc.sidebar %}
+    <!-- Sidebar Table of Contents -->
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet" />
+    {% endif %}
+    
     <!-- Styles -->
     {% if site.icon.size < 3 %}
     <link rel="shortcut icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>{{ site.icon }}</text></svg>">
@@ -28,4 +33,19 @@
 
     <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/dark_mode.js' | relative_url }}"></script>
+    {% endif %}
+
+    <!-- Image comparison slider -->
+    {% if page.images %}
+    {% if page.images.compare %}
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8.0/dist/styles.min.css">
+    {% endif %}
+    {% if page.images.slider %}
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11.0.5/swiper-bundle.min.css"
+        integrity="sha256-yUoNxsvX+Vo8Trj3lZ/Y5ZBf8HlBFsB6Xwm7rH75/9E="
+        crossorigin="anonymous"
+    >
+    {% endif %}
     {% endif %}
