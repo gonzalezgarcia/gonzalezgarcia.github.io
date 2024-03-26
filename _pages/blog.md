@@ -1,9 +1,10 @@
 ---
 layout: default
 title: titles.blog
+description: descriptions.blog
 permalink: /blog/
 nav: true
-nav_order: 5
+nav_order: 2
 pagination:
   enabled: false
   collection: posts

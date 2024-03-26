@@ -15,6 +15,7 @@ titles:
   unk: page not found
 descriptions:
   publications: "* denotes equal contribution."
+  blog: blog
   code: A quick look at stuff I have shared on GitHub. You can also see my statistics.
   #teaching: teaching
 projects:
