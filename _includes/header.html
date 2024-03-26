@@ -52,16 +52,7 @@
                   {%- endif -%}
                 </a>
               </li>
-              {% if site.blog_nav_title %}
-              <!-- Blog -->
-              <li class="nav-item {% if page.url contains 'blog' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/blog/' | relative_url }}">{{ site.blog_nav_title }}
-                  {%- if page.url contains 'blog' -%}
-                  <span class="sr-only">(current)</span>
-                  {%- endif -%}
-                </a>
-              </li>
-              {%- endif %}
+              
 
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
@@ -69,8 +60,7 @@
               {%- if p.nav and p.autogen == nil -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
-                <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }} -->
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{% t p.title %}
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{%t p.title %}}
                   {%- if page.title == p.title -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
@@ -80,7 +70,6 @@
                   {%- if child.title == 'divider' %}
                   <div class="dropdown-divider"></div>
                   {%- else %}
-                  <!-- <a class="dropdown-item" href="{{ child.permalink | relative_url }}">{{ child.title }}</a> -->
                   <a class="dropdown-item" href="{{ child.permalink | prepend: site.baseurl }}">{% t child.title %}</a>
                   {%- endif -%}
                   {% endfor %}
@@ -88,9 +77,13 @@
               </li>
               {%- else %}
               <li class="nav-item {% if page.title == p.title %}active{% endif %}">
-                <!-- <a class="nav-link" href="{{ p.url | relative_url }}">{{ p.title }} -->
+                {%- if p.permalink contains '/blog/' %}
+                {%- assign url = '/blog/' -%}
+                {%- else -%}
+                {%- assign url = p.url -%}
+                {%- endif -%}
                 <a class="nav-link" href="{{ p.url | prepend: site.baseurl }}">{% t p.title %}  
-                  {%- if page.title == p.title -%}
+                  {%- if page.url contains p.url -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -99,6 +92,8 @@
               {%- endif -%}
               {% endfor -%}
               {%- if site.enable_darkmode %}
+
+
               <!-- Toogle language -->
               <li class="nav-item active">
                 {% if site.lang == "en" %}

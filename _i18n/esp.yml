@@ -6,6 +6,7 @@ main:
 titles:
   about: hola
   cv: cv
+  blog: blog
   news: noticias
   projects: proyectos
   publications: publicaciones
