@@ -94,3 +94,6 @@
             {%- if site.rss_icon -%}
             <a href="{{ site.baseurl }}/feed.xml" title="RSS Feed"><i class="fas fa-rss-square"></i></a>
             {% endif %}
+            {%- if site.bluesky -%}
+            <a href="https://bsky.app/profile/{{ site.bluesky }}" title="Bluesky"><i class="fab fa-bluesky"></i></a>
+            {% endif %}
