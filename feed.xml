@@ -1,1 +1,777 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://gonzalezgarcia.github.io/feed.xml" rel="self" type="application/atom+xml"/><link href="https://gonzalezgarcia.github.io/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-07-11T09:17:56+00:00</updated><id>https://gonzalezgarcia.github.io/feed.xml</id><title type="html">blank</title><subtitle></subtitle><entry><title type="html">Cognitive Neuroscience course</title><link href="https://gonzalezgarcia.github.io/blog/2024/neurocog/" rel="alternate" type="text/html" title="Cognitive Neuroscience course"/><published>2024-07-07T12:37:00+00:00</published><updated>2024-07-07T12:37:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2024/neurocog</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2024/neurocog/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><category term="teaching"/><category term="materials"/><category term="course"/><category term="cognitive"/><category term="neuroscience"/><summary type="html"><![CDATA[Redirecting to another page.]]></summary></entry><entry><title type="html">Introduction to data visualization in R (in Spanish)</title><link href="https://gonzalezgarcia.github.io/blog/2024/ggplot/" rel="alternate" type="text/html" title="Introduction to data visualization in R (in Spanish)"/><published>2024-05-13T12:37:00+00:00</published><updated>2024-05-13T12:37:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2024/ggplot</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2024/ggplot/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><category term="resources"/><category term="programming"/><category term="ggplot"/><category term="R"/><category term="reproducibility"/><category term="visualization"/><summary type="html"><![CDATA[Redirecting to another page.]]></summary></entry><entry><title type="html">Introduction to RMarkdown (in Spanish)</title><link href="https://gonzalezgarcia.github.io/blog/2024/markdown/" rel="alternate" type="text/html" title="Introduction to RMarkdown (in Spanish)"/><published>2024-05-13T12:37:00+00:00</published><updated>2024-05-13T12:37:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2024/markdown</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2024/markdown/"><![CDATA[<p>Redirecting to another page.</p>]]></content><author><name></name></author><category term="resources"/><category term="programming"/><category term="R"/><category term="Markdown"/><category term="RMarkdown"/><category term="reproducibility"/><summary type="html"><![CDATA[Redirecting to another page.]]></summary></entry><entry><title type="html">How do we keep track of action plans?</title><link href="https://gonzalezgarcia.github.io/blog/2024/2p2d/" rel="alternate" type="text/html" title="How do we keep track of action plans?"/><published>2024-03-01T00:00:00+00:00</published><updated>2024-03-01T00:00:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2024/2p2d</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2024/2p2d/"><![CDATA[<p><a href="https://t.co/mNXBW2q6sW">🔓 Open access</a></p> <p>Recent research shows that items held in WM are dynamically prioritized, shifting between active and latent states according to their behavioral relevance. Our work aimed to extend these results, based on visual information, to more complex action plans maintained in WM.</p> <p>In our task, participants coded sets of novel S-R mappings whose task relevance was parametrically manipulated with retrocues. Then, we quantified (in accuracy rates and DDM parameters) the interference exerted among mappings as a proxy of distinct functional WM states.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/2p2d_1.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>We showed that the more likely an S-R mapping is to become relevant, the greater its interference with ongoing behavior, evidencing flexible prioritization in WM. These results further suggest that functional states are held in non-orthogonal codes, prone to interference.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/2p2d_2.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>Our findings point towards a continuum of functional states within WM, challenging the dichotomic active/latent view. Overall, this research advances our understanding of how we adaptively represent information in WM to guide goal-oriented behavior.</p> <p><br/> <strong>Data and code availability</strong></p> <ul> <li> <p>Data and Code have been deposited at <a href="https://osf.io/phxq4/">OSF</a></p> </li> <li> <p>The experimental plan was preregisteted at <a href="hhttps://aspredicted.org/qe5mt.pdf">AsPredicted</a>.</p> </li> </ul>]]></content><author><name></name></author><category term="research"/><category term="behavior"/><category term="dissemination"/><category term="instructions"/><summary type="html"><![CDATA[🔓 Open access]]></summary></entry><entry><title type="html">Do we always prepare in the same way?</title><link href="https://gonzalezgarcia.github.io/blog/2023/chema/" rel="alternate" type="text/html" title="Do we always prepare in the same way?"/><published>2023-05-01T00:00:00+00:00</published><updated>2023-05-01T00:00:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2023/chema</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2023/chema/"><![CDATA[<p>Today is a happy day!🥳 Our work (the first paper of Chema’s PhD!!) comparing <strong>top-down anticipatory representations</strong> in selective <strong>Attention</strong> and <strong>Expectation</strong> finally sees the light!</p> <p><a href="https://t.co/DpJZ4h6XTf">🔓 Open access</a></p> <p>Being able to anticipate complex environmental information is crucial to achieve efficient behavior. But do we always prepare in the same way? 🧠🔮 To answer that, <strong>we compared two (apparently) similar cognitive mechanisms</strong>: Selective Attention and Perceptual Expectations.</p> <p>Selective Attention: is the stimulus <strong>relevant</strong> to my goals? Perceptual Expectation: is the stimulus <strong>likely</strong> to appear?</p> <p>We employed a cue-target task while recording EEG from healthy participants. In different blocks, participants had to select or expect faces or names.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/Fig1_chema.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>With Representational Similarity Analysis (RSA) we found that <strong>preparation</strong> is a complex phenomenon in which a <strong>cascade of events unfolds</strong>: from bottom-up cue coding, to top-down anticipated stimulus representation.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/Fig2_chema.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>Using MVPA, we found similar category (faces vs names) anticipation in both contexts. However, a classifier trained in one context was unable to generalize to the other! This, together with RSA suggests that <strong>anticipating relevant vs probable information is context-specific</strong>.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/Fig3_chema.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>All of this leads us to conclude that although humans are able to prepare efficiently for upcoming stimuli, they do so <em>differently</em> depending on their informational role. There are still lots of questions to answer, so stay tuned for more soon! 👀🔍</p> <p><br/> <strong>Data and code availability</strong></p> <ul> <li>Code has been deposited at <a href="https://github.com/ChemaGP-UGR/AttExpLoc_EEG">Github</a></li> <li>Results have been deposited at <a href="https://osf.io/2rhjn/?view_only=1a729284b9d549b082ef725bc5081f3d">OSF</a>.</li> <li>Raw data are available online at <a href="https://openneuro.org/datasets/ds004502">OpenNeuro</a>.</li> </ul>]]></content><author><name></name></author><category term="research"/><category term="EEG"/><category term="dissemination"/><category term="predictions"/><category term="preparation"/><summary type="html"><![CDATA[Today is a happy day!🥳 Our work (the first paper of Chema’s PhD!!) comparing top-down anticipatory representations in selective Attention and Expectation finally sees the light!]]></summary></entry><entry><title type="html">Measuring neural representations</title><link href="https://gonzalezgarcia.github.io/blog/2023/ctt/" rel="alternate" type="text/html" title="Measuring neural representations"/><published>2023-01-09T00:00:00+00:00</published><updated>2023-01-09T00:00:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2023/ctt</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2023/ctt/"><![CDATA[<p>Do you want to know more about how to use MVPA to address the activation level of specific neural representations? 🧠 Check our new paper on <strong>Canonical Template Tracking (CTT)</strong> in Frontiers in Neuroimaging.</p> <p><a href="https://www.frontiersin.org/articles/10.3389/fnimg.2022.974927/abstract">🔓 Open access</a></p> <p>In this work, we described CTT: <strong>a multivariate approach that estimates canonical neural representations (or templates) from localizer tasks</strong>, to later track them in independent paradigms’ data using either RSA similarity measurements or machine learning classifiers.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/Fig1.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>Despite the previous use of CTT in <a href="https://doi.org/10.1038/nn.3973">neuroimaging research</a> and its theoretical relevance for some <a href="https://doi.org/10.1038/s41583-022-00570-z">cognitive domains</a>, no methodological guidelines were yet available in the literature. We aimed to fill this gap!</p> <p>In our paper, you will find <strong>recommendations</strong> on how to design localizer tasks from a multivariate perspective, a <strong>step-by-step tutorial</strong> on how to implement CTT analyses on spatial and temporally resolved datasets, and guidelines regarding results interpretation.</p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="/assets/img/Fig3.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <p>Do you want to give CTT a try? In the link below, you’ll find Matlab <strong>scripts</strong> to perform different versions of the analysis on fMRI data. Also, the functions can be easily integrated in The Decoding Toolbox flow (check the analysis template).</p> <p><a href="https://github.com/AnaPalenciano/Canonical_Template_Tracking">– <strong>GitHub repository with CTT code</strong></a></p> <p><em>Want to read the actual paper?</em></p> <p>Coming soon</p>]]></content><author><name></name></author><category term="research"/><category term="dissemination"/><category term="fmri"/><category term="representations"/><summary type="html"><![CDATA[Do you want to know more about how to use MVPA to address the activation level of specific neural representations? 🧠 Check our new paper on Canonical Template Tracking (CTT) in Frontiers in Neuroimaging.]]></summary></entry><entry><title type="html">How do we follow instructed actions?</title><link href="https://gonzalezgarcia.github.io/blog/2021/instructions/" rel="alternate" type="text/html" title="How do we follow instructed actions?"/><published>2021-02-21T00:00:00+00:00</published><updated>2021-02-21T00:00:00+00:00</updated><id>https://gonzalezgarcia.github.io/blog/2021/instructions</id><content type="html" xml:base="https://gonzalezgarcia.github.io/blog/2021/instructions/"><![CDATA[<p><strong>PLEASE, READ THE TITLE AGAIN!</strong></p> <p>Did you? If so, think about it for a second. Probably, it’s your first time in this website, you did not expect such subtitle, and still you did not have any problem in understanding and performing such action in just a few milliseconds. However, I could have asked you to do just about <em>anything</em>: touch your nose with your left pinky while looking to your right and singing <a href="https://www.youtube.com/watch?v=EHfx9LXzxpw">whatever song comes to mind</a>. Easy, right? this is just an example of how remarkably good humans are at following instructions,. But… <strong>how does the brain does… that?</strong></p> <div class="row" style="text-align: center;"> <div class="col-sm mt-0 mt-md-0"> <figure> <picture> <img src="https://media.tenor.co/images/b0aae6c2cf98ba2146231275e7479cfa/raw" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> </div> <h1 id="declarative-vs-procedural-representations">Declarative vs. procedural representations</h1> <p>Let me start by mentioning a quite intriguing finding: humans are really fast at preparing to execute a novel instruction, and this rapid configuration towards action (or <em>implementation</em>) has pervasive effects on behavior and brain activity that have been largely reported in previous studies. How do current models account for these effects? The most prominent one puts forward a <em>serial-coding hypothesis</em>: first, instructions are represented in the brain in a <strong>declarative</strong> format (that is, a representation of the contents of the instructions, not specifically linked to action); then, during implementation, a <strong>procedural</strong> format takes over, optimizing representations for future actions. However, to what extent declarative and procedural representation organize brain activity during implementation is unclear. And.. that’s what this project was set out to find!</p> <h1 id="canonical-template-tracking">Canonical template tracking</h1> <p>To do so, we had human participants perform an instruction following task inside an MRI scanner. Importantly, our task allowed to tag, within each trial, instructions that were relevant for future behavior and instructions that were irrelevant. But, how can we now what happens exactly during the implementation stage of our task? We tried to answer this question by creating <strong>canonical templates</strong> of procedural and declarative representations. That is, in two separate tasks, we tried to approximate to process-pure measures of procedural and declarative coding formats. Then, we tracked to what extent these templates were <strong>reinstantiated</strong> during implementation in the main task.</p> <div class="row justify-content-sm-center"> <div class="col-sm-8 mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/mri.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="mri scanner" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> <div class="col-sm-4 mt-3 mt-md-0"> <figure> <picture> <img src="/assets/img/brain_scan2.jpg" class="img-fluid rounded z-depth-1" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </div> </div> <div class="caption"> Can we capture the activation of specific representations in the brain? </div> <h1 id="results">Results</h1> <p>And what did we find? First, we found that templates of the relevant instructions of the trial were reinstantiated to a larger extent than irrelevant ones, suggesting that our tracking procedure was efficient. And what about the procedural vs. declarative question? Well, contrary to a hard interpretation of the serial-coding hypothesis, both declarative and procedural representations seem to explain unique parts of neural activity in relevant brain regions. So, it does not seem to be the case that only procedural information explains the implementation stage, and rather, some declarative information might be needed as well. However, we did find some evidence that suggests a more <strong>crucial role of procedural representations</strong>. Specifically, the strength of these representations predicted behavioral performance: the more an instruction was coded in a procedural format, the faster and more efficient participants would later on exceute that instruction. And this was not the case for declarative information!</p> <p>We interpret this result in the context of <em>output gating</em>. Similar to the idea of an input gate that limits what information enters working memory, some models propose an additional output gate that determines what information will drive behavior. We believe implementation might be a particular instance of output gating that engages relevant brain regions to transfer relevant content into a state that is optimal for behavior. But of course, further research is needed in this regard… Stay tuned!</p> <h1 id="resources">Resources</h1> <p><em>Want to read the actual paper?</em></p> <p><a href="https://web.archive.org/web/20210717050415id_/https://biblio.ugent.be/publication/8699558/file/8701388">Click here for the pdf version</a></p> <p>González-García, C., Formica, S., Wisniewski, D., &amp; Brass, M. (2021). Frontoparietal action-oriented codes support novel instruction implementation. NeuroImage, 226, 117608.</p>]]></content><author><name></name></author><category term="research"/><category term="dissemination"/><category term="instructions"/><category term="fmri"/><category term="representations"/><summary type="html"><![CDATA[PLEASE, READ THE TITLE AGAIN!]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://alshedivat.github.io/al-folio/feed.xml" rel="self" type="application/atom+xml"/><link href="https://alshedivat.github.io/al-folio/" rel="alternate" type="text/html" hreflang="en"/><updated>2024-07-18T16:27:20+00:00</updated><id>https://alshedivat.github.io/al-folio/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design. </subtitle><entry><title type="html">Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra</title><link href="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/" rel="alternate" type="text/html" title="Google Gemini updates: Flash 1.5, Gemma 2 and Project Astra"/><published>2024-05-14T00:00:00+00:00</published><updated>2024-05-14T00:00:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/google-gemini-updates-flash-15-gemma-2-and-project-astra/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[We’re sharing updates across our Gemini family of models and a glimpse of Project Astra, our vision for the future of AI assistants.]]></summary></entry><entry><title type="html">a post with tabs</title><link href="https://alshedivat.github.io/al-folio/blog/2024/tabs/" rel="alternate" type="text/html" title="a post with tabs"/><published>2024-05-01T00:32:13+00:00</published><updated>2024-05-01T00:32:13+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/tabs</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/tabs/"><![CDATA[<p>This is how a post with <a href="https://github.com/Ovski4/jekyll-tabs">tabs</a> looks like. Note that the tabs could be used for different purposes, not only for code.</p> <h2 id="first-tabs">First tabs</h2> <p>To add tabs, use the following syntax:</p> <div class="language-liquid highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">{%</span><span class="w"> </span><span class="nt">tabs</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-1</span><span class="w"> </span><span class="cp">%}</span>
+
+Content 1
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">tab</span><span class="w"> </span><span class="nv">group-name</span><span class="w"> </span><span class="nv">tab-name-2</span><span class="w"> </span><span class="cp">%}</span>
+
+Content 2
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtab</span><span class="w"> </span><span class="cp">%}</span>
+
+<span class="cp">{%</span><span class="w"> </span><span class="nt">endtabs</span><span class="w"> </span><span class="cp">%}</span>
+</code></pre></div></div> <p>With this you can generate visualizations like:</p> <ul id="log" class="tab" data-tab="ba618215-2d0f-4a92-8d02-4f9524ccd2cb" data-name="log"> <li class="active" id="log-php"> <a href="#">php </a> </li> <li id="log-js"> <a href="#">js </a> </li> <li id="log-ruby"> <a href="#">ruby </a> </li> </ul> <ul class="tab-content" id="ba618215-2d0f-4a92-8d02-4f9524ccd2cb" data-name="log"> <li class="active"> <div class="language-php highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">var_dump</span><span class="p">(</span><span class="s1">'hello'</span><span class="p">);</span>
+</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">console</span><span class="p">.</span><span class="nf">log</span><span class="p">(</span><span class="dl">"</span><span class="s2">hello</span><span class="dl">"</span><span class="p">);</span>
+</code></pre></div></div> </li> <li> <div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nx">pputs</span> <span class="dl">'</span><span class="s1">hello</span><span class="dl">'</span>
+</code></pre></div></div> </li> </ul> <h2 id="another-example">Another example</h2> <ul id="data-struct" class="tab" data-tab="40460bff-a46e-41be-ac2b-57b4870f7f4a" data-name="data-struct"> <li class="active" id="data-struct-yaml"> <a href="#">yaml </a> </li> <li id="data-struct-json"> <a href="#">json </a> </li> </ul> <ul class="tab-content" id="40460bff-a46e-41be-ac2b-57b4870f7f4a" data-name="data-struct"> <li class="active"> <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">hello</span><span class="pi">:</span>
+  <span class="pi">-</span> <span class="s2">"</span><span class="s">whatsup"</span>
+  <span class="pi">-</span> <span class="s2">"</span><span class="s">hi"</span>
+</code></pre></div></div> </li> <li> <div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+  </span><span class="nl">"hello"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="s2">"whatsup"</span><span class="p">,</span><span class="w"> </span><span class="s2">"hi"</span><span class="p">]</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div> </li> </ul> <h2 id="tabs-for-something-else">Tabs for something else</h2> <ul id="something-else" class="tab" data-tab="2af6d1c2-20dd-4f74-afd9-b5fda424c35b" data-name="something-else"> <li class="active" id="something-else-text"> <a href="#">text </a> </li> <li id="something-else-quote"> <a href="#">quote </a> </li> <li id="something-else-list"> <a href="#">list </a> </li> </ul> <ul class="tab-content" id="2af6d1c2-20dd-4f74-afd9-b5fda424c35b" data-name="something-else"> <li class="active"> <p>Regular text</p> </li> <li> <blockquote> <p>A quote</p> </blockquote> </li> <li> <p>Hipster list</p> <ul> <li>brunch</li> <li>fixie</li> <li>raybans</li> <li>messenger bag</li> </ul> </li> </ul>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included tabs in a post could look like]]></summary></entry><entry><title type="html">a post with typograms</title><link href="https://alshedivat.github.io/al-folio/blog/2024/typograms/" rel="alternate" type="text/html" title="a post with typograms"/><published>2024-04-29T23:36:10+00:00</published><updated>2024-04-29T23:36:10+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/typograms</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/typograms/"><![CDATA[<p>This is an example post with some <a href="https://github.com/google/typograms/">typograms</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span><span class="sb">+----+
+|    |---&gt; My first diagram!
++----+</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-typograms">+----+
+|    |---&gt; My first diagram!
++----+
+</code></pre> <p>Another example:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">typograms
+</span><span class="sb">.------------------------.
+|.----------------------.|
+||"https://example.com" ||
+|'----------------------'|
+| ______________________ |
+||                      ||
+||   Welcome!           ||
+||                      ||
+||                      ||
+||  .----------------.  ||
+||  | username       |  ||
+||  '----------------'  ||
+||  .----------------.  ||
+||  |"*******"       |  ||
+||  '----------------'  ||
+||                      ||
+||  .----------------.  ||
+||  |   "Sign-up"    |  ||
+||  '----------------'  ||
+||                      ||
+|+----------------------+|
+.------------------------.</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>which generates:</p> <pre><code class="language-typograms">.------------------------.
+|.----------------------.|
+||"https://example.com" ||
+|'----------------------'|
+| ______________________ |
+||                      ||
+||   Welcome!           ||
+||                      ||
+||                      ||
+||  .----------------.  ||
+||  | username       |  ||
+||  '----------------'  ||
+||  .----------------.  ||
+||  |"*******"       |  ||
+||  '----------------'  ||
+||                      ||
+||  .----------------.  ||
+||  |   "Sign-up"    |  ||
+||  '----------------'  ||
+||                      ||
+|+----------------------+|
+.------------------------.
+</code></pre> <p>For more examples, check out the <a href="https://google.github.io/typograms/#examples">typograms documentation</a>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="diagrams"/><summary type="html"><![CDATA[this is what included typograms code could look like]]></summary></entry><entry><title type="html">a post that can be cited</title><link href="https://alshedivat.github.io/al-folio/blog/2024/post-citation/" rel="alternate" type="text/html" title="a post that can be cited"/><published>2024-04-28T15:06:00+00:00</published><updated>2024-04-28T15:06:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/post-citation</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/post-citation/"><![CDATA[<p>This is an example post that can be cited. The content of the post ends here, while the citation information is automatically provided below. The only thing needed is for you to set the <code class="language-plaintext highlighter-rouge">citation</code> key in the front matter to <code class="language-plaintext highlighter-rouge">true</code>.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="citation"/><summary type="html"><![CDATA[this is what a post that can be cited looks like]]></summary></entry><entry><title type="html">a post with pseudo code</title><link href="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/" rel="alternate" type="text/html" title="a post with pseudo code"/><published>2024-04-15T00:01:00+00:00</published><updated>2024-04-15T00:01:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/pseudocode</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/pseudocode/"><![CDATA[<p>This is an example post with some pseudo code rendered by <a href="https://github.com/SaswatPadhi/pseudocode.js">pseudocode</a>. The example presented here is the same as the one in the <a href="https://saswat.padhi.me/pseudocode.js/">pseudocode.js</a> documentation, with only one simple but important change: everytime you would use <code class="language-plaintext highlighter-rouge">$</code>, you should use <code class="language-plaintext highlighter-rouge">$$</code> instead. Also, note that the <code class="language-plaintext highlighter-rouge">pseudocode</code> key in the front matter is set to <code class="language-plaintext highlighter-rouge">true</code> to enable the rendering of pseudo code. As an example, using this code:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">pseudocode
+</span><span class="sb">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+\begin{algorithm}
+\caption{Quicksort}
+\begin{algorithmic}
+\PROCEDURE{Quicksort}{$$A, p, r$$}
+    \IF{$$p &lt; r$$}
+        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
+        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
+        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
+    \ENDIF
+\ENDPROCEDURE
+\PROCEDURE{Partition}{$$A, p, r$$}
+    \STATE $$x = A[r]$$
+    \STATE $$i = p - 1$$
+    \FOR{$$j = p$$ \TO $$r - 1$$}
+        \IF{$$A[j] &lt; x$$}
+            \STATE $$i = i + 1$$
+            \STATE exchange
+            $$A[i]$$ with $$A[j]$$
+        \ENDIF
+        \STATE exchange $$A[i]$$ with $$A[r]$$
+    \ENDFOR
+\ENDPROCEDURE
+\end{algorithmic}
+\end{algorithm}</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Generates:</p> <pre><code class="language-pseudocode">% This quicksort algorithm is extracted from Chapter 7, Introduction to Algorithms (3rd edition)
+\begin{algorithm}
+\caption{Quicksort}
+\begin{algorithmic}
+\PROCEDURE{Quicksort}{$$A, p, r$$}
+    \IF{$$p &lt; r$$}
+        \STATE $$q = $$ \CALL{Partition}{$$A, p, r$$}
+        \STATE \CALL{Quicksort}{$$A, p, q - 1$$}
+        \STATE \CALL{Quicksort}{$$A, q + 1, r$$}
+    \ENDIF
+\ENDPROCEDURE
+\PROCEDURE{Partition}{$$A, p, r$$}
+    \STATE $$x = A[r]$$
+    \STATE $$i = p - 1$$
+    \FOR{$$j = p$$ \TO $$r - 1$$}
+        \IF{$$A[j] &lt; x$$}
+            \STATE $$i = i + 1$$
+            \STATE exchange
+            $$A[i]$$ with $$A[j]$$
+        \ENDIF
+        \STATE exchange $$A[i]$$ with $$A[r]$$
+    \ENDFOR
+\ENDPROCEDURE
+\end{algorithmic}
+\end{algorithm}
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is what included pseudo code could look like]]></summary></entry><entry><title type="html">a post with code diff</title><link href="https://alshedivat.github.io/al-folio/blog/2024/code-diff/" rel="alternate" type="text/html" title="a post with code diff"/><published>2024-01-27T19:22:00+00:00</published><updated>2024-01-27T19:22:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/code-diff</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/code-diff/"><![CDATA[<p>You can display diff code by using the regular markdown syntax:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff
+</span><span class="gh">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+</span><span class="gd">--- a/sample.js
+</span><span class="gi">+++ b/sample.js
+</span><span class="p">@@ -1 +1 @@</span>
+<span class="gd">-console.log("Hello World!")
+</span><span class="gi">+console.log("Hello from Diff2Html!")</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <div class="language-diff highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+</span><span class="gd">--- a/sample.js
+</span><span class="gi">+++ b/sample.js
+</span><span class="p">@@ -1 +1 @@</span>
+<span class="gd">-console.log("Hello World!")
+</span><span class="gi">+console.log("Hello from Diff2Html!")
+</span></code></pre></div></div> <p>But this is difficult to read, specially if you have a large diff. You can use <a href="https://diff2html.xyz/">diff2html</a> to display a more readable version of the diff. For this, just use <code class="language-plaintext highlighter-rouge">diff2html</code> instead of <code class="language-plaintext highlighter-rouge">diff</code> for the code block language:</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">diff2html
+</span><span class="sb">diff --git a/sample.js b/sample.js
+index 0000001..0ddf2ba
+--- a/sample.js
++++ b/sample.js
+@@ -1 +1 @@
+-console.log("Hello World!")
++console.log("Hello from Diff2Html!")</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>If we use a longer example, for example <a href="https://github.com/rtfpessoa/diff2html/commit/c2c253d3e3f8b8b267f551e659f72b44ca2ac927">this commit from diff2html</a>, it will generate the following output:</p> <pre><code class="language-diff2html">From 2aaae31cc2a37bfff83430c2c914b140bee59b6a Mon Sep 17 00:00:00 2001
+From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
+Date: Sun, 9 Oct 2016 16:41:54 +0100
+Subject: [PATCH 1/2] Initial template override support
+
+---
+ scripts/hulk.js                    |  4 ++--
+ src/diff2html.js                   |  3 +--
+ src/file-list-printer.js           | 11 ++++++++---
+ src/hoganjs-utils.js               | 29 +++++++++++++++++------------
+ src/html-printer.js                |  6 ++++++
+ src/line-by-line-printer.js        |  6 +++++-
+ src/side-by-side-printer.js        |  6 +++++-
+ test/file-list-printer-tests.js    |  2 +-
+ test/hogan-cache-tests.js          | 18 +++++++++++++++---
+ test/line-by-line-tests.js         |  3 +--
+ test/side-by-side-printer-tests.js |  3 +--
+ 11 files changed, 62 insertions(+), 29 deletions(-)
+
+diff --git a/scripts/hulk.js b/scripts/hulk.js
+index 5a793c18..a4b1a4d5 100755
+--- a/scripts/hulk.js
++++ b/scripts/hulk.js
+@@ -173,11 +173,11 @@ function namespace(name) {
+ // write a template foreach file that matches template extension
+ templates = extractFiles(options.argv.remain)
+   .map(function(file) {
+-    var openedFile = fs.readFileSync(file, 'utf-8');
++    var openedFile = fs.readFileSync(file, 'utf-8').trim();
+     var name;
+     if (!openedFile) return;
+     name = namespace(path.basename(file).replace(/\..*$/, ''));
+-    openedFile = removeByteOrderMark(openedFile.trim());
++    openedFile = removeByteOrderMark(openedFile);
+     openedFile = wrap(file, name, openedFile);
+     if (!options.outputdir) return openedFile;
+     fs.writeFileSync(path.join(options.outputdir, name + '.js')
+diff --git a/src/diff2html.js b/src/diff2html.js
+index 21b0119e..64e138f5 100644
+--- a/src/diff2html.js
++++ b/src/diff2html.js
+@@ -7,7 +7,6 @@
+
+ (function() {
+   var diffParser = require('./diff-parser.js').DiffParser;
+-  var fileLister = require('./file-list-printer.js').FileListPrinter;
+   var htmlPrinter = require('./html-printer.js').HtmlPrinter;
+
+   function Diff2Html() {
+@@ -43,7 +42,7 @@
+
+     var fileList = '';
+     if (configOrEmpty.showFiles === true) {
+-      fileList = fileLister.generateFileList(diffJson, configOrEmpty);
++      fileList = htmlPrinter.generateFileListSummary(diffJson, configOrEmpty);
+     }
+
+     var diffOutput = '';
+diff --git a/src/file-list-printer.js b/src/file-list-printer.js
+index e408d9b2..1e0a2c61 100644
+--- a/src/file-list-printer.js
++++ b/src/file-list-printer.js
+@@ -8,11 +8,16 @@
+ (function() {
+   var printerUtils = require('./printer-utils.js').PrinterUtils;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var baseTemplatesPath = 'file-summary';
+   var iconsBaseTemplatesPath = 'icon';
+
+-  function FileListPrinter() {
++  function FileListPrinter(config) {
++    this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   FileListPrinter.prototype.generateFileList = function(diffFiles) {
+@@ -38,5 +43,5 @@
+     });
+   };
+
+-  module.exports.FileListPrinter = new FileListPrinter();
++  module.exports.FileListPrinter = FileListPrinter;
+ })();
+diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
+index 9949e5fa..0dda08d7 100644
+--- a/src/hoganjs-utils.js
++++ b/src/hoganjs-utils.js
+@@ -8,18 +8,19 @@
+ (function() {
+   var fs = require('fs');
+   var path = require('path');
+-
+   var hogan = require('hogan.js');
+
+   var hoganTemplates = require('./templates/diff2html-templates.js');
+
+-  var templatesPath = path.resolve(__dirname, 'templates');
++  var extraTemplates;
+
+-  function HoganJsUtils() {
++  function HoganJsUtils(configuration) {
++    this.config = configuration || {};
++    extraTemplates = this.config.templates || {};
+   }
+
+-  HoganJsUtils.prototype.render = function(namespace, view, params, configuration) {
+-    var template = this.template(namespace, view, configuration);
++  HoganJsUtils.prototype.render = function(namespace, view, params) {
++    var template = this.template(namespace, view);
+     if (template) {
+       return template.render(params);
+     }
+@@ -27,17 +28,16 @@
+     return null;
+   };
+
+-  HoganJsUtils.prototype.template = function(namespace, view, configuration) {
+-    var config = configuration || {};
++  HoganJsUtils.prototype.template = function(namespace, view) {
+     var templateKey = this._templateKey(namespace, view);
+
+-    return this._getTemplate(templateKey, config);
++    return this._getTemplate(templateKey);
+   };
+
+-  HoganJsUtils.prototype._getTemplate = function(templateKey, config) {
++  HoganJsUtils.prototype._getTemplate = function(templateKey) {
+     var template;
+
+-    if (!config.noCache) {
++    if (!this.config.noCache) {
+       template = this._readFromCache(templateKey);
+     }
+
+@@ -53,6 +53,7 @@
+
+     try {
+       if (fs.readFileSync) {
++        var templatesPath = path.resolve(__dirname, 'templates');
+         var templatePath = path.join(templatesPath, templateKey);
+         var templateContent = fs.readFileSync(templatePath + '.mustache', 'utf8');
+         template = hogan.compile(templateContent);
+@@ -66,12 +67,16 @@
+   };
+
+   HoganJsUtils.prototype._readFromCache = function(templateKey) {
+-    return hoganTemplates[templateKey];
++    return extraTemplates[templateKey] || hoganTemplates[templateKey];
+   };
+
+   HoganJsUtils.prototype._templateKey = function(namespace, view) {
+     return namespace + '-' + view;
+   };
+
+-  module.exports.HoganJsUtils = new HoganJsUtils();
++  HoganJsUtils.prototype.compile = function(templateStr) {
++    return hogan.compile(templateStr);
++  };
++
++  module.exports.HoganJsUtils = HoganJsUtils;
+ })();
+diff --git a/src/html-printer.js b/src/html-printer.js
+index 585d5b66..13f83047 100644
+--- a/src/html-printer.js
++++ b/src/html-printer.js
+@@ -8,6 +8,7 @@
+ (function() {
+   var LineByLinePrinter = require('./line-by-line-printer.js').LineByLinePrinter;
+   var SideBySidePrinter = require('./side-by-side-printer.js').SideBySidePrinter;
++  var FileListPrinter = require('./file-list-printer.js').FileListPrinter;
+
+   function HtmlPrinter() {
+   }
+@@ -22,5 +23,10 @@
+     return sideBySidePrinter.generateSideBySideJsonHtml(diffFiles);
+   };
+
++  HtmlPrinter.prototype.generateFileListSummary = function(diffJson, config) {
++    var fileListPrinter = new FileListPrinter(config);
++    return fileListPrinter.generateFileList(diffJson);
++  };
++
+   module.exports.HtmlPrinter = new HtmlPrinter();
+ })();
+diff --git a/src/line-by-line-printer.js b/src/line-by-line-printer.js
+index b07eb53c..d230bedd 100644
+--- a/src/line-by-line-printer.js
++++ b/src/line-by-line-printer.js
+@@ -11,7 +11,8 @@
+   var utils = require('./utils.js').Utils;
+   var Rematch = require('./rematch.js').Rematch;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var genericTemplatesPath = 'generic';
+   var baseTemplatesPath = 'line-by-line';
+   var iconsBaseTemplatesPath = 'icon';
+@@ -19,6 +20,9 @@
+
+   function LineByLinePrinter(config) {
+     this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   LineByLinePrinter.prototype.makeFileDiffHtml = function(file, diffs) {
+diff --git a/src/side-by-side-printer.js b/src/side-by-side-printer.js
+index bbf1dc8d..5e3033b3 100644
+--- a/src/side-by-side-printer.js
++++ b/src/side-by-side-printer.js
+@@ -11,7 +11,8 @@
+   var utils = require('./utils.js').Utils;
+   var Rematch = require('./rematch.js').Rematch;
+
+-  var hoganUtils = require('./hoganjs-utils.js').HoganJsUtils;
++  var hoganUtils;
++
+   var genericTemplatesPath = 'generic';
+   var baseTemplatesPath = 'side-by-side';
+   var iconsBaseTemplatesPath = 'icon';
+@@ -26,6 +27,9 @@
+
+   function SideBySidePrinter(config) {
+     this.config = config;
++
++    var HoganJsUtils = require('./hoganjs-utils.js').HoganJsUtils;
++    hoganUtils = new HoganJsUtils(config);
+   }
+
+   SideBySidePrinter.prototype.makeDiffHtml = function(file, diffs) {
+diff --git a/test/file-list-printer-tests.js b/test/file-list-printer-tests.js
+index a502a46f..60ea3208 100644
+--- a/test/file-list-printer-tests.js
++++ b/test/file-list-printer-tests.js
+@@ -1,6 +1,6 @@
+ var assert = require('assert');
+
+-var fileListPrinter = require('../src/file-list-printer.js').FileListPrinter;
++var fileListPrinter = new (require('../src/file-list-printer.js').FileListPrinter)();
+
+ describe('FileListPrinter', function() {
+   describe('generateFileList', function() {
+diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
+index 190bf6f8..3bb754ac 100644
+--- a/test/hogan-cache-tests.js
++++ b/test/hogan-cache-tests.js
+@@ -1,6 +1,6 @@
+ var assert = require('assert');
+
+-var HoganJsUtils = require('../src/hoganjs-utils.js').HoganJsUtils;
++var HoganJsUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)();
+ var diffParser = require('../src/diff-parser.js').DiffParser;
+
+ describe('HoganJsUtils', function() {
+@@ -21,16 +21,28 @@ describe('HoganJsUtils', function() {
+       });
+       assert.equal(emptyDiffHtml, result);
+     });
++
+     it('should render view without cache', function() {
+       var result = HoganJsUtils.render('generic', 'empty-diff', {
+         contentClass: 'd2h-code-line',
+         diffParser: diffParser
+       }, {noCache: true});
+-      assert.equal(emptyDiffHtml + '\n', result);
++      assert.equal(emptyDiffHtml, result);
+     });
++
+     it('should return null if template is missing', function() {
+-      var result = HoganJsUtils.render('generic', 'missing-template', {}, {noCache: true});
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)({noCache: true});
++      var result = hoganUtils.render('generic', 'missing-template', {});
+       assert.equal(null, result);
+     });
++
++    it('should allow templates to be overridden', function() {
++      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
++
++      var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
+   });
+ });
+diff --git a/test/line-by-line-tests.js b/test/line-by-line-tests.js
+index 1cd92073..8869b3df 100644
+--- a/test/line-by-line-tests.js
++++ b/test/line-by-line-tests.js
+@@ -14,7 +14,7 @@ describe('LineByLinePrinter', function() {
+         '            File without changes\n' +
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+-        '&lt;/tr&gt;\n';
++        '&lt;/tr&gt;';
+
+       assert.equal(expected, fileHtml);
+     });
+@@ -422,7 +422,6 @@ describe('LineByLinePrinter', function() {
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+         '&lt;/tr&gt;\n' +
+-        '\n' +
+         '                &lt;/tbody&gt;\n' +
+         '            &lt;/table&gt;\n' +
+         '        &lt;/div&gt;\n' +
+diff --git a/test/side-by-side-printer-tests.js b/test/side-by-side-printer-tests.js
+index 76625f8e..771daaa5 100644
+--- a/test/side-by-side-printer-tests.js
++++ b/test/side-by-side-printer-tests.js
+@@ -14,7 +14,7 @@ describe('SideBySidePrinter', function() {
+         '            File without changes\n' +
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+-        '&lt;/tr&gt;\n';
++        '&lt;/tr&gt;';
+
+       assert.equal(expectedRight, fileHtml.right);
+       assert.equal(expectedLeft, fileHtml.left);
+@@ -324,7 +324,6 @@ describe('SideBySidePrinter', function() {
+         '        &lt;/div&gt;\n' +
+         '    &lt;/td&gt;\n' +
+         '&lt;/tr&gt;\n' +
+-        '\n' +
+         '                    &lt;/tbody&gt;\n' +
+         '                &lt;/table&gt;\n' +
+         '            &lt;/div&gt;\n' +
+
+From f3cadb96677d0eb82fc2752dc3ffbf35ca9b5bdb Mon Sep 17 00:00:00 2001
+From: Rodrigo Fernandes &lt;rtfrodrigo@gmail.com&gt;
+Date: Sat, 15 Oct 2016 13:21:22 +0100
+Subject: [PATCH 2/2] Allow uncompiled templates
+
+---
+ README.md                 |  3 +++
+ src/hoganjs-utils.js      |  7 +++++++
+ test/hogan-cache-tests.js | 24 +++++++++++++++++++++++-
+ 3 files changed, 33 insertions(+), 1 deletion(-)
+
+diff --git a/README.md b/README.md
+index 132c8a28..46909f25 100644
+--- a/README.md
++++ b/README.md
+@@ -98,6 +98,9 @@ The HTML output accepts a Javascript object with configuration. Possible options
+   - `synchronisedScroll`: scroll both panes in side-by-side mode: `true` or `false`, default is `false`
+   - `matchWordsThreshold`: similarity threshold for word matching, default is 0.25
+   - `matchingMaxComparisons`: perform at most this much comparisons for line matching a block of changes, default is `2500`
++  - `templates`: object with previously compiled templates to replace parts of the html
++  - `rawTemplates`: object with raw not compiled templates to replace parts of the html
++  &gt; For more information regarding the possible templates look into [src/templates](https://github.com/rtfpessoa/diff2html/tree/master/src/templates)
+
+ ## Diff2HtmlUI Helper
+
+diff --git a/src/hoganjs-utils.js b/src/hoganjs-utils.js
+index 0dda08d7..b2e9c275 100644
+--- a/src/hoganjs-utils.js
++++ b/src/hoganjs-utils.js
+@@ -17,6 +17,13 @@
+   function HoganJsUtils(configuration) {
+     this.config = configuration || {};
+     extraTemplates = this.config.templates || {};
++
++    var rawTemplates = this.config.rawTemplates || {};
++    for (var templateName in rawTemplates) {
++      if (rawTemplates.hasOwnProperty(templateName)) {
++        if (!extraTemplates[templateName]) extraTemplates[templateName] = this.compile(rawTemplates[templateName]);
++      }
++    }
+   }
+
+   HoganJsUtils.prototype.render = function(namespace, view, params) {
+diff --git a/test/hogan-cache-tests.js b/test/hogan-cache-tests.js
+index 3bb754ac..a34839c0 100644
+--- a/test/hogan-cache-tests.js
++++ b/test/hogan-cache-tests.js
+@@ -36,7 +36,7 @@ describe('HoganJsUtils', function() {
+       assert.equal(null, result);
+     });
+
+-    it('should allow templates to be overridden', function() {
++    it('should allow templates to be overridden with compiled templates', function() {
+       var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
+
+       var config = {templates: {'generic-empty-diff': emptyDiffTemplate}};
+@@ -44,5 +44,27 @@ describe('HoganJsUtils', function() {
+       var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
+       assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
+     });
++
++    it('should allow templates to be overridden with uncompiled templates', function() {
++      var emptyDiffTemplate = '&lt;p&gt;&lt;/p&gt;';
++
++      var config = {rawTemplates: {'generic-empty-diff': emptyDiffTemplate}};
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
++
++    it('should allow templates to be overridden giving priority to compiled templates', function() {
++      var emptyDiffTemplate = HoganJsUtils.compile('&lt;p&gt;&lt;/p&gt;');
++      var emptyDiffTemplateUncompiled = '&lt;p&gt;Not used!&lt;/p&gt;';
++
++      var config = {
++        templates: {'generic-empty-diff': emptyDiffTemplate},
++        rawTemplates: {'generic-empty-diff': emptyDiffTemplateUncompiled}
++      };
++      var hoganUtils = new (require('../src/hoganjs-utils.js').HoganJsUtils)(config);
++      var result = hoganUtils.render('generic', 'empty-diff', {myName: 'Rodrigo Fernandes'});
++      assert.equal('&lt;p&gt;Rodrigo Fernandes&lt;/p&gt;', result);
++    });
+   });
+ });
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="code"/><summary type="html"><![CDATA[this is how you can display code diffs]]></summary></entry><entry><title type="html">a post with advanced image components</title><link href="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/" rel="alternate" type="text/html" title="a post with advanced image components"/><published>2024-01-27T11:46:00+00:00</published><updated>2024-01-27T11:46:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/advanced-images</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/advanced-images/"><![CDATA[<p>This is an example post with advanced image components.</p> <h2 id="image-slider">Image Slider</h2> <p>This is a simple image slider. It uses the <a href="https://swiperjs.com/">Swiper</a> library. Check the <a href="https://swiperjs.com/demos">examples page</a> for more information of what you can achieve with it.</p> <swiper-container keyboard="true" navigation="true" pagination="true" pagination-clickable="true" pagination-dynamic-bullets="true" rewind="true"> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/9-480.webp 480w,/al-folio/assets/img/9-800.webp 800w,/al-folio/assets/img/9-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/9.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/7-480.webp 480w,/al-folio/assets/img/7-800.webp 800w,/al-folio/assets/img/7-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/7.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/8-480.webp 480w,/al-folio/assets/img/8-800.webp 800w,/al-folio/assets/img/8-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/8.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/10-480.webp 480w,/al-folio/assets/img/10-800.webp 800w,/al-folio/assets/img/10-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/10.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> <swiper-slide> <figure> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/12-480.webp 480w,/al-folio/assets/img/12-800.webp 800w,/al-folio/assets/img/12-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/12.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </swiper-slide> </swiper-container> <h2 id="image-comparison-slider">Image Comparison Slider</h2> <p>This is a simple image comparison slider. It uses the <a href="https://img-comparison-slider.sneas.io/">img-comparison-slider</a> library. Check the <a href="https://img-comparison-slider.sneas.io/examples.html">examples page</a> for more information of what you can achieve with it.</p> <img-comparison-slider> <figure slot="first"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic-480.webp 480w,/al-folio/assets/img/prof_pic-800.webp 800w,/al-folio/assets/img/prof_pic-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/prof_pic.jpg" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> <figure slot="second"> <picture> <source class="responsive-img-srcset" srcset="/al-folio/assets/img/prof_pic_color-480.webp 480w,/al-folio/assets/img/prof_pic_color-800.webp 800w,/al-folio/assets/img/prof_pic_color-1400.webp 1400w," sizes="95vw" type="image/webp"/> <img src="/al-folio/assets/img/prof_pic_color.png" class="img-fluid rounded z-depth-1" width="100%" height="auto" loading="lazy" onerror="this.onerror=null; $('.responsive-img-srcset').remove();"/> </picture> </figure> </img-comparison-slider>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="images"/><summary type="html"><![CDATA[this is what advanced image components could look like]]></summary></entry><entry><title type="html">a post with vega lite</title><link href="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/" rel="alternate" type="text/html" title="a post with vega lite"/><published>2024-01-27T00:20:00+00:00</published><updated>2024-01-27T00:20:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/vega-lite</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/vega-lite/"><![CDATA[<p>This is an example post with some <a href="https://vega.github.io/vega-lite/">vega lite</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">vega_lite
+</span><span class="sb">{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
+  },
+  "transform": [
+    {"filter": "datum['IMDB Rating'] != null"},
+    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
+    {
+      "joinaggregate": [{
+        "op": "mean",
+        "field": "IMDB Rating",
+        "as": "AverageRating"
+      }]
+    },
+    {
+      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
+      "as": "RatingDelta"
+    }
+  ],
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "Release Date",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "RatingDelta",
+      "type": "quantitative",
+      "title": "Rating Delta"
+    },
+    "color": {
+      "field": "RatingDelta",
+      "type": "quantitative",
+      "scale": {"domainMid": 0},
+      "title": "Rating Delta"
+    }
+  }
+}</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-vega_lite">{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "A dot plot showing each movie in the database, and the difference from the average movie rating. The display is sorted by year to visualize everything in sequential order. The graph is for all Movies before 2019.",
+  "data": {
+    "url": "https://raw.githubusercontent.com/vega/vega/main/docs/data/movies.json"
+  },
+  "transform": [
+    {"filter": "datum['IMDB Rating'] != null"},
+    {"filter": {"timeUnit": "year", "field": "Release Date", "range": [null, 2019]}},
+    {
+      "joinaggregate": [{
+        "op": "mean",
+        "field": "IMDB Rating",
+        "as": "AverageRating"
+      }]
+    },
+    {
+      "calculate": "datum['IMDB Rating'] - datum.AverageRating",
+      "as": "RatingDelta"
+    }
+  ],
+  "mark": "point",
+  "encoding": {
+    "x": {
+      "field": "Release Date",
+      "type": "temporal"
+    },
+    "y": {
+      "field": "RatingDelta",
+      "type": "quantitative",
+      "title": "Rating Delta"
+    },
+    "color": {
+      "field": "RatingDelta",
+      "type": "quantitative",
+      "scale": {"domainMid": 0},
+      "title": "Rating Delta"
+    }
+  }
+}
+</code></pre> <p>This plot supports both light and dark themes.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included vega lite code could look like]]></summary></entry><entry><title type="html">a post with geojson</title><link href="https://alshedivat.github.io/al-folio/blog/2024/geojson-map/" rel="alternate" type="text/html" title="a post with geojson"/><published>2024-01-26T17:57:00+00:00</published><updated>2024-01-26T17:57:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/geojson-map</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/geojson-map/"><![CDATA[<p>This is an example post with some <a href="https://geojson.org/">geojson</a> code. The support is provided thanks to <a href="https://leafletjs.com/">Leaflet</a>. To create your own visualization, go to <a href="https://geojson.io/">geojson.io</a>.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">geojson
+</span><span class="sb">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -60.11363029935569,
+              -2.904625022183211
+            ],
+            [
+              -60.11363029935569,
+              -3.162613728707967
+            ],
+            [
+              -59.820894493858034,
+              -3.162613728707967
+            ],
+            [
+              -59.820894493858034,
+              -2.904625022183211
+            ],
+            [
+              -60.11363029935569,
+              -2.904625022183211
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-geojson">{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              -60.11363029935569,
+              -2.904625022183211
+            ],
+            [
+              -60.11363029935569,
+              -3.162613728707967
+            ],
+            [
+              -59.820894493858034,
+              -3.162613728707967
+            ],
+            [
+              -59.820894493858034,
+              -2.904625022183211
+            ],
+            [
+              -60.11363029935569,
+              -2.904625022183211
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      }
+    }
+  ]
+}
+</code></pre>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><category term="maps"/><summary type="html"><![CDATA[this is what included geojson code could look like]]></summary></entry><entry><title type="html">a post with echarts</title><link href="https://alshedivat.github.io/al-folio/blog/2024/echarts/" rel="alternate" type="text/html" title="a post with echarts"/><published>2024-01-26T16:03:00+00:00</published><updated>2024-01-26T16:03:00+00:00</updated><id>https://alshedivat.github.io/al-folio/blog/2024/echarts</id><content type="html" xml:base="https://alshedivat.github.io/al-folio/blog/2024/echarts/"><![CDATA[<p>This is an example post with some <a href="https://echarts.apache.org/">echarts</a> code.</p> <div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">```</span><span class="nl">echarts
+</span><span class="sb">{
+  "title": {
+    "text": "ECharts Getting Started Example"
+  },
+  "responsive": true,
+  "tooltip": {},
+  "legend": {
+    "top": "30px",
+    "data": ["sales"]
+  },
+  "xAxis": {
+    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "name": "sales",
+      "type": "bar",
+      "data": [5, 20, 36, 10, 10, 20]
+    }
+  ]
+}</span>
+<span class="p">```</span>
+</code></pre></div></div> <p>Which generates:</p> <pre><code class="language-echarts">{
+  "title": {
+    "text": "ECharts Getting Started Example"
+  },
+  "responsive": true,
+  "tooltip": {},
+  "legend": {
+    "top": "30px",
+    "data": ["sales"]
+  },
+  "xAxis": {
+    "data": ["Shirts", "Cardigans", "Chiffons", "Pants", "Heels", "Socks"]
+  },
+  "yAxis": {},
+  "series": [
+    {
+      "name": "sales",
+      "type": "bar",
+      "data": [5, 20, 36, 10, 10, 20]
+    }
+  ]
+}
+</code></pre> <p>Note that this library offer support for both light and dark themes. You can switch between them using the theme switcher in the top right corner of the page.</p>]]></content><author><name></name></author><category term="sample-posts"/><category term="formatting"/><category term="charts"/><summary type="html"><![CDATA[this is what included echarts code could look like]]></summary></entry></feed>
