@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+
 **Open Educational Resources (OER)**
 
 The resources listed here are open educational resources that are free to use, share, copy and edit, with attribution and following this license.
