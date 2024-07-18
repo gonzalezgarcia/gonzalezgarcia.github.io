@@ -1,16 +1,13 @@
 ---
 layout: page
-permalink: /teaching/
-title: teaching
-description:
+permalink: /resources/
+title: resources
+description: 
 nav: true
 nav_order: 6
 ---
 
-
-**Open Educational Resources (OER)**
-
-The resources listed here are open educational resources that are free to use, share, copy and edit, with attribution and following this license.
+The resources listed here are Open Educational Resources (OER) that are free to use, share, copy and edit, with attribution and following this license.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
