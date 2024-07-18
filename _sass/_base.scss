@@ -19,6 +19,10 @@ strong {
   color: var(--global-text-color);
 }
 
+p {
+  text-align: justify;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -198,7 +202,7 @@ ul.task-list input[type="checkbox"] {
 }
 
 .profile.float-right {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .profile.float-left {
@@ -373,7 +377,7 @@ ul.task-list input[type="checkbox"] {
   text-align: center;
 
   .contact-icons {
-    font-size: 4rem;
+    font-size: 1.75rem;
 
     a {
       i::before {
