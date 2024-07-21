@@ -19,15 +19,8 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 
+{% bibliography -f preprints --group_by type %}
+{% bibliography -f papers --group_by year %}
 
 
-<div class="publications">
 
-<h3 class="year">Preprints</h3>
-{% bibliography -f preprints %}
-
-
-<h3 class="year">Peer-reviewed</h3>
-{% bibliography -f papers %}
-
-</div>
