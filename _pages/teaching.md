@@ -12,10 +12,11 @@ The resources listed here are Open Educational Resources (OER) that are free to 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 #### Bachelor courses
-- [Cognitive Neuroscience [theory] (2024/25)](/assets/html/neurocog/index.html) - _together with Maria Ruz_
-- [Cognitive Neuroscience [practicals] (2023/24 onwards)](https://ortiztudela.github.io/ortiztudela/teaching/ncc-2425_book/index.html) - _together with Javier Ortiz-Tudela_
+<!-- - [Cognitive Neuroscience [theory] (2024/25)](/assets/html/neurocog/index.html) - _together with Maria Ruz_ -->
+- [Cognitive Neuroscience [practicals] (2023/24 onwards)](https://ortiztudela.github.io/ortiztudela/teaching/ncc-2425_book/index.html) - _together with [Javier Ortiz-Tudela](https://ortiztudela.github.io/ortiztudela/)_
 
 #### Master courses
+- Methods in Cognitive Neuroscience (2023/24 onwards)
 
 #### PhD courses
 
