@@ -14,6 +14,7 @@ The resources listed here are Open Educational Resources (OER) that are free to 
 #### Bachelor courses
 <!-- - [Cognitive Neuroscience [theory] (2024/25)](/assets/html/neurocog/index.html) - _together with Maria Ruz_ -->
 - [Cognitive Neuroscience [practicals] (2023/24 onwards)](https://ortiztudela.github.io/ortiztudela/teaching/ncc-2425_book/index.html) - _together with [Javier Ortiz-Tudela](https://ortiztudela.github.io/ortiztudela/)_
+    - [Repository of students' podcasts on Cognitive Neuroscience](https://github.com/wobc/cogneuro/tree/main/podcasts)
 
 #### Master courses
 - Methods in Cognitive Neuroscience (2023/24 onwards)
