@@ -17,7 +17,7 @@ The resources listed here are Open Educational Resources (OER) that are free to 
     - [Repository of students' podcasts on Cognitive Neuroscience](https://github.com/wobc/cogneuro/tree/main/podcasts)
 
 #### Master courses
-- [Methods in Cognitive Neuroscience (2023/24 onwards)](/assets/html/methods/index.html)
+- [Methods in Cognitive Neuroscience (2023/24 onwards)](https://gonzalezgarcia.github.io/methods_book/)
 
 #### PhD courses
 
