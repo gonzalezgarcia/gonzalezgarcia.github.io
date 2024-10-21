@@ -18,6 +18,7 @@ The resources listed here are Open Educational Resources (OER) that are free to 
 
 #### Master courses
 - [Methods in Cognitive Neuroscience (2023/24 onwards)](https://gonzalezgarcia.github.io/methods_book/)
+- [Preregistration in Cognitive Neuroscience](https://gonzalezgarcia.github.io/prereg_talk/)
 
 #### PhD courses
 
