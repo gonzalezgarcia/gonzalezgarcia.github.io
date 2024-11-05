@@ -7,6 +7,7 @@ nav: true
 nav_order: 6
 ---
 
+###  Teaching
 The resources listed here are Open Educational Resources (OER) that are free to use, share, copy and edit, with attribution and following this license.
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -26,4 +27,17 @@ The resources listed here are Open Educational Resources (OER) that are free to 
 - [Introduction to Markdown (in Spanish)](/assets/html/rmarkdown.html)
 - [Introduction to ggplot (in Spanish)](/assets/html/ggplot.html)
 
+### Datasets
+
+#### THINGS-Mooney dataset
+
+<img src="/assets/img/output.gif" alt="Output GIF" width="150"/>
+
+The [THINGS-Mooney database](https://github.com/wobc/things-mooney) provides a set of "mooney-style" distorted images (created from the original license-free [THINGS-plus images](https://osf.io/jum2f/)). Additionally, this repository contains a toolbox to create your own mooney-style images, plus subjective recognition scores for each mooney image collected on a large sample of participants (n = 947).
+
+If you use this dataset in your research, please cite this repository as follows:
+
+Linde-Domingo, J.\*, Ortiz-Tudela, J.\*, Voeller, J., & González-García, C. (2024). THINGS-Mooney database (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14040189
+
+_(* denotes equal contribution)_
 
