@@ -57,7 +57,7 @@ _(* denotes equal contribution)_
 ---
 **Prediction Error estimator**
 
-[This notebook]((https://colab.research.google.com/drive/1xLNmZmx8bxxcXoHzcDWZctnG14s1f1BG?usp=sharing)) demonstrates a toy model of Prediction Error (PE) estimation.
+[This notebook](https://colab.research.google.com/drive/1xLNmZmx8bxxcXoHzcDWZctnG14s1f1BG?usp=sharing) demonstrates a toy model of Prediction Error (PE) estimation.
 
 It visualizes how sensory information, priors, and their precisions interact to form a posterior belief.
 
