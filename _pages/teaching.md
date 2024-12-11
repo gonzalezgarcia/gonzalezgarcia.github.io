@@ -55,7 +55,7 @@ Linde-Domingo, J.\*, Ortiz-Tudela, J.\*, Voeller, J., & González-García, C. (2
 _(* denotes equal contribution)_
 
 ---
-**Prediction Error estimator**
+<!-- **Prediction Error estimator**
 
 [This notebook](https://colab.research.google.com/drive/1xLNmZmx8bxxcXoHzcDWZctnG14s1f1BG?usp=sharing) demonstrates a toy model of Prediction Error (PE) estimation.
 
@@ -63,4 +63,4 @@ It visualizes how sensory information, priors, and their precisions interact to 
 
 The model is based on the principles of Bayesian inference and uses Kullback-Leibler (KL) divergence to quantify the difference between distributions.
 
----
+--- -->
