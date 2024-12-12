@@ -29,7 +29,7 @@ Can you identify what he's saying now?
 {% include audio.liquid path="assets/audio/caption_bench_distorded.wav" controls=true %}
 -----
 
-3) **Listed to the undistorted version of the clip**. This is also very likely to induce disambiguation. On the left, you can listen to the undistorted version of the clip. On the right, the distorted one. Does it sound clearer now?
+3) **Listed to the undistorted version of the clip**. This is also very likely to induce disambiguation. On the left, you can listen to the distorted version of the clip. On the right, the undistorted one. Listen again to the distorted clip. Does it sound clearer now?
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
