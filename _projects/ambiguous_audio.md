@@ -71,7 +71,7 @@ Here are a few more examples of ambiguous auditory stimuli:
         
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include audio.liquid path="assets/audio/rope`.wav" controls=true %}
+        {% include audio.liquid path="assets/audio/rope.wav" controls=true %}
     </div>
 </div>
 <div class="caption">
