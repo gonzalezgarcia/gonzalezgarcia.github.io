@@ -1,8 +1,9 @@
 ---
 ---
+{%- assign style = "new" -%}
 <div class="row">
   {% if site.enable_publication_thumbnails %}
-    <div class="col col-sm-2 abbr">
+    <div class="col col-sm-1 abbr">
       {%- if entry.abbr -%}
         {%- if site.data.venues[entry.abbr] -%}
           {% assign venue_style = null %}
@@ -46,6 +47,81 @@
 
   <!-- Entry bib key -->
   <div id="{{ entry.key }}" class="{% if site.enable_publication_thumbnails %}col-sm-8{% else %}col-sm-10{% endif %}">
+    {%- if style != "old" %}
+    <div class="apa-citation">
+      {%- assign authors = "" -%}
+        {%- assign max_authors_display = 6 -%}
+        {%- assign total_authors = entry.author_array | size -%}
+
+        {%- for author in entry.author_array -%}
+          {%- if forloop.index > max_authors_display -%}
+            {%- break -%}
+          {%- endif -%}
+
+          {%- assign author_last = author.last | strip | regex_replace: '[†‡§¶‖&^]', '' -%}
+          {%- assign initials = "" -%}
+          {%- assign firstnames = author.first | strip | split: " " -%}
+
+          
+          {%- for fname in firstnames -%}
+            {%- assign initials = initials | append: fname | slice: 0, 1 | append: "." -%}
+            {%- unless forloop.last -%}
+              {%- assign initials = initials | append: " " -%}
+            {%- endunless -%}
+          {%- endfor -%}
+
+          {%- assign author_is_self = false -%}
+          {% if site.scholar.last_name contains author_last %}
+            {% if site.scholar.first_name contains author.first %}
+              {% assign author_is_self = true %}
+            {% endif %}
+          {% endif %}
+
+          {%- assign formatted_name = author_last | append: ", " | append: initials -%}
+          {%- if author_is_self %}
+            {% assign formatted_name = "<u>" | append: formatted_name | append: "</u>" %}
+          {% endif %}
+
+          {%- if forloop.first -%}
+            {% assign authors = formatted_name %}
+          {%- elsif forloop.index == max_authors_display and total_authors > max_authors_display %}
+            {% assign authors = authors | append: ", " | append: formatted_name | append: ", et al." %}
+          {%- elsif forloop.last or forloop.index == total_authors %}
+            {% assign authors = authors | append: " & " | append: formatted_name %}
+          {%- else %}
+            {% assign authors = authors | append: ", " | append: formatted_name %}
+          {%- endif %}
+        {%- endfor -%}
+
+
+
+
+      {%- capture citation -%}
+    {{ authors }} ({{ entry.year }}). <strong>{{ entry.title }}</strong>.
+    {%- if entry.journal %}
+      <em>{{ entry.journal }}</em>
+      {%- if entry.volume %}, <em>{{ entry.volume }}</em>{% endif %}
+      {%- if entry.number %}({{ entry.number }}){% endif %}
+      {%- if entry.pages %}, {{ entry.pages }}{% endif %}.
+    {%- elsif entry.booktitle %}
+      <em>In {{ entry.booktitle }}</em>
+      {%- if entry.pages %}, pp. {{ entry.pages }}{% endif %}.
+    {%- endif %}
+    {%- if entry.doi %}
+  <a href="https://doi.org/{{ entry.doi | remove: 'https://doi.org/' }}">
+    https://doi.org/{{ entry.doi | remove: 'https://doi.org/' }}
+  </a>
+{%- elsif entry.url %}
+  <a href="{{ entry.url }}">{{ entry.url }}</a>
+{%- endif %}
+
+  {%- endcapture -%}
+
+  <p>{{ citation | replace: " ,", "," | replace: " .", "." }}</p>
+    </div>
+  {% endif %}
+
+    {%- if style != "new" %}
     <!-- Title -->
     <div class="title">{{ entry.title }}</div>
     <!-- Author -->
@@ -112,7 +188,7 @@
             {% assign more_authors_show = more_authors_show | append: ', ' %}
           {% endunless %}
         {%- endfor -%}
-        {%- assign more_authors_show = more_authors_show | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
+        {%- assign more_authors_show = more_authors_show | regex_replace: '([†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
         , and
         <span
           class="more-authors"
@@ -181,6 +257,8 @@
     <div class="periodical">
       {{ entry.note | strip }}
     </div>
+  {%- endif %}
+
 
     <!-- Links/Buttons -->
     <div class="links">
@@ -199,10 +277,12 @@
         <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
       {% endif %}
       {% if entry.html %}
+        {%- if style != "new" %}
         {% if entry.html contains '://' %}
           <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
         {% else %}
           <a href="{{ entry.html | prepend: '/assets/html/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
+        {% endif %}
         {% endif %}
       {% endif %}
       {% if entry.pdf %}
@@ -250,6 +330,10 @@
       {% if entry.website %}
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
+      
+
+
+
     </div>
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}

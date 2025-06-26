@@ -309,7 +309,7 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: ["González-García", "Gonzalez-Garcia"]
+  last_name: ["González-García", "Gonzalez-Garcia", "González-García*", "Gonzalez-Garcia*"]
   first_name: ["Carlos", "C."]
 
   style: apa
