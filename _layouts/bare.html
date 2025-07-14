@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- GitHub-flavored Markdown CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.min.css">
+  <style>
+  body {
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .markdown-body {
+    max-width: 768px;
+    width: 100%;
+  }
+  .markdown-body img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 200px;
+    height: auto;
+  }
+</style>
+</head>
+<body>
+  <article class="markdown-body">
+    {{ content }}
+  </article>
+</body>
+</html>
