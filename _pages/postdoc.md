@@ -27,7 +27,7 @@ We are seeking a highly motivated postdoctoral researcher to join our team at th
   - Development and validation of theoretical RSA models using **DNNs**
 - **Institution:** University of Granada (Mind, Brain and Behavior Research Center – CIMCYC)  
 - **Duration:** 2 years (fully funded)  
-- **Gross salary**: 35,000€/year
+- **Gross salary**: ~35,000€/year
 - **Start Date:** Flexible (ideally early 2026)  
 - **Location:** Granada, Spain
 
