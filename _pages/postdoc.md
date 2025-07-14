@@ -10,8 +10,7 @@ permalink: /postdoc/
 
 We are seeking a highly motivated postdoctoral researcher to join our team at the University of Granada and contribute to **FLARE – The Representational Architecture of Fast Learning through Abstraction**.
 
-![FLARE Logo](/assets/img/logo.png)
-
+[![FLARE Logo](/assets/img/logo.png)](/flare/)
 ## About the Project
 
 [FLARE](https://gonzalezgarcia.github.io/flare/) investigates the neural mechanisms that support one-shot perceptual learning. We focus on how perceptual priors are formed and represented in the brain using **fMRI**, **Representational Similarity Analysis (RSA)**, and **Deep Neural Network (DNN)** models. The project is funded by the Spanish Ministry of Science and led by [Carlos González-García](https://gonzalezgarcia.github.io/flare/).

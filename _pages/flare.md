@@ -30,7 +30,7 @@ _Funded by the Spanish Ministry of Science — PID2023-149428NB-I00_
 <br><br>
 
 #### Get involved!
-- [Postdoctoral position](/postdoc/)
+- <a href="/postdoc/" target="_blank" rel="noopener noreferrer">Postdoctoral position</a>
 - PhD students: we do not have any open positions at the moment, but if you are interested in joining FLARE as a PhD student, please contact me at `cgonzalez@ugr.es`
 - Research assistant (closed!)
 
