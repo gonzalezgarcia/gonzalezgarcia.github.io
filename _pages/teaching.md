@@ -28,7 +28,8 @@ The resources listed here are Open Educational Resources (OER) that are free to 
 - [Preregistration in Cognitive Neuroscience](https://gonzalezgarcia.github.io/prereg_talk/)
 
 ---
-**Tutorials**
+**Guides and tutorials**
+- [Programming in Psychological Science - A Practical Introduction](https://wobc.github.io/programming_book/)
 - [Introduction to Markdown (in Spanish)](/assets/html/rmarkdown.html)
 - [Introduction to ggplot (in Spanish)](/assets/html/ggplot.html)
 
