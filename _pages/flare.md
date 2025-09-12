@@ -39,5 +39,5 @@ _Funded by the Spanish Ministry of Science — PID2023-149428NB-I00_
 
 #### Related publications
 <div class="publications">
-  {% bibliography -f preprints -q @*[key=Linde-Domingo2025.05.28.656283]* %}
+  {% bibliography -f preprints -q @*[key=völler_2025]* @*[key=Linde-Domingo2025.05.28.656283]* %}
 </div>
