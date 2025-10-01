@@ -64,7 +64,7 @@ blockquote {
   border-left: 5px solid var(--global-theme-color);
   margin: 1.5em 0;
   padding: 1em;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
 
   p {
     margin-bottom: 0;
@@ -122,6 +122,24 @@ blockquote {
     h5,
     h6 {
       color: var(--global-danger-block-title);
+    }
+  }
+
+  &.block-info {
+    border-color: var(--global-info-block);
+    background-color: var(--global-info-block-bg);
+
+    p {
+      color: var(--global-info-block-text);
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: var(--global-info-block-title);
     }
   }
 }
