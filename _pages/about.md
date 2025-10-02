@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
-  image: new_pic.webp
+  image: pic2025.png #new_pic.webp
   image_circular: false # crops the image to make it circular
   more_info: >
     
