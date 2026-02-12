@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TMS-Induced Entrainment Explorer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: #fafafa;
+            min-height: 100vh;
+            padding: 40px 20px;
+            color: #1a1a1a;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            margin-bottom: 40px;
+        }
+        
+        .header h1 {
+            font-size: 2em;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        .header p {
+            font-size: 1em;
+            color: #666;
+            font-weight: 400;
+        }
+        
+        .intro {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .intro h2 {
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        .intro p {
+            line-height: 1.6;
+            color: #4a4a4a;
+        }
+        
+        .visualization-section {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .canvas-container {
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .canvas-label {
+            font-size: 0.85em;
+            color: #666;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        
+        canvas {
+            display: block;
+            width: 100%;
+            border-radius: 4px;
+            background: #fafafa;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 16px;
+            padding: 16px;
+            background: #f8f8f8;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9em;
+            color: #4a4a4a;
+        }
+        
+        .legend-color {
+            width: 30px;
+            height: 3px;
+            border-radius: 2px;
+        }
+        
+        .entrainment-display {
+            margin-left: auto;
+            font-size: 0.95em;
+            color: #1a1a1a;
+        }
+        
+        .entrainment-display span {
+            font-weight: 600;
+            margin-left: 4px;
+        }
+        
+        .controls {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .control-group {
+            margin-bottom: 24px;
+        }
+        
+        .control-group:last-child {
+            margin-bottom: 0;
+        }
+        
+        .control-group label {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 500;
+            color: #1a1a1a;
+            margin-bottom: 12px;
+            font-size: 0.95em;
+        }
+        
+        .control-group input[type="range"] {
+            width: 100%;
+            height: 2px;
+            border-radius: 2px;
+            background: #e0e0e0;
+            outline: none;
+            -webkit-appearance: none;
+        }
+        
+        .control-group input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #1a1a1a;
+            cursor: pointer;
+        }
+        
+        .control-group input[type="range"]::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: #1a1a1a;
+            cursor: pointer;
+            border: none;
+        }
+        
+        .value-display {
+            font-weight: 600;
+            color: #1a1a1a;
+            font-size: 0.95em;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 12px;
+            margin-top: 24px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 12px 20px;
+            font-size: 0.95em;
+            font-weight: 500;
+            border: 1px solid #e0e0e0;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+            background: white;
+            color: #1a1a1a;
+        }
+        
+        .btn-primary {
+            background: #1a1a1a;
+            color: white;
+            border-color: #1a1a1a;
+        }
+        
+        .btn-primary:hover {
+            background: #333;
+            border-color: #333;
+        }
+        
+        .btn-secondary:hover {
+            background: #f5f5f5;
+        }
+        
+        .info-panel {
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            border: 1px solid #e0e0e0;
+            margin-bottom: 24px;
+        }
+        
+        .info-panel h3 {
+            font-size: 1em;
+            margin-bottom: 16px;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: 4px;
+            font-weight: 500;
+            margin-bottom: 16px;
+            font-size: 0.85em;
+        }
+        
+        .status-active {
+            background: #e8f5e9;
+            color: #2e7d32;
+        }
+        
+        .status-inactive {
+            background: #f5f5f5;
+            color: #666;
+        }
+        
+        .frequency-bands {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .band-card {
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+            transition: all 0.2s;
+            cursor: pointer;
+            background: white;
+        }
+        
+        .band-card:hover {
+            border-color: #1a1a1a;
+        }
+        
+        .band-card.active {
+            border-color: #1a1a1a;
+            background: #fafafa;
+        }
+        
+        .band-card h4 {
+            margin-bottom: 4px;
+            color: #1a1a1a;
+            font-size: 0.95em;
+            font-weight: 600;
+        }
+        
+        .band-card .range {
+            font-size: 0.8em;
+            color: #999;
+            margin-bottom: 6px;
+        }
+        
+        .band-card .description {
+            font-size: 0.8em;
+            color: #666;
+            line-height: 1.4;
+        }
+        
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 12px;
+            margin-top: 16px;
+        }
+        
+        .stat-box {
+            padding: 12px;
+            border-radius: 6px;
+            border: 1px solid #e0e0e0;
+            background: #fafafa;
+        }
+        
+        .stat-label {
+            font-size: 0.8em;
+            color: #666;
+            margin-bottom: 4px;
+        }
+        
+        .stat-value {
+            font-size: 1.4em;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+        
+        @media (max-width: 768px) {
+            body {
+                padding: 20px 16px;
+            }
+            
+            .header h1 {
+                font-size: 1.6em;
+            }
+            
+            .button-group {
+                flex-direction: column;
+            }
+            
+            .frequency-bands {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>TMS-Induced Entrainment Explorer</h1>
+            <p>Interactive tool for understanding how transcranial magnetic stimulation can entrain brain oscillations</p>
+        </div>
+        
+        <div class="intro">
+            <h2>What is TMS Entrainment?</h2>
+            <p>Transcranial Magnetic Stimulation (TMS) can be delivered in rhythmic patterns to synchronize or "entrain" brain oscillations. When TMS pulses are delivered at a specific frequency, the neurons in the targeted brain region begin to oscillate at that same frequency, allowing researchers to causally manipulate brain rhythms and study their functional roles.</p>
+        </div>
+        
+        <div class="visualization-section">
+            <h3 style="margin-bottom: 16px; font-weight: 600;">Neural Oscillation with TMS Entrainment</h3>
+            <div class="canvas-container">
+                <canvas id="mainCanvas" width="800" height="400"></canvas>
+            </div>
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #999;"></div>
+                    <span>Baseline (intrinsic frequency)</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #1a1a1a;"></div>
+                    <span>Entrained oscillation</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color" style="background: #e74c3c;"></div>
+                    <span>TMS pulses</span>
+                </div>
+                <div class="legend-item entrainment-display">
+                    <strong>Entrainment:</strong> <span id="legendEntrainment">0%</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <h3 style="margin-bottom: 20px; font-weight: 600;">TMS Parameters</h3>
+            
+            <div class="control-group">
+                <label>
+                    <span>TMS Frequency</span>
+                    <span class="value-display" id="freqValue">3.0 Hz</span>
+                </label>
+                <input type="range" id="tmsFrequency" min="2" max="5" value="3" step="0.1">
+            </div>
+            
+            <div class="control-group">
+                <label>
+                    <span>TMS Intensity</span>
+                    <span class="value-display" id="intensityValue">50%</span>
+                </label>
+                <input type="range" id="tmsIntensity" min="0" max="100" value="50" step="5">
+            </div>
+            
+            <div class="control-group">
+                <label>
+                    <span>Intrinsic Brain Frequency</span>
+                    <span class="value-display" id="intrinsicValue">3.0 Hz</span>
+                </label>
+                <input type="range" id="intrinsicFreq" min="2" max="5" value="3" step="0.1">
+            </div>
+            
+            <div class="button-group">
+                <button class="btn-primary" id="startBtn">Start Stimulation</button>
+                <button class="btn-secondary" id="resetBtn">Reset</button>
+            </div>
+        </div>
+        
+        <div class="info-panel">
+            <h3>Current Status</h3>
+            <span class="status-indicator status-inactive" id="statusIndicator">Stimulation OFF</span>
+            
+            <div class="stats">
+                <div class="stat-box">
+                    <div class="stat-label">Entrainment</div>
+                    <div class="stat-value" id="entrainmentLevel">0%</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Entrained Frequency</div>
+                    <div class="stat-value" id="entrainedFreq">10.0 Hz</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-label">Time Elapsed</div>
+                    <div class="stat-value" id="timeElapsed">0.0s</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- <div class="info-panel">
+            <h3>Brain Oscillation Frequency Bands</h3>
+            <p style="margin-bottom: 12px; color: #666; font-size: 0.9em;">Click on a frequency band to set the intrinsic oscillation:</p>
+            
+            <div class="frequency-bands">
+                <div class="band-card" data-freq="2.5">
+                    <h4>Delta (δ)</h4>
+                    <div class="range">2.5 Hz</div>
+                    <div class="description">Deep sleep, unconscious processes</div>
+                </div>
+                
+                <div class="band-card" data-freq="3.0">
+                    <h4>Low Theta (θ)</h4>
+                    <div class="range">3.0 Hz</div>
+                    <div class="description">Deep relaxation, meditation</div>
+                </div>
+                
+                <div class="band-card" data-freq="3.5">
+                    <h4>Mid Theta (θ)</h4>
+                    <div class="range">3.5 Hz</div>
+                    <div class="description">Memory consolidation</div>
+                </div>
+                
+                <div class="band-card" data-freq="4.0">
+                    <h4>High Theta (θ)</h4>
+                    <div class="range">4.0 Hz</div>
+                    <div class="description">Creativity, emotion</div>
+                </div>
+                
+                <div class="band-card" data-freq="4.5">
+                    <h4>Theta-Alpha (θ-α)</h4>
+                    <div class="range">4.5 Hz</div>
+                    <div class="description">Transition state, drowsiness</div>
+                </div>
+            </div>
+        </div> -->
+        
+        <div class="info-panel">
+            <h3>Key Concepts to Explore</h3>
+            <ul style="line-height: 1.8; margin-left: 20px; color: #4a4a4a;">
+                <li><strong>Frequency Matching:</strong> Match the TMS frequency to the intrinsic frequency to observe strong entrainment.</li>
+                <li><strong>Intensity Effects:</strong> Higher TMS intensity leads to faster and stronger entrainment.</li>
+                <li><strong>Frequency Mismatch:</strong> Set different frequencies to see partial or failed entrainment.</li>
+                <li><strong>Natural Resonance:</strong> Each brain region has preferred frequencies where it naturally oscillates.</li>
+            </ul>
+        </div>
+    </div>
+    
+    <script>
+        const mainCanvas = document.getElementById('mainCanvas');
+        const ctx = mainCanvas.getContext('2d');
+        
+        let isRunning = false;
+        let startTime = 0;
+        let elapsedTime = 0;
+        let animationId = null;
+        
+        let tmsFrequency = 3;
+        let tmsIntensity = 50;
+        let intrinsicFreq = 3;
+        let currentFreq = intrinsicFreq;
+        let entrainment = 0;
+        
+        // UI Elements
+        const tmsFreqSlider = document.getElementById('tmsFrequency');
+        const intensitySlider = document.getElementById('tmsIntensity');
+        const intrinsicSlider = document.getElementById('intrinsicFreq');
+        const startBtn = document.getElementById('startBtn');
+        const resetBtn = document.getElementById('resetBtn');
+        const statusIndicator = document.getElementById('statusIndicator');
+        
+        // Update displays
+        function updateDisplays() {
+            document.getElementById('freqValue').textContent = tmsFrequency.toFixed(1) + ' Hz';
+            document.getElementById('intensityValue').textContent = tmsIntensity + '%';
+            document.getElementById('intrinsicValue').textContent = intrinsicFreq.toFixed(1) + ' Hz';
+            document.getElementById('entrainmentLevel').textContent = Math.round(entrainment) + '%';
+            document.getElementById('legendEntrainment').textContent = Math.round(entrainment) + '%';
+            document.getElementById('entrainedFreq').textContent = currentFreq.toFixed(1) + ' Hz';
+            document.getElementById('timeElapsed').textContent = elapsedTime.toFixed(1) + 's';
+        }
+        
+        // Event listeners
+        tmsFreqSlider.addEventListener('input', (e) => {
+            tmsFrequency = parseFloat(e.target.value);
+            updateDisplays();
+        });
+        
+        intensitySlider.addEventListener('input', (e) => {
+            tmsIntensity = parseInt(e.target.value);
+            updateDisplays();
+        });
+        
+        intrinsicSlider.addEventListener('input', (e) => {
+            intrinsicFreq = parseFloat(e.target.value);
+            if (!isRunning) {
+                currentFreq = intrinsicFreq;
+            }
+            updateDisplays();
+        });
+        
+        startBtn.addEventListener('click', () => {
+            isRunning = !isRunning;
+            if (isRunning) {
+                startBtn.textContent = 'Stop Stimulation';
+                startBtn.classList.remove('btn-primary');
+                startBtn.classList.add('btn-secondary');
+                statusIndicator.textContent = 'Stimulation ACTIVE';
+                statusIndicator.classList.remove('status-inactive');
+                statusIndicator.classList.add('status-active');
+                startTime = Date.now() - (elapsedTime * 1000);
+                animate();
+            } else {
+                startBtn.textContent = 'Start Stimulation';
+                startBtn.classList.remove('btn-secondary');
+                startBtn.classList.add('btn-primary');
+                statusIndicator.textContent = 'Stimulation OFF';
+                statusIndicator.classList.remove('status-active');
+                statusIndicator.classList.add('status-inactive');
+                if (animationId) cancelAnimationFrame(animationId);
+            }
+        });
+        
+        resetBtn.addEventListener('click', () => {
+            isRunning = false;
+            startTime = 0;
+            elapsedTime = 0;
+            entrainment = 0;
+            currentFreq = intrinsicFreq;
+            startBtn.textContent = 'Start Stimulation';
+            startBtn.classList.remove('btn-secondary');
+            startBtn.classList.add('btn-primary');
+            statusIndicator.textContent = 'Stimulation OFF';
+            statusIndicator.classList.remove('status-active');
+            statusIndicator.classList.add('status-inactive');
+            if (animationId) cancelAnimationFrame(animationId);
+            updateDisplays();
+            drawVisualization(0);
+        });
+        
+        // Frequency band cards
+        document.querySelectorAll('.band-card').forEach(card => {
+            card.addEventListener('click', () => {
+                const freq = parseFloat(card.dataset.freq);
+                intrinsicSlider.value = freq;
+                intrinsicFreq = freq;
+                if (!isRunning) {
+                    currentFreq = intrinsicFreq;
+                }
+                updateDisplays();
+                
+                // Visual feedback
+                document.querySelectorAll('.band-card').forEach(c => c.classList.remove('active'));
+                card.classList.add('active');
+            });
+        });
+        
+        function drawVisualization(time) {
+            const width = mainCanvas.width;
+            const height = mainCanvas.height;
+            
+            ctx.clearRect(0, 0, width, height);
+            
+            // Background
+            ctx.fillStyle = '#fafafa';
+            ctx.fillRect(0, 0, width, height);
+            
+            // Center line
+            const centerY = height / 2;
+            ctx.strokeStyle = '#e0e0e0';
+            ctx.lineWidth = 1;
+            ctx.beginPath();
+            ctx.moveTo(0, centerY);
+            ctx.lineTo(width, centerY);
+            ctx.stroke();
+            
+            // Draw baseline oscillation (gray, thinner)
+            const amplitude = 100;
+            
+            ctx.beginPath();
+            ctx.strokeStyle = '#999';
+            ctx.lineWidth = 2;
+            ctx.setLineDash([5, 5]);
+            
+            for (let x = 0; x < width; x++) {
+                const t = (time - (width - x) * 0.01);
+                const y = centerY + amplitude * Math.sin(2 * Math.PI * intrinsicFreq * t);
+                if (x === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            }
+            ctx.stroke();
+            ctx.setLineDash([]);
+            
+            // Draw entrained oscillation (black, thicker)
+            ctx.beginPath();
+            ctx.strokeStyle = '#1a1a1a';
+            ctx.lineWidth = 3;
+            
+            for (let x = 0; x < width; x++) {
+                const t = (time - (width - x) * 0.01);
+                const y = centerY + amplitude * Math.sin(2 * Math.PI * currentFreq * t);
+                if (x === 0) {
+                    ctx.moveTo(x, y);
+                } else {
+                    ctx.lineTo(x, y);
+                }
+            }
+            ctx.stroke();
+            
+            // Draw TMS pulses overlaid
+            const pulseInterval = 1 / tmsFrequency;
+            const pulseHeight = (tmsIntensity / 100) * (height * 0.35);
+            
+            ctx.strokeStyle = '#e74c3c';
+            ctx.lineWidth = 3;
+            ctx.globalAlpha = 0.7;
+            
+            // Calculate how many pulses to show based on visible time window
+            const timeWindow = 8; // seconds visible on screen
+            const startPulseTime = Math.max(0, time - timeWindow);
+            const firstPulseIndex = Math.floor(startPulseTime / pulseInterval);
+            const lastPulseIndex = Math.ceil(time / pulseInterval);
+            
+            for (let i = firstPulseIndex; i <= lastPulseIndex; i++) {
+                const pulseTime = i * pulseInterval;
+                const x = width - (time - pulseTime) * 100;
+                
+                if (x > 0 && x < width) {
+                    // Draw pulse as a vertical line
+                    ctx.beginPath();
+                    ctx.moveTo(x, centerY - pulseHeight);
+                    ctx.lineTo(x, centerY + pulseHeight);
+                    ctx.stroke();
+                    
+                    // Add a small circle at the intersection points
+                    ctx.globalAlpha = 1;
+                    ctx.fillStyle = '#e74c3c';
+                    
+                    // Top intersection
+                    ctx.beginPath();
+                    ctx.arc(x, centerY - pulseHeight, 4, 0, 2 * Math.PI);
+                    ctx.fill();
+                    
+                    // Bottom intersection
+                    ctx.beginPath();
+                    ctx.arc(x, centerY + pulseHeight, 4, 0, 2 * Math.PI);
+                    ctx.fill();
+                    
+                    ctx.globalAlpha = 0.7;
+                }
+            }
+            
+            ctx.globalAlpha = 1;
+            
+            // Labels
+            ctx.fillStyle = '#666';
+            ctx.font = '13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+            ctx.fillText('Baseline: ' + intrinsicFreq.toFixed(1) + ' Hz', 10, 25);
+            
+            ctx.fillStyle = '#1a1a1a';
+            ctx.font = 'bold 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+            ctx.fillText('Entrained: ' + currentFreq.toFixed(1) + ' Hz', 10, 45);
+            
+            ctx.fillStyle = '#e74c3c';
+            ctx.font = '13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+            ctx.fillText('TMS: ' + tmsFrequency.toFixed(1) + ' Hz @ ' + tmsIntensity + '%', 10, 65);
+        }
+        
+        function animate() {
+            if (!isRunning) return;
+            
+            const now = Date.now();
+            elapsedTime = (now - startTime) / 1000;
+            
+            // Calculate frequency difference
+            const freqDiff = Math.abs(tmsFrequency - intrinsicFreq);
+            
+            // Entrainment builds over time when stimulation is active
+            // The rate depends on frequency match and intensity
+            let entrainmentRate;
+            
+            if (freqDiff < 0.2) {
+                // Perfect match - fast entrainment
+                entrainmentRate = (tmsIntensity / 100) * 15; // % per second
+            } else if (freqDiff < 0.5) {
+                // Good match - moderate entrainment
+                entrainmentRate = (tmsIntensity / 100) * 10;
+            } else if (freqDiff < 1.0) {
+                // Partial match - slow entrainment
+                entrainmentRate = (tmsIntensity / 100) * 5;
+            } else {
+                // Poor match - very slow or no entrainment
+                entrainmentRate = (tmsIntensity / 100) * 2;
+            }
+            
+            // Update entrainment (increases over time during stimulation)
+            const maxEntrainment = 100;
+            entrainment = Math.min(maxEntrainment, entrainment + entrainmentRate * (1/60)); // 60 fps
+            
+            // Update current frequency based on entrainment level
+            // The entrained frequency moves from intrinsic toward TMS frequency
+            const targetFreq = intrinsicFreq + (tmsFrequency - intrinsicFreq) * (entrainment / 100);
+            currentFreq += (targetFreq - currentFreq) * 0.1;
+            
+            updateDisplays();
+            drawVisualization(elapsedTime);
+            
+            animationId = requestAnimationFrame(animate);
+        }
+        
+        // Initial draw
+        updateDisplays();
+        drawVisualization(0);
+    </script>
+</body>
+</html>
