@@ -44,8 +44,8 @@ please send me an email at `cgonzalez@ugr.es`
 
 #### Related publications
 <div class="publications">
-  {% bibliography -f papers -q @*[key=völler_2025]*  %}
+  
+  {% bibliography --group_by none -f preprints -q @*[keywords=flare]* %}
 
-  {% bibliography -f preprints -q @*[key=Linde-Domingo2025.05.28.656283]* %}
-
+  {% bibliography --group_by none -f papers -q @*[keywords=flare]* %}
 </div>
