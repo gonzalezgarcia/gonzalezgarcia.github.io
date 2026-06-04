@@ -1,0 +1,20 @@
+# Teaching and open materials — edit this file manually.
+# Leave url blank if materials are not publicly available.
+
+- title: "Programming in Cognitive Neuroscience"
+  year: "2025–26"
+  audience: "Master's students"
+  description: "R, data analysis, reproducible workflows"
+  url: ""
+
+- title: "Introduction to fMRI Methods"
+  year: "2025"
+  audience: "Doctoral students"
+  description: "Scanner physics, BIDS, preprocessing"
+  url: ""
+
+- title: "Open Programming Book"
+  year: "ongoing"
+  audience: "Open access"
+  description: "Freely available course materials"
+  url: "https://github.com/wobc/programming_book"

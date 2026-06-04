@@ -1,0 +1,398 @@
+// _sass/open-science.scss
+// Editorial narrative design for the Open Science page.
+// Scoped entirely under body.open-science-page — zero bleed to other pages.
+
+// ── Palette ────────────────────────────────────────────────────────────────
+$os-accent:        #3d5a80;
+$os-accent-hover:  #2c4564;
+$os-accent-dk:     #7fa8c9;
+$os-accent-dk-hov: #9fc4df;
+
+// ── Page background ──────────────────────────────────────────────────────────
+body.open-science-page {
+  background-color: #f8f7f4;
+}
+
+// ── All content ───────────────────────────────────────────────────────────────
+.open-science-page .post {
+  font-family: 'DM Sans', sans-serif;
+
+  a:not(.btn) {
+    color: $os-accent;
+    text-decoration: none;
+    &:hover { color: $os-accent-hover; text-decoration: underline; }
+  }
+
+  // ── Hero ───────────────────────────────────────────────────────────────
+  .os-hero {
+    padding: 2rem 0 2.5rem;
+  }
+
+  .os-hero-headline {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 400;
+    line-height: 1.15;
+    margin-bottom: 1.1rem;
+  }
+
+  .os-hero-lede {
+    font-size: 0.95rem;
+    max-width: 42em;
+    opacity: 0.68;
+    margin: 0;
+    line-height: 1.6;
+  }
+
+  // ── Chapter scaffold ───────────────────────────────────────────────────
+  .os-chapter {
+    padding-top: 3rem;
+    margin-top: 1rem;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.12);
+  }
+
+  .os-chap-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .os-chap-num {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(64px, 12vw, 96px);
+    line-height: 0.85;
+    color: var(--global-text-color, #1a1a1a);
+    opacity: 0.12;
+    user-select: none;
+    flex-shrink: 0;
+  }
+
+  .os-chap-meta {
+    padding-bottom: 0.35rem;
+  }
+
+  .os-chap-label {
+    display: block;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: $os-accent;
+    margin-bottom: 0.2rem;
+  }
+
+  .os-chap-title {
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    color: inherit;
+  }
+
+  .os-micro {
+    font-size: 0.8rem;
+    opacity: 0.55;
+    margin-bottom: 1.25rem;
+    margin-top: -0.75rem;
+  }
+
+  // ── Stat trio — chapter 01 ─────────────────────────────────────────────
+  .os-stat-trio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem 3.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .os-big-stat {
+    display: flex;
+    flex-direction: column;
+
+    .stat-value {
+      font-family: 'DM Serif Display', serif;
+      font-size: clamp(2.25rem, 5vw, 3.5rem);
+      line-height: 1;
+      color: $os-accent;
+    }
+
+    .stat-label {
+      font-size: 0.65rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      opacity: 0.5;
+      margin-top: 0.25rem;
+    }
+  }
+
+  // ── Preregistration table — chapter 01 ────────────────────────────────
+  .os-prereg-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+
+    td {
+      padding: 0.65rem 0;
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+      vertical-align: top;
+    }
+
+    tr:first-child td { border-top: 0.5px solid rgba(0, 0, 0, 0.1); }
+
+    .prereg-title-cell { padding-right: 1rem; }
+
+    .prereg-title-link {
+      font-weight: 500;
+      font-size: 0.88rem;
+      color: inherit !important;
+      text-decoration: none !important;
+
+      &:hover {
+        color: $os-accent !important;
+        text-decoration: underline !important;
+      }
+    }
+
+    .prereg-desc {
+      display: block;
+      font-size: 0.76rem;
+      opacity: 0.55;
+      margin-top: 0.15rem;
+      line-height: 1.45;
+    }
+
+    .prereg-year-cell {
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+
+    .prereg-year-pill {
+      display: inline-block;
+      font-size: 0.66rem;
+      color: $os-accent;
+      background: transparent;
+      border: 0.5px solid $os-accent;
+      border-radius: 2rem;
+      padding: 0.12rem 0.5rem;
+      opacity: 0.75;
+    }
+  }
+
+  // ── Show-more button ───────────────────────────────────────────────────
+  .os-show-more {
+    background: none;
+    border: none;
+    color: $os-accent;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 0.82rem;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: rgba($os-accent, 0.4);
+
+    &:hover {
+      color: $os-accent-hover;
+      text-decoration-color: $os-accent-hover;
+    }
+  }
+
+  // ── Code grid — chapter 02 ─────────────────────────────────────────────
+  .os-code-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    margin-bottom: 1.25rem;
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .os-code-card {
+    padding: 1.1rem 1.25rem;
+    border: 0.5px solid rgba(0, 0, 0, 0.08);
+    background: var(--global-bg-color, #ffffff);
+
+    .code-name {
+      font-weight: 600;
+      font-size: 0.88rem;
+      margin-bottom: 0.3rem;
+
+      a {
+        color: inherit !important;
+        &:hover { color: $os-accent !important; }
+      }
+    }
+
+    .code-desc {
+      font-size: 0.77rem;
+      opacity: 0.6;
+      line-height: 1.45;
+      margin-bottom: 0.45rem;
+    }
+
+    .code-meta {
+      font-size: 0.67rem;
+      color: $os-accent;
+      opacity: 0.8;
+    }
+  }
+
+  // ── Link lines — chapter 02 footer ────────────────────────────────────
+  .os-link-line {
+    font-size: 0.84rem;
+    margin-bottom: 0.3rem;
+    a { color: $os-accent; }
+  }
+
+  // ── Teaching table — chapter 03 ────────────────────────────────────────
+  .os-teaching-table {
+    width: 100%;
+    border-collapse: collapse;
+
+    td {
+      padding: 0.65rem 0;
+      border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+      vertical-align: top;
+    }
+
+    tr:first-child td { border-top: 0.5px solid rgba(0, 0, 0, 0.1); }
+
+    .teach-year {
+      font-size: 0.76rem;
+      color: $os-accent;
+      white-space: nowrap;
+      padding-right: 1.5rem;
+      width: 5.5rem;
+      opacity: 0.85;
+    }
+
+    .teach-title {
+      font-weight: 500;
+      font-size: 0.88rem;
+    }
+
+    .teach-desc {
+      display: block;
+      font-size: 0.74rem;
+      opacity: 0.52;
+      margin-top: 0.12rem;
+    }
+
+    .teach-audience {
+      text-align: right;
+      font-size: 0.72rem;
+      opacity: 0.52;
+      padding-left: 1rem;
+      white-space: nowrap;
+
+      @media (max-width: 480px) {
+        display: none;
+      }
+    }
+  }
+
+  // ── Outreach grid — chapter 04 ─────────────────────────────────────────
+  .os-outreach-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.75rem;
+
+    &.os-single-col { grid-template-columns: 1fr; }
+
+    @media (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .os-outreach-card {
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    padding: 1rem 1.2rem;
+
+    .outreach-type {
+      font-size: 0.6rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: $os-accent;
+      display: block;
+      margin-bottom: 0.35rem;
+    }
+
+    .outreach-title {
+      font-weight: 500;
+      font-size: 0.88rem;
+      line-height: 1.35;
+      margin-bottom: 0.2rem;
+
+      a { color: inherit !important; &:hover { color: $os-accent !important; } }
+    }
+
+    .outreach-venue {
+      font-size: 0.74rem;
+      opacity: 0.52;
+    }
+  }
+
+  // ── Footer note ────────────────────────────────────────────────────────
+  .os-footer-note {
+    font-size: 0.73rem;
+    opacity: 0.45;
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.1);
+  }
+}
+
+// ── Dark mode ──────────────────────────────────────────────────────────────
+html[data-theme="dark"] {
+
+  body.open-science-page {
+    background-color: var(--global-bg-color);
+  }
+
+  .open-science-page .post {
+
+    a:not(.btn) {
+      color: $os-accent-dk;
+      &:hover { color: $os-accent-dk-hov; }
+    }
+
+    .os-chapter          { border-top-color: rgba(255, 255, 255, 0.1); }
+
+    .os-chap-label       { color: $os-accent-dk; }
+
+    .os-big-stat .stat-value { color: $os-accent-dk; }
+
+    .os-prereg-table {
+      td                 { border-color: rgba(255, 255, 255, 0.1); }
+      tr:first-child td  { border-color: rgba(255, 255, 255, 0.1); }
+      .prereg-year-pill  { color: $os-accent-dk; border-color: $os-accent-dk; }
+    }
+
+    .os-show-more        { color: $os-accent-dk; &:hover { color: $os-accent-dk-hov; } }
+
+    .os-code-grid        { border-color: rgba(255, 255, 255, 0.1); }
+    .os-code-card        {
+      border-color: rgba(255, 255, 255, 0.08);
+      background: var(--global-card-bg-color, #212529);
+      .code-meta         { color: $os-accent-dk; }
+    }
+
+    .os-link-line a      { color: $os-accent-dk; }
+
+    .os-teaching-table {
+      td                 { border-color: rgba(255, 255, 255, 0.1); }
+      tr:first-child td  { border-color: rgba(255, 255, 255, 0.1); }
+      .teach-year        { color: $os-accent-dk; }
+    }
+
+    .os-outreach-card {
+      border-color: rgba(255, 255, 255, 0.1);
+      .outreach-type     { color: $os-accent-dk; }
+    }
+
+    .os-footer-note      { border-top-color: rgba(255, 255, 255, 0.1); }
+  }
+}

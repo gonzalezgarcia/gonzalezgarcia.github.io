@@ -1,0 +1,274 @@
+# AsPredicted preregistrations — edit this file manually.
+# Add featured: true and a description to highlight an entry in the curated view.
+# The section is hidden on the page if this file is empty or all titles are blank.
+
+- title: "Free_Willy_InstrAct"
+  aspredicted_id: 267623
+  url: "https://aspredicted.org/ij8un5.pdf"
+  date: "2026-01"
+  featured: true
+  description: "How do novel task instructions get translated into action? This study tests a free-will framing of instructed action using a cueing paradigm."
+
+- title: "Free_Willy_CUEING_Flipper_November_2025"
+  aspredicted_id: 258526
+  url: "https://aspredicted.org/qy7k4u.pdf"
+  date: "2025-11"
+  featured: false
+  description: ""
+
+- title: "Prototypical Object Paradigm (POP)"
+  aspredicted_id: 250747
+  url: "https://aspredicted.org/vv7s-mm4b.pdf"
+  date: "2025-10"
+  featured: true
+  description: "Can typicality of visual objects be measured behaviourally at scale? This paradigm tests recognition speed as a proxy for prototypicality."
+
+- title: "PixPath Pilot Study"
+  aspredicted_id: 248251
+  url: "https://aspredicted.org/vzyz-cwb9.pdf"
+  date: "2025-09"
+  featured: false
+  description: ""
+
+- title: "24h-TRT experiment (TRT= Typicality Recognition Task)"
+  aspredicted_id: 240190
+  url: "https://aspredicted.org/rydn-rgx7.pdf"
+  date: "2025-07"
+  featured: false
+  description: ""
+
+- title: "Typicality Recognition Task (TRT)"
+  aspredicted_id: 238146
+  url: "https://aspredicted.org/s9sh-4bgh.pdf"
+  date: "2025-07"
+  featured: true
+  description: "A behavioural measure of object typicality: participants rapidly judge whether images are prototypical members of their category."
+
+- title: "EXO_CENTRAL_II_latcolor"
+  aspredicted_id: 233474
+  url: "https://aspredicted.org/ynj2-7csj.pdf"
+  date: "2025-06"
+  featured: false
+  description: ""
+
+- title: "IGNITE_Eyes: Eyetracking Study on Information Gain and Insight Experiences"
+  aspredicted_id: 232147
+  url: "https://aspredicted.org/v7s2-43wf.pdf"
+  date: "2025-06"
+  featured: true
+  description: "Does visual surprise drive perceptual insight? Eye-tracking study examining how information gain shapes the 'aha' moment during Mooney image recognition."
+
+- title: "OSPL_MemTraces_Behav"
+  aspredicted_id: 231378
+  url: "https://aspredicted.org/6rzf-ngvk.pdf"
+  date: "2025-06"
+  featured: false
+  description: ""
+
+- title: "EXOCENTRAL_II_color_voluntary"
+  aspredicted_id: 206728
+  url: "https://aspredicted.org/tvpg-jgys.pdf"
+  date: "2025-01"
+
+- title: "EXOCENTRAL_II_color_count"
+  aspredicted_id: 199841
+  url: "https://aspredicted.org/9h39-b2n6.pdf"
+  date: "2024-11"
+
+- title: "EXO_ET"
+  aspredicted_id: 195243
+  url: "https://aspredicted.org/9pyt-3hf2.pdf"
+  date: "2024-10"
+
+- title: "EXO_CENTRAL_II_fullcolor"
+  aspredicted_id: 194091
+  url: "https://aspredicted.org/46nc-9whr.pdf"
+  date: "2024-10"
+
+- title: "Memory from One-Shot Perceptual Learning - August, 2024"
+  aspredicted_id: 184939
+  url: "https://aspredicted.org/f3c3-pssc.pdf"
+  date: "2024-07"
+
+- title: "Drift Diffusion: Punishment Judgments"
+  aspredicted_id: 181652
+  url: "https://aspredicted.org/thrm-xj9c.pdf"
+  date: "2024-07"
+
+- title: "EXO_EEG_neutblock"
+  aspredicted_id: 176866
+  url: "https://aspredicted.org/4be5d.pdf"
+  date: "2024-05"
+
+- title: "Cross-task correlations: Stroop, Flanker and rules"
+  aspredicted_id: 172765
+  url: "https://aspredicted.org/fv5n-ywm4.pdf"
+  date: "2024-04"
+
+
+- title: "WM (3 items - central retrocue - validity: vol 87.5%, invol 33.3% - no mask)"
+  aspredicted_id: 168901
+  url: "https://aspredicted.org/ip7by.pdf"
+  date: "2024-04"
+
+- title: "IGNITE: Information Gain and Insight Experiences in Perception and Memory"
+  aspredicted_id: 167408
+  url: "https://aspredicted.org/jvf2-r328.pdf"
+  date: "2024-03"
+  featured: true
+  description: "Core preregistration for the IGNITE project: how does information gain (Bayesian surprise) relate to the subjective experience of perceptual insight?"
+
+- title: "WM (3 items - peripheral retrocue - validity: vol 87.5%, invol 33.3% - no mask)"
+  aspredicted_id: 165372
+  url: "https://aspredicted.org/8gn3f.pdf"
+  date: "2024-03"
+
+- title: "Effects of speed vs. accuracy instructions on rule violation judgments"
+  aspredicted_id: 156676
+  url: "https://aspredicted.org/wtb9-gyfg.pdf"
+  date: "2024-01"
+
+- title: "EXO_COLOR_SOA"
+  aspredicted_id: 155812
+  url: "https://aspredicted.org/2cr2n.pdf"
+  date: "2023-12"
+
+- title: "Proportion congruency effects on rule violation judgments"
+  aspredicted_id: 151592
+  url: "https://aspredicted.org/zi8qe.pdf"
+  date: "2023-11"
+
+- title: "EXO_CENTRAL_II_COLOR_250"
+  aspredicted_id: 149472
+  url: "https://aspredicted.org/m28kr.pdf"
+  date: "2023-11"
+
+- title: "WM (3 items - central retro-cues - validity: vol 87.5%, invol 33.3%)"
+  aspredicted_id: 147986
+  url: "https://aspredicted.org/kfmr-ftbd.pdf"
+  date: "2023-10"
+
+- title: "Drift Diffusion: Compliance Judgments"
+  aspredicted_id: 139874
+  url: "https://aspredicted.org/4jy82.pdf"
+  date: "2023-08"
+
+- title: "WM (3 items - peripheral retro-cues - validity: vol 87.5%, invol 33.3%)"
+  aspredicted_id: 136344
+  url: "https://aspredicted.org/tnqh-xtzb.pdf"
+  date: "2023-06"
+
+- title: "SEAWORK - EXO_EEG"
+  aspredicted_id: 133519
+  url: "https://aspredicted.org/yrb9-3dpt.pdf"
+  date: "2023-05"
+
+- title: "Subliminal"
+  aspredicted_id: 129784
+  url: "https://aspredicted.org/k2r7c.pdf"
+  date: "2023-04"
+
+- title: "EXO CENTRAL II_COLOR - SEAWORK"
+  aspredicted_id: 129143
+  url: "https://aspredicted.org/5vi77.pdf"
+  date: "2023-04"
+
+- title: "Drift Diffusion: Violation Judgments"
+  aspredicted_id: 128115
+  url: "https://aspredicted.org/mm6ny.pdf"
+  date: "2023-04"
+
+- title: "EXO_CENTRAL I - SeAWork"
+  aspredicted_id: 112420
+  url: "https://aspredicted.org/9ci56.pdf"
+  date: "2022-11"
+
+- title: "Working Memory and Selective Attention (peripheric retro-cues)"
+  aspredicted_id: 111811
+  url: "https://aspredicted.org/kn9c-r5gf.pdf"
+  date: "2022-11"
+
+- title: "EXO 03 - SEAWORK"
+  aspredicted_id: 107713
+  url: "https://aspredicted.org/eg7tc.pdf"
+  date: "2022-09"
+
+- title: "Working Memory and Selective Attention"
+  aspredicted_id: 102196
+  url: "https://aspredicted.org/rnmg-nsn4.pdf"
+  date: "2022-07"
+
+- title: "An Indirect Measure of the Disambiguation Effect of Mooney Images (Mooney_2)"
+  aspredicted_id: 97345
+  url: "https://aspredicted.org/8v3r-fkpc.pdf"
+  date: "2022-05"
+
+- title: "SeAWork - Exo 2"
+  aspredicted_id: 96424
+  url: "https://aspredicted.org/4ps5w.pdf"
+  date: "2022-05"
+
+- title: "Mooney_1, 2022"
+  aspredicted_id: 94466
+  url: "https://aspredicted.org/8xn8-4396.pdf"
+  date: "2022-04"
+
+- title: "SeAWork - Exo 1"
+  aspredicted_id: 82533
+  url: "https://aspredicted.org/k869-hksn.pdf"
+  date: "2021-12"
+
+- title: "Multiple demand coding fMRI experiment 2"
+  aspredicted_id: 74571
+  url: "https://aspredicted.org/cypt-8jj3.pdf"
+  date: "2021-09"
+
+- title: "InstrWM_Exp1"
+  aspredicted_id: 63314
+  url: "https://aspredicted.org/qe5mt.pdf"
+  date: "2021-04"
+
+- title: "Trust-IBR50/50"
+  aspredicted_id: 38528
+  url: "https://aspredicted.org/f3bs-9xtx.pdf"
+  date: "2020-04"
+
+- title: "SMP"
+  aspredicted_id: 34415
+  url: "https://aspredicted.org/5ydz-gwpn.pdf"
+  date: "2020-01"
+
+- title: "Theta oscillations in instruction implementation"
+  aspredicted_id: 29336
+  url: "https://aspredicted.org/kgt2-h5qw.pdf"
+  date: "2019-10"
+
+- title: "The influence of avatar trustworthiness on instruction-based reflexivity"
+  aspredicted_id: 29089
+  url: "https://aspredicted.org/yw6w4.pdf"
+  date: "2019-10"
+
+- title: "Oscar effect - study 2 - mirror"
+  aspredicted_id: 25559
+  url: "https://aspredicted.org/6gdz-26k4.pdf"
+  date: "2019-07"
+
+- title: "Oscar Effect, First Pilote online"
+  aspredicted_id: 23089
+  url: "https://aspredicted.org/yvgr-wtvg.pdf"
+  date: "2019-05"
+
+- title: "SMPriors"
+  aspredicted_id: 20196
+  url: "https://aspredicted.org/j7h7-xb29.pdf"
+  date: "2019-03"
+
+- title: "Trust - IBR"
+  aspredicted_id: 17536
+  url: "https://aspredicted.org/dtdh-dmqw.pdf"
+  date: "2018-12"
+
+- title: "Trust - IAT (October, 2018)"
+  aspredicted_id: 14862
+  url: "https://aspredicted.org/3tqd-4tyx.pdf"
+  date: "2018-10"

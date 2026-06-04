@@ -79,6 +79,10 @@ jobs:
           valueFile: "_config.yml"
           propertyPath: "giscus.repo"
           value: ${{ github.repository }}
+      - name: Fetch open-science stats 📊
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 _scripts/fetch_open_science_stats.py
       - name: Install and Build 🔧
         run: |
           pip3 install --upgrade jupyter

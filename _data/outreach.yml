@@ -1,0 +1,13 @@
+# Outreach activities — edit this file manually.
+# Types: talk | media | public_event | workshop
+# Audience: general | academic | mixed
+# Leave title blank to hide an entry; the section is hidden if no entries have a title.
+
+- title: ""
+  type: talk
+  description: ""
+  venue: ""
+  date: ""        # YYYY-MM
+  url: ""
+  audience: "academic"
+
