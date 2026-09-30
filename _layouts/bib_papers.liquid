@@ -1,0 +1,136 @@
+---
+---
+{%- assign max_authors_display = 8 -%}
+{%- assign authors = "" -%}
+{%- assign total_authors = entry.author_array | size -%}
+{%- for author in entry.author_array -%}
+  {%- if forloop.index > max_authors_display -%}
+    {%- break -%}
+  {%- endif -%}
+  {%- assign author_last = author.last | strip | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
+  {%- assign author_is_self = false -%}
+  {%- if site.scholar.last_name contains author_last and site.scholar.first_name contains author.first -%}
+    {%- assign author_is_self = true -%}
+  {%- endif -%}
+  {%- assign formatted_name = author.first | append: " " | append: author_last -%}
+  {%- if author_is_self -%}
+    {%- assign formatted_name = "<span class='self-author'>" | append: formatted_name | append: "</span>" -%}
+  {%- endif -%}
+  {%- if forloop.first -%}
+    {%- assign authors = formatted_name -%}
+  {%- elsif forloop.index == max_authors_display and total_authors > max_authors_display -%}
+    {%- assign authors = authors | append: ", " | append: formatted_name | append: ", et al." -%}
+  {%- elsif forloop.last -%}
+    {%- assign authors = authors | append: " and " | append: formatted_name -%}
+  {%- else -%}
+    {%- assign authors = authors | append: ", " | append: formatted_name -%}
+  {%- endif -%}
+{%- endfor -%}
+
+{%- assign proceedings = 'inproceedings,incollection' | split: ',' -%}
+{%- if entry.type == 'article' or entry.type == 'preprint' -%}
+  {%- assign venue = entry.journal -%}
+{%- elsif proceedings contains entry.type -%}
+  {%- assign venue = entry.booktitle -%}
+{%- else -%}
+  {%- assign venue = entry.journal | default: entry.booktitle -%}
+{%- endif -%}
+
+{%- assign topics_list = entry.topics | split: ", " -%}
+{%- assign topics_attr = "" -%}
+{%- for topic in topics_list -%}
+  {%- assign topics_attr = topics_attr | append: topic | append: "|" -%}
+{%- endfor -%}
+
+{%- assign is_award = false -%}
+{%- if entry.award and entry.award_name != 'preprint' -%}
+  {%- assign is_award = true -%}
+{%- endif -%}
+
+{%- assign pdf_url = "" -%}
+{%- if entry.pdf contains '://' -%}
+  {%- assign pdf_url = entry.pdf -%}
+{%- elsif entry.pdf -%}
+  {%- assign pdf_url = entry.pdf | prepend: '/assets/pdf/' | relative_url -%}
+{%- endif -%}
+
+<div
+  class="paper-card"
+  id="{{ entry.key }}"
+  data-year="{{ entry.year }}"
+  data-type="{{ entry.type }}"
+  data-featured="{% if entry.selected %}true{% else %}false{% endif %}"
+  data-award="{{ is_award }}"
+  data-topics="{{ topics_attr }}"
+  data-search="{{ entry.title | append: ' ' | append: authors | strip_html | append: ' ' | append: entry.abstract | append: ' ' | append: entry.topics | strip_newlines | escape }}"
+>
+  {% if topics_list.size > 0 %}
+    <div class="tags-row">
+      {% for topic in topics_list %}
+        {% assign topic_data = site.data.topics | where: "name", topic | first %}
+        <a href="#" class="topic-pill topic-{{ topic_data.color | default: 'grey' }}" data-topic-filter="{{ topic }}">{{ topic }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="paper-main">
+    <div class="paper-citation">
+      <span class="paper-title">{{ entry.title }}</span><br>
+      <span class="paper-authors">{{ authors }}</span><br>
+      <span class="paper-venue">
+        {% if venue %}<em>{{ venue }}</em>{% endif %}
+        ({{ entry.year }})
+        {% if entry.type == 'preprint' %}<span class="preprint-flag">preprint</span>{% endif %}
+        {% if is_award %}<span class="award-flag">{{ entry.award_name | default: "Awarded" }}</span>{% endif %}
+      </span>
+    </div>
+
+    <div class="paper-actions">
+      {% if entry.abstract %}
+        <button class="action-btn abstract-toggle" type="button" title="show/hide abstract">
+          <i class="fa-solid fa-align-left"></i><span class="action-label">Abstract</span>
+        </button>
+      {% endif %}
+      <button class="action-btn bibtex-toggle" type="button" title="cite this paper">
+        <i class="fa-solid fa-quote-left"></i><span class="action-label">Cite</span>
+      </button>
+      {% if pdf_url != "" %}
+        <a class="action-btn" href="{{ pdf_url }}" title="download pdf">
+          <i class="fa-solid fa-file-pdf"></i><span class="action-label">PDF</span>
+        </a>
+      {% endif %}
+      {% if entry.code %}
+        <a class="action-btn" href="{{ entry.code }}" title="code">
+          <i class="fa-solid fa-code"></i><span class="action-label">Code</span>
+        </a>
+      {% endif %}
+      {% if entry.website %}
+        <a class="action-btn" href="{{ entry.website }}" title="project website">
+          <i class="fa-solid fa-globe"></i><span class="action-label">Website</span>
+        </a>
+      {% endif %}
+      {% if entry.doi %}
+        <a class="action-btn" href="https://doi.org/{{ entry.doi | remove: 'https://doi.org/' }}" title="doi">
+          <i class="fa-solid fa-link"></i><span class="action-label">DOI</span>
+        </a>
+      {% elsif entry.html %}
+        <a class="action-btn" href="{{ entry.html }}" title="article page">
+          <i class="fa-solid fa-link"></i><span class="action-label">Link</span>
+        </a>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if entry.abstract %}
+    <div class="paper-abstract hidden">
+      <p>{{ entry.abstract }}</p>
+    </div>
+  {% endif %}
+
+  <div class="paper-bibtex hidden">
+    <pre class="bibtex-pre"><code>{{ entry.bibtex | hideCustomBibtex }}</code></pre>
+    <button class="copy-bibtex-btn" type="button">
+      <i class="fa-solid fa-clipboard"></i> <span class="copy-label">Copy to clipboard</span>
+    </button>
+  </div>
+</div>
