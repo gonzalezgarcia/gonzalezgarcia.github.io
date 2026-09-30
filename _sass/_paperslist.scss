@@ -156,6 +156,28 @@
     color: var(--global-highlight-color);
   }
 
+  // Subtle, filled (not just outlined) badge for FLARE-project papers -- deliberately
+  // distinct from the topic-pill palette above, since it's a single fixed project
+  // affiliation rather than one of the rotating topic colors. Links to /flare/.
+  .flare-flag {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.05rem 0.55rem;
+    border-radius: 999px;
+    background-color: var(--global-theme-color);
+    color: var(--global-bg-color);
+    opacity: 0.75;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 1;
+      text-decoration: none;
+      color: var(--global-bg-color);
+    }
+  }
+
   .paper-actions {
     display: flex;
     flex-wrap: wrap;
