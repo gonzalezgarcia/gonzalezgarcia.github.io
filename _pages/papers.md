@@ -1,9 +1,10 @@
 ---
 layout: page
 permalink: /papers/
-title: papers
+title: publications
 description: A searchable, filterable view of all publications and preprints.
-nav: false
+nav: true
+nav_order: 2
 ---
 
 <div class="papers-page">
