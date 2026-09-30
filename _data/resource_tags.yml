@@ -1,0 +1,14 @@
+# Topical tag taxonomy for the /resources/ page pills and filters.
+# This is independent of `type` in resource_types.yml (course/guide/dataset
+# category, used for grouping + the "Limit to" dropdown) -- these tags are
+# the topical/subject labels shown as colored pills on each card, same as
+# _data/topics.yml does for /papers/.
+# `color` must be one of: red, yellow, blue, green, purple, orange, grey (see _sass/_paperslist.scss)
+- name: "cogneuro"
+  color: green
+- name: "programming"
+  color: blue
+- name: "meta-science"
+  color: purple
+- name: "open science"
+  color: orange

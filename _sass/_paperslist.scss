@@ -235,3 +235,28 @@
     }
   }
 }
+
+// /resources/ page: unlike /papers/, entries aren't wrapped in jekyll-scholar's
+// ol.bibliography > li (which is what gives paper-card its spacing there), so
+// .paper-card needs its own border/spacing here.
+#resourceslist {
+  .paper-card {
+    margin-bottom: 1.25rem;
+    padding: 1rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+  }
+
+  // papers.md gets this collapse behavior for free from jekyll-scholar's
+  // ol.bibliography > li wrapper (see _base.scss's .publications rules); the
+  // resources cards aren't inside that structure, so it's redefined here.
+  .paper-bibtex.hidden {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.15s ease;
+  }
+
+  .paper-bibtex.hidden.open {
+    max-height: 100em;
+  }
+}

@@ -5,6 +5,7 @@ title: publications
 description:
 nav: true
 nav_order: 2
+show_title: false
 ---
 
 <div class="papers-page">

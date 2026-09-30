@@ -1,0 +1,76 @@
+{%- assign collaborator_names = "" -%}
+{%- for collab in include.entry.collaborators -%}
+  {%- assign collaborator_names = collaborator_names | append: collab.name | append: " " -%}
+{%- endfor -%}
+
+{%- assign tags_attr = "" -%}
+{%- for tag in include.entry.tags -%}
+  {%- assign tags_attr = tags_attr | append: tag | append: "|" -%}
+{%- endfor -%}
+
+{%- assign image_url = "" -%}
+{%- if include.entry.image contains '://' -%}
+  {%- assign image_url = include.entry.image -%}
+{%- elsif include.entry.image -%}
+  {%- assign image_url = include.entry.image | relative_url -%}
+{%- endif -%}
+
+<div
+  class="paper-card"
+  data-type="{{ include.entry.type }}"
+  data-topics="{{ tags_attr }}"
+  data-search="{{ include.entry.title | append: ' ' | append: include.entry.description | append: ' ' | append: collaborator_names | append: ' ' | append: include.entry.tags | append: ' ' | append: include.entry.type | strip_newlines | escape }}"
+>
+  {% if include.entry.tags.size > 0 %}
+    <div class="tags-row">
+      {% for tag in include.entry.tags %}
+        {% assign tag_data = site.data.resource_tags | where: "name", tag | first %}
+        <a href="#" class="topic-pill topic-{{ tag_data.color | default: 'grey' }}" data-topic-filter="{{ tag }}">{{ tag }}</a>
+      {% endfor %}
+    </div>
+  {% endif %}
+
+  <div class="paper-main">
+    <div class="paper-citation">
+      <span class="paper-title">{{ include.entry.title }}</span><br>
+      {% if include.entry.collaborators %}
+        <span class="paper-authors">with
+          {% for collab in include.entry.collaborators %}{% if collab.url %}<a href="{{ collab.url }}">{{ collab.name }}</a>{% else %}{{ collab.name }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}
+        </span><br>
+      {% endif %}
+      {% if include.entry.description %}
+        <span class="paper-venue">{{ include.entry.description }}</span>
+      {% endif %}
+    </div>
+
+    {% if image_url != "" %}
+      <img src="{{ image_url }}" alt="" style="width: 150px; margin-top: 0.4rem; border-radius: 6px;">
+    {% endif %}
+
+    <div class="paper-actions">
+      {% for link in include.entry.links %}
+        {%- assign link_url = link.url -%}
+        {%- unless link.url contains '://' -%}
+          {%- assign link_url = link.url | relative_url -%}
+        {%- endunless -%}
+        <a class="action-btn" href="{{ link_url }}" title="{{ link.label }}">
+          <i class="fa-solid {{ link.icon | default: 'fa-link' }}"></i><span class="action-label">{{ link.label }}</span>
+        </a>
+      {% endfor %}
+      {% if include.entry.citation %}
+        <button class="action-btn bibtex-toggle" type="button" title="cite this resource">
+          <i class="fa-solid fa-quote-left"></i><span class="action-label">Cite</span>
+        </button>
+      {% endif %}
+    </div>
+  </div>
+
+  {% if include.entry.citation %}
+    <div class="paper-bibtex hidden">
+      <pre class="bibtex-pre"><code>{{ include.entry.citation }}</code></pre>
+      <button class="copy-bibtex-btn" type="button">
+        <i class="fa-solid fa-clipboard"></i> <span class="copy-label">Copy to clipboard</span>
+      </button>
+    </div>
+  {% endif %}
+</div>

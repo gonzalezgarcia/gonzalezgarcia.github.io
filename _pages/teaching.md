@@ -1,11 +1,12 @@
 ---
 layout: page
-permalink: /resources/
-title: resources
+permalink: /resources-legacy/
+title: resources (legacy)
 description: 
-nav: true
+nav: false
 nav_order: 6
 toc: true
+show_title: false
 ---
 
 ###  Teaching

@@ -1,0 +1,77 @@
+# Structured entries for the /resources/ page (card list, filterable by type).
+# `type` must match a `name` in _data/resource_types.yml (category: course/guide/dataset).
+# `tags` is a list of topical labels, each matching a `name` in _data/resource_tags.yml
+# (same role as `topics` on /papers/) -- fill these in per entry.
+
+- title: "Cognitive Neuroscience [practicals] (2023/24 onwards)"
+  type: "Bachelor course"
+  tags: ["cogneuro", "book"]
+  collaborators:
+    - name: "Javier Ortiz-Tudela"
+      url: "https://ortiztudela.github.io//"
+  links:
+    - label: "Course book"
+      url: "https://ortiztudela.github.io/teaching/ncc-2425_book/index.html"
+      icon: "fa-book"
+    - label: "Podcasts repo"
+      url: "https://github.com/wobc/cogneuro/tree/main/podcasts"
+      icon: "fa-podcast"
+
+- title: "Methods in Cognitive Neuroscience (2023/24 onwards)"
+  type: "Master course"
+  tags: ["programming"]
+  links:
+    - label: "Course book"
+      url: "https://gonzalezgarcia.github.io/methods_book/"
+      icon: "fa-book"
+
+- title: "Preregistration in Cognitive Neuroscience"
+  type: "Master course"
+  tags: ["meta-science"]
+  links:
+    - label: "Slides"
+      url: "https://gonzalezgarcia.github.io/prereg_talk/"
+      icon: "fa-file"
+
+- title: "Programming in Psychological Science - A Practical Introduction"
+  type: "Guide"
+  tags: ["programming", "meta-science"]
+  links:
+    - label: "Read"
+      url: "https://wobc.github.io/programming_book/"
+      icon: "fa-book-open"
+
+- title: "Introduction to Markdown (in Spanish)"
+  type: "Guide"
+  tags: ["programming"]
+  links:
+    - label: "Read"
+      url: "/assets/html/rmarkdown.html"
+      icon: "fa-file-lines"
+
+- title: "Introduction to ggplot (in Spanish)"
+  type: "Guide"
+  tags: ["programming"]
+  links:
+    - label: "Read"
+      url: "/assets/html/ggplot.html"
+      icon: "fa-chart-bar"
+
+- title: "THINGS-Mooney database"
+  type: "Dataset & code"
+  tags: ["open science"]
+  description: >-
+    A set of "mooney-style" distorted images created from the original license-free THINGS-plus
+    images, plus a toolbox to create your own mooney-style images and subjective recognition scores
+    collected on a large sample of participants (n = 947).
+  image: "/assets/img/output.gif"
+  links:
+    - label: "Repository"
+      url: "https://github.com/wobc/things-mooney"
+      icon: "fa-code"
+    - label: "THINGS-plus images"
+      url: "https://osf.io/jum2f/"
+      icon: "fa-images"
+  citation: >-
+    Linde-Domingo, J.*, Ortiz-Tudela, J.*, Voeller, J., & González-García, C. (2024). THINGS-Mooney
+    database (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14040189 (* denotes equal contribution)
