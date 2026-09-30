@@ -56,10 +56,6 @@ document.addEventListener("DOMContentLoaded", function () {
         return card.dataset.type !== "preprint";
       case "preprints":
         return card.dataset.type === "preprint";
-      case "featured":
-        return card.dataset.featured === "true";
-      case "awards":
-        return card.dataset.award === "true";
       default:
         return true;
     }

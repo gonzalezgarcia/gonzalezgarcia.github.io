@@ -28,8 +28,6 @@ nav: false
         <option value="all" selected>Everything</option>
         <option value="published">Published</option>
         <option value="preprints">Pre-prints</option>
-        <option value="featured">Featured</option>
-        <option value="awards">Award-winning</option>
       </select>
     </div>
     <div class="papers-control papers-control-search">
@@ -44,7 +42,9 @@ nav: false
   </div>
 
   <div class="publications paperslist">
-    {% bibliography -f papers -f preprints -T bib_papers %}
+    <h2 class="bibliography">Preprints</h2>
+    {% bibliography -f preprints -T bib_papers --group_by none %}
+    {% bibliography -f papers -T bib_papers %}
   </div>
 </div>
 

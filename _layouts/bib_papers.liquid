@@ -59,8 +59,6 @@
   id="{{ entry.key }}"
   data-year="{{ entry.year }}"
   data-type="{{ entry.type }}"
-  data-featured="{% if entry.selected %}true{% else %}false{% endif %}"
-  data-award="{{ is_award }}"
   data-topics="{{ topics_attr }}"
   data-search="{{ entry.title | append: ' ' | append: authors | strip_html | append: ' ' | append: entry.abstract | append: ' ' | append: entry.topics | strip_newlines | escape }}"
 >
