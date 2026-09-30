@@ -19,10 +19,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (abstractBtn) {
       const card = abstractBtn.closest(".paper-card");
-      card.querySelector(".paper-abstract")?.classList.toggle("open");
+      const abstractEl = card.querySelector(".paper-abstract");
+      if (abstractEl) abstractEl.classList.toggle("open");
     } else if (bibtexBtn) {
       const card = bibtexBtn.closest(".paper-card");
-      card.querySelector(".paper-bibtex")?.classList.toggle("open");
+      const bibtexEl = card.querySelector(".paper-bibtex");
+      if (bibtexEl) bibtexEl.classList.toggle("open");
     } else if (copyBtn) {
       const pre = copyBtn.parentElement.querySelector(".bibtex-pre");
       const text = pre ? pre.innerText : "";
