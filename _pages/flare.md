@@ -47,9 +47,9 @@ please send me an email at `cgonzalez@ugr.es`
 <br>
 
 #### Related publications
-<div class="publications">
-  
-  {% bibliography --group_by none -f preprints -q @*[keywords=flare]* %}
-
-  {% bibliography --group_by none -f papers -q @*[keywords=flare]* %}
+<div class="publications paperslist">
+  {% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
+  {% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
 </div>
+
+<script src="{{ '/assets/js/paperslist.js' | relative_url | bust_file_cache }}"></script>

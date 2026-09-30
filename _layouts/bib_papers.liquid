@@ -80,6 +80,9 @@
         ({{ entry.year }})
         {% if entry.type == 'preprint' %}<span class="preprint-flag">preprint</span>{% endif %}
         {% if is_award %}<span class="award-flag">{{ entry.award_name | default: "Awarded" }}</span>{% endif %}
+        {% if entry.keywords contains 'flare' and page.url != '/flare/' %}
+          <a href="{{ '/flare/' | relative_url }}" class="flare-flag" title="Part of the FLARE project">FLARE</a>
+        {% endif %}
       </span>
     </div>
 
