@@ -23,6 +23,12 @@ the same conventions used when adding entries by hand:
 - `pdf` is filled in via Unpaywall when an open-access copy exists;
   otherwise it's left out and the entry is flagged in the run summary so a
   human can upload an author copy to assets/pdf/ and add the field by hand.
+- `topics` (the /papers/ page's tag pills) is auto-assigned via a keyword
+  match against title+abstract (see TOPIC_KEYWORDS below, kept in sync by
+  hand with _data/topics.yml's topic names). This is a rough heuristic, not
+  the nuanced read a human would give it -- every entry goes out in a PR
+  for review anyway, so it's fine if it's sometimes wrong or empty; an
+  empty match is flagged in the run summary.
 
 ORCID lists every work a researcher has ever touched, which is broader than
 what belongs in a curated personal bibliography (e.g. large consortium
@@ -56,6 +62,71 @@ SEEN_DOIS_FILE = os.path.join(os.path.dirname(__file__), "orcid_seen_dois.json")
 
 CONTACT_EMAIL = "cgonzalgarcia@gmail.com"
 USER_AGENT = f"gonzalezgarcia.github.io bibliography bot (mailto:{CONTACT_EMAIL})"
+
+# Keyword -> topic heuristic for auto-tagging new entries, kept in sync by hand
+# with the `name` values in _data/topics.yml (that file also carries the pill
+# color; this script only needs the matching logic). Matching is a simple
+# lowercase substring count over title+abstract, so it's approximate -- new
+# entries go through a PR either way, so a human reviews/corrects it before
+# it's ever live.
+TOPIC_KEYWORDS = {
+    "Cognitive Control": [
+        "cognitive control", "inhibition", "conflict monitoring", "conflict",
+        "task-set", "task set", "proactive control", "reactive control",
+        "interference",
+    ],
+    "Instructions & Task Implementation": [
+        "instruction", "instructed", "instructions", "proceduralization",
+        "proceduralize", "novel task", "verbal instruction",
+    ],
+    "Working Memory": [
+        "working memory", "retro-cue", "retro-cues", "short-term memory",
+        "maintenance of information",
+    ],
+    "Attention": [
+        "attention", "attentional", "exogenous", "endogenous",
+        "selective attention", "spatial cue", "spatial attention",
+    ],
+    "Visual Perception & Perceptual Learning": [
+        "perception", "perceptual", "visual perception", "ambiguity",
+        "ambiguous", "perceptual prior", "perceptual learning",
+        "visual ambiguity",
+    ],
+    "Decision-Making": [
+        "decision-making", "decision making", "choice", "drift-diffusion",
+        "diffusion model", "evidence accumulation", "decision process",
+    ],
+    "Consciousness & Metacognition": [
+        "consciousness", "conscious", "metacognition", "awareness",
+        "insight", "unconscious", "subjective experience", "free will",
+    ],
+    "Social Cognition": [
+        "social cognition", "social", "trust", "trustworthiness", "moral",
+        "interpersonal", "valence", "ultimatum",
+    ],
+    "Neuroimaging Methods & Meta-science": [
+        "fmri", "multivariate pattern", "mvpa", "decoding methods", "methodology",
+        "meta-analysis", "reproducibility", "replication", "searchlight",
+        "many teams", "statistical analysis", "analysis pipeline",
+    ],
+    "Memory": [
+        "episodic memory", "long-term memory", "engram", "memory trace",
+        "memory encoding", "memory retrieval", "memory transformation",
+        "memory consolidation", "recognition memory", "false memory",
+    ],
+}
+
+
+def classify_topics(text, max_topics=3):
+    text = (text or "").lower()
+    scored = []
+    for topic, keywords in TOPIC_KEYWORDS.items():
+        hits = sum(text.count(kw) for kw in keywords)
+        if hits:
+            scored.append((hits, topic))
+    scored.sort(key=lambda pair: pair[0], reverse=True)
+    return [topic for _, topic in scored[:max_topics]]
+
 
 PREPRINT_PUBLISHER = "Cold Spring Harbor Laboratory"
 PREPRINT_AWARD = (
@@ -277,6 +348,7 @@ PAPER_FIELD_ORDER = [
     "html",
     "pdf",
     "abstract",
+    "topics",
 ]
 
 PREPRINT_FIELD_ORDER = [
@@ -290,6 +362,7 @@ PREPRINT_FIELD_ORDER = [
     "url",
     "pdf",
     "journal",
+    "topics",
 ]
 
 
@@ -314,12 +387,17 @@ def build_paper_entry(doi, taken_keys, crossref_msg=None, fallback_abstract=None
     if abstract:
         fields["abstract"] = abstract
 
+    topics = classify_topics(f"{cr_fields.get('title', '')} {abstract}")
+    if topics:
+        fields["topics"] = ", ".join(topics)
+
     key = unique_key(cr_key, taken_keys)
     taken_keys.add(key)
     entry = format_entry("article", key, PAPER_FIELD_ORDER, fields)
     needs_pdf = not pdf_url
     needs_abstract = not abstract
-    return key, entry, needs_pdf, needs_abstract
+    needs_topics = not topics
+    return key, entry, needs_pdf, needs_abstract, needs_topics
 
 
 def build_preprint_entry(doi, taken_keys, details=None):
@@ -337,6 +415,8 @@ def build_preprint_entry(doi, taken_keys, details=None):
     else:
         url = f"https://www.biorxiv.org/content/10.1101/{doi_suffix}"
     pdf = url + ".full.pdf"
+    abstract = details.get("abstract", "")
+    topics = classify_topics(f"{title} {abstract}")
 
     fields = {
         "author": author,
@@ -345,11 +425,13 @@ def build_preprint_entry(doi, taken_keys, details=None):
         "year": (details.get("date") or "")[:4],
         "doi": doi,
         "publisher": PREPRINT_PUBLISHER,
-        "abstract": details.get("abstract", ""),
+        "abstract": abstract,
         "url": url,
         "pdf": pdf,
         "journal": "bioRxiv",
     }
+    if topics:
+        fields["topics"] = ", ".join(topics)
 
     first_author_surname = author.split(",")[0].split(" and ")[0]
     key = unique_key(
@@ -359,7 +441,7 @@ def build_preprint_entry(doi, taken_keys, details=None):
     entry = format_entry(
         "preprint", key, PREPRINT_FIELD_ORDER, fields, trailing_raw=PREPRINT_AWARD
     )
-    return key, entry
+    return key, entry, not topics
 
 
 def find_citekeys(content):
@@ -411,6 +493,7 @@ def _run(summarize):
     new_preprint_entries = []
     flagged_for_pdf = []
     flagged_for_abstract = []
+    flagged_for_topics = []
     flagged_for_review = []
 
     # 1. Migrate any tracked preprint that Crossref now links to a published version.
@@ -429,12 +512,14 @@ def _run(summarize):
         )
         if not result:
             continue
-        key, entry, needs_pdf, needs_abstract = result
+        key, entry, needs_pdf, needs_abstract, needs_topics = result
         new_paper_entries.append(entry)
         if needs_pdf:
             flagged_for_pdf.append(key)
         if needs_abstract:
             flagged_for_abstract.append(key)
+        if needs_topics:
+            flagged_for_topics.append(key)
         preprints_content = preprints_content.replace(entry_text, "")
         tracked_dois.add(published_doi)
 
@@ -471,12 +556,14 @@ def _run(summarize):
         if not result:
             flagged_for_review.append((doi, "could not fetch BibTeX"))
             continue
-        key, entry, needs_pdf, needs_abstract = result
+        key, entry, needs_pdf, needs_abstract, needs_topics = result
         new_paper_entries.append(entry)
         if needs_pdf:
             flagged_for_pdf.append(key)
         if needs_abstract:
             flagged_for_abstract.append(key)
+        if needs_topics:
+            flagged_for_topics.append(key)
         tracked_dois.add(doi)
         if preprint_sibling:
             seen_dois.add(preprint_sibling)
@@ -500,8 +587,10 @@ def _run(summarize):
         if not result:
             flagged_for_review.append((doi, "could not build preprint entry"))
             continue
-        key, entry = result
+        key, entry, needs_topics = result
         new_preprint_entries.append(entry)
+        if needs_topics:
+            flagged_for_topics.append(key)
         tracked_dois.add(doi)
 
     _write_if_changed(new_paper_entries, new_preprint_entries, papers_content, preprints_content)
@@ -525,6 +614,12 @@ def _run(summarize):
             "No abstract available from Crossref for: "
             + ", ".join(flagged_for_abstract)
             + " -- paste one in by hand."
+        )
+    if flagged_for_topics:
+        summarize(
+            "Could not confidently auto-tag a topic for: "
+            + ", ".join(flagged_for_topics)
+            + " -- add a `topics` field by hand (see _data/topics.yml for the list)."
         )
     if flagged_for_review:
         summarize("Needs manual review (not added automatically):")
