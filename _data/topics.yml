@@ -1,0 +1,22 @@
+# Topic taxonomy for the /papers/ page tag pills and filters.
+# `color` must be one of: red, yellow, blue, green, purple, orange (see _sass/_paperslist.scss)
+- name: "Cognitive Control"
+  color: red
+- name: "Instructions & Task Implementation"
+  color: yellow
+- name: "Working Memory"
+  color: blue
+- name: "Attention"
+  color: green
+- name: "Visual Perception & Perceptual Learning"
+  color: purple
+- name: "Decision-Making"
+  color: orange
+- name: "Consciousness & Metacognition"
+  color: red
+- name: "Social Cognition"
+  color: yellow
+- name: "Neuroimaging Methods & Meta-science"
+  color: blue
+- name: "Memory"
+  color: green
