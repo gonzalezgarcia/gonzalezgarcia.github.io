@@ -1,0 +1,329 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { loadPapers } from "../lib/bib.ts";
+
+const { papers, topicColors } = loadPapers();
+---
+
+<BaseLayout title="publications">
+  <p class="mb-2 text-sm" style="color: var(--color-text-light);">
+    The following is a list of papers and preprints. Use the controls below to sort, filter, or search
+    by title, author, abstract, or topic. Click a topic tag to filter by it; click "Cite" on any entry
+    to view and copy its BibTeX.
+  </p>
+  <p class="mb-6 text-sm" style="color: var(--color-text-light);">* denotes equal contribution</p>
+
+  <div class="mb-6 grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <label class="flex flex-col gap-1 text-sm">
+      <span style="color: var(--color-text-light);">Sort by</span>
+      <select
+        id="papers-sort"
+        class="rounded-md border px-2 py-1"
+        style="border-color: var(--color-divider); background-color: var(--color-bg); color: var(--color-text);"
+      >
+        <option value="year_desc" selected>Year</option>
+        <option value="year_asc">Year (reverse)</option>
+      </select>
+    </label>
+    <label class="flex flex-col gap-1 text-sm">
+      <span style="color: var(--color-text-light);">Limit to</span>
+      <select
+        id="papers-limit"
+        class="rounded-md border px-2 py-1"
+        style="border-color: var(--color-divider); background-color: var(--color-bg); color: var(--color-text);"
+      >
+        <option value="all" selected>Everything</option>
+        <option value="published">Published</option>
+        <option value="preprints">Pre-prints</option>
+      </select>
+    </label>
+    <label class="flex flex-col gap-1 text-sm">
+      <span style="color: var(--color-text-light);">Search</span>
+      <input
+        id="papers-search"
+        type="text"
+        placeholder="titles, authors, abstracts, topics"
+        autocomplete="off"
+        class="rounded-md border px-2 py-1"
+        style="border-color: var(--color-divider); background-color: var(--color-bg); color: var(--color-text);"
+      />
+    </label>
+  </div>
+
+  <div
+    id="papers-active-topic"
+    hidden
+    class="mb-4 text-sm"
+    style="color: var(--color-text-light);"
+  >
+    Filtered by topic: <strong class="active-topic-name"></strong>
+    <button type="button" class="clear-topic ml-2 text-xs underline" style="color: var(--color-theme);"
+      >&times; clear</button
+    >
+  </div>
+
+  <div id="paperslist" class="flex flex-col gap-6">
+    {papers.map((paper) => {
+      const search = [
+        paper.title,
+        paper.authors.map((a) => `${a.first} ${a.last}`).join(" "),
+        paper.abstract ?? "",
+        paper.topics.join(" "),
+      ]
+        .join(" ")
+        .toLowerCase();
+      const isAward = Boolean(paper.award) && paper.awardName !== "preprint";
+      const pdfUrl = paper.pdf
+        ? paper.pdf.includes("://")
+          ? paper.pdf
+          : `/pdf/${paper.pdf}`
+        : "";
+      const doiUrl = paper.doi ? `https://doi.org/${paper.doi.replace("https://doi.org/", "")}` : "";
+
+      return (
+        <article
+          class="paper-card rounded-lg border p-4"
+          style="border-color: var(--color-divider);"
+          data-year={paper.year}
+          data-type={paper.type}
+          data-topics={paper.topics.join("|")}
+          data-search={search}
+        >
+          {paper.topics.length > 0 && (
+            <div class="mb-2 flex flex-wrap gap-1.5">
+              {paper.topics.map((topic) => (
+                <button
+                  type="button"
+                  class={`topic-pill topic-${topicColors[topic] ?? "grey"} rounded-full px-2.5 py-0.5 text-xs font-semibold`}
+                  data-topic-filter={topic}
+                >
+                  {topic}
+                </button>
+              ))}
+            </div>
+          )}
+
+          <div class="flex flex-col gap-1">
+            <div class="font-bold">{paper.title}</div>
+            <div style="color: var(--color-text);">
+              {paper.authors.map((a, i) => (
+                <>
+                  {i > 0 && ", "}
+                  <span class={a.isSelf ? "underline decoration-dashed" : ""}>
+                    {a.first} {a.last}
+                  </span>
+                </>
+              ))}
+            </div>
+            <div class="text-[13px]" style="color: var(--color-text-light);">
+              {paper.venue && <em>{paper.venue}</em>} ({paper.year})
+              {paper.type === "preprint" && (
+                <span
+                  class="ml-2 inline-block rounded-full border px-2 py-0.5 text-[11px] font-semibold"
+                  style="border-color: var(--color-highlight); color: var(--color-highlight);"
+                >
+                  preprint
+                </span>
+              )}
+              {isAward && (
+                <span
+                  class="ml-2 inline-block rounded-full border px-2 py-0.5 text-[11px] font-semibold"
+                  style="border-color: var(--color-highlight); color: var(--color-highlight);"
+                >
+                  {paper.awardName || "Awarded"}
+                </span>
+              )}
+              {paper.isFlare && (
+                <a
+                  href="/flare/"
+                  title="Part of the FLARE project"
+                  class="ml-2 inline-block rounded-full px-2.5 py-0.5 text-[11px] font-semibold opacity-75 hover:opacity-100"
+                  style="background-color: var(--color-theme); color: var(--color-bg);"
+                >
+                  FLARE
+                </a>
+              )}
+            </div>
+
+            <div class="mt-1 flex flex-wrap gap-2">
+              {paper.abstract && (
+                <button
+                  type="button"
+                  class="abstract-toggle action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  style="border-color: var(--color-text); color: var(--color-text);"
+                >
+                  Abstract
+                </button>
+              )}
+              <button
+                type="button"
+                class="bibtex-toggle action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                style="border-color: var(--color-text); color: var(--color-text);"
+              >
+                Cite
+              </button>
+              {pdfUrl && (
+                <a
+                  href={pdfUrl}
+                  class="action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  style="border-color: var(--color-text); color: var(--color-text);"
+                >
+                  PDF
+                </a>
+              )}
+              {paper.code && (
+                <a
+                  href={paper.code}
+                  class="action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  style="border-color: var(--color-text); color: var(--color-text);"
+                >
+                  Code
+                </a>
+              )}
+              {paper.website && (
+                <a
+                  href={paper.website}
+                  class="action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  style="border-color: var(--color-text); color: var(--color-text);"
+                >
+                  Website
+                </a>
+              )}
+              {doiUrl ? (
+                <a
+                  href={doiUrl}
+                  class="action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                  style="border-color: var(--color-text); color: var(--color-text);"
+                >
+                  DOI
+                </a>
+              ) : (
+                paper.html && (
+                  <a
+                    href={paper.html}
+                    class="action-btn inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-xs"
+                    style="border-color: var(--color-text); color: var(--color-text);"
+                  >
+                    Link
+                  </a>
+                )
+              )}
+            </div>
+          </div>
+
+          {paper.abstract && (
+            <div class="paper-abstract mt-3 hidden text-sm leading-relaxed">
+              <p>{paper.abstract}</p>
+            </div>
+          )}
+
+          <div class="paper-bibtex mt-3 hidden">
+            <pre class="overflow-x-auto whitespace-pre-wrap text-xs">{paper.bibtex}</pre>
+            <button
+              type="button"
+              class="copy-bibtex-btn mt-2 rounded-md border px-3 py-1 text-xs"
+              style="border-color: var(--color-theme); color: var(--color-theme);"
+            >
+              Copy to clipboard
+            </button>
+          </div>
+        </article>
+      );
+    })}
+  </div>
+
+  <script>
+    const container = document.getElementById("paperslist");
+    if (container) {
+      const cards = Array.from(container.querySelectorAll<HTMLElement>(".paper-card"));
+      const searchInput = document.getElementById("papers-search") as HTMLInputElement | null;
+      const limitSelect = document.getElementById("papers-limit") as HTMLSelectElement | null;
+      const sortSelect = document.getElementById("papers-sort") as HTMLSelectElement | null;
+      const activeTopicBar = document.getElementById("papers-active-topic");
+      let activeTopic: string | null = null;
+
+      container.addEventListener("click", (e) => {
+        const target = e.target as HTMLElement;
+        const abstractBtn = target.closest(".abstract-toggle");
+        const bibtexBtn = target.closest(".bibtex-toggle");
+        const copyBtn = target.closest(".copy-bibtex-btn");
+        const topicPill = target.closest<HTMLElement>("[data-topic-filter]");
+
+        if (abstractBtn) {
+          abstractBtn.closest(".paper-card")?.querySelector(".paper-abstract")?.classList.toggle("hidden");
+        } else if (bibtexBtn) {
+          bibtexBtn.closest(".paper-card")?.querySelector(".paper-bibtex")?.classList.toggle("hidden");
+        } else if (copyBtn) {
+          const pre = copyBtn.parentElement?.querySelector("pre");
+          const text = pre?.textContent ?? "";
+          navigator.clipboard.writeText(text).then(() => {
+            const label = copyBtn.querySelector(".copy-label") ?? copyBtn;
+            const original = label.textContent;
+            label.textContent = "Copied!";
+            setTimeout(() => (label.textContent = original), 1500);
+          });
+        } else if (topicPill) {
+          const topic = topicPill.dataset.topicFilter ?? null;
+          activeTopic = activeTopic === topic ? null : topic;
+          applyFilters();
+        }
+      });
+
+      activeTopicBar?.addEventListener("click", (e) => {
+        if ((e.target as HTMLElement).closest(".clear-topic")) {
+          activeTopic = null;
+          applyFilters();
+        }
+      });
+
+      function matchesLimit(card: HTMLElement, limit: string) {
+        if (limit === "published") return card.dataset.type !== "preprint";
+        if (limit === "preprints") return card.dataset.type === "preprint";
+        return true;
+      }
+      function matchesTopic(card: HTMLElement) {
+        if (!activeTopic) return true;
+        return (card.dataset.topics ?? "").split("|").filter(Boolean).includes(activeTopic);
+      }
+      function matchesSearch(card: HTMLElement, term: string) {
+        if (!term) return true;
+        return (card.dataset.search ?? "").includes(term);
+      }
+
+      function applyFilters() {
+        const term = (searchInput?.value ?? "").trim().toLowerCase();
+        const limit = limitSelect?.value ?? "all";
+        for (const card of cards) {
+          const show = matchesLimit(card, limit) && matchesTopic(card) && matchesSearch(card, term);
+          card.classList.toggle("hidden", !show);
+        }
+        if (activeTopicBar) {
+          if (activeTopic) {
+            activeTopicBar.hidden = false;
+            const nameEl = activeTopicBar.querySelector(".active-topic-name");
+            if (nameEl) nameEl.textContent = activeTopic;
+          } else {
+            activeTopicBar.hidden = true;
+          }
+        }
+        for (const pill of container.querySelectorAll<HTMLElement>("[data-topic-filter]")) {
+          pill.classList.toggle("active", pill.dataset.topicFilter === activeTopic);
+        }
+      }
+
+      function applySort() {
+        const order = sortSelect?.value ?? "year_desc";
+        const sorted = [...cards].sort((a, b) => {
+          const ya = Number(a.dataset.year);
+          const yb = Number(b.dataset.year);
+          return order === "year_asc" ? ya - yb : yb - ya;
+        });
+        for (const card of sorted) container.appendChild(card);
+      }
+
+      searchInput?.addEventListener("input", applyFilters);
+      limitSelect?.addEventListener("change", applyFilters);
+      sortSelect?.addEventListener("change", applySort);
+    }
+  </script>
+</BaseLayout>

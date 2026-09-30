@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-text-light: #828282;
+  --color-theme: rgb(53, 120, 227);
+  --color-divider: rgba(157, 152, 152, 0.28);
+  --color-highlight: #b71c1c;
+}
+
+html[data-theme="dark"] {
+  --color-bg: #1c1c1d;
+  --color-text: #e8e8e8;
+  --color-text-light: #a8a8a8;
+  --color-theme: rgb(189, 74, 25);
+  --color-divider: rgba(165, 165, 169, 0.38);
+  --color-highlight: #ff6b6b;
+}
+
+@theme inline {
+  --color-bg: var(--color-bg);
+  --color-text: var(--color-text);
+  --color-text-light: var(--color-text-light);
+  --color-theme: var(--color-theme);
+  --color-divider: var(--color-divider);
+  --color-highlight: var(--color-highlight);
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* topic pill colors, ported from _sass/_paperslist.scss */
+.topic-red { background-color: #ffe1e1; color: #7a1f1f; }
+.topic-yellow { background-color: #fff3c4; color: #6b5300; }
+.topic-blue { background-color: #dbeaff; color: #10386b; }
+.topic-green { background-color: #dcf7e3; color: #14532d; }
+.topic-purple { background-color: #efdcff; color: #4a1d78; }
+.topic-orange { background-color: #ffe6cc; color: #7a3b00; }
+.topic-grey { background-color: #e9e9e9; color: #333333; }
