@@ -1,0 +1,41 @@
+name: Update bibliography
+
+on:
+  schedule:
+    - cron: "0 8 * * 1" # every Monday at 08:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-bibliography:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Check ORCID for new works 📚
+        env:
+          SUMMARY_FILE: ${{ runner.temp }}/summary.md
+        run: python3 _scripts/update_bibliography.py
+
+      - name: Open pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Update bibliography from ORCID"
+          title: "Update bibliography from ORCID"
+          body-path: ${{ runner.temp }}/summary.md
+          branch: update-bibliography
+          delete-branch: true
+          assignees: gonzalezgarcia
+          add-paths: |
+            _bibliography/papers.bib
+            _bibliography/preprints.bib
+            _scripts/orcid_seen_dois.json
