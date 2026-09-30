@@ -2,7 +2,7 @@
 layout: page
 permalink: /papers/
 title: publications
-description: A searchable, filterable view of all publications and preprints.
+description:
 nav: true
 nav_order: 2
 ---
