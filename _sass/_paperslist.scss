@@ -240,11 +240,16 @@
 // ol.bibliography > li (which is what gives paper-card its spacing there), so
 // .paper-card needs its own border/spacing here.
 #resourceslist {
+  h2.bibliography {
+    border-top: none;
+    text-align: left;
+  }
+
   .paper-card {
     margin-bottom: 1.25rem;
     padding: 1rem;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 8px;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.04);
   }
 
   // papers.md gets this collapse behavior for free from jekyll-scholar's

@@ -1,10 +1,10 @@
 # Type taxonomy for the /resources/ page tag pills and filters.
 # `color` must be one of: red, yellow, blue, green, purple, orange, grey (see _sass/_paperslist.scss)
-- name: "Bachelor course"
+- name: "Bachelor courses"
   color: blue
-- name: "Master course"
+- name: "Master courses"
   color: green
 - name: "Guide"
   color: purple
-- name: "Dataset & code"
+- name: "Datasets & code"
   color: orange

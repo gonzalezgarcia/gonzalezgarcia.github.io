@@ -4,8 +4,8 @@
 # (same role as `topics` on /papers/) -- fill these in per entry.
 
 - title: "Cognitive Neuroscience [practicals] (2023/24 onwards)"
-  type: "Bachelor course"
-  tags: ["cogneuro", "book"]
+  type: "Bachelor courses"
+  tags: ["cogneuro"]
   collaborators:
     - name: "Javier Ortiz-Tudela"
       url: "https://ortiztudela.github.io//"
@@ -18,7 +18,7 @@
       icon: "fa-podcast"
 
 - title: "Methods in Cognitive Neuroscience (2023/24 onwards)"
-  type: "Master course"
+  type: "Master courses"
   tags: ["programming"]
   links:
     - label: "Course book"
@@ -26,7 +26,7 @@
       icon: "fa-book"
 
 - title: "Preregistration in Cognitive Neuroscience"
-  type: "Master course"
+  type: "Master courses"
   tags: ["meta-science"]
   links:
     - label: "Slides"
@@ -34,7 +34,7 @@
       icon: "fa-file"
 
 - title: "Programming in Psychological Science - A Practical Introduction"
-  type: "Guide"
+  type: "Guides"
   tags: ["programming", "meta-science"]
   links:
     - label: "Read"
@@ -42,7 +42,7 @@
       icon: "fa-book-open"
 
 - title: "Introduction to Markdown (in Spanish)"
-  type: "Guide"
+  type: "Guides"
   tags: ["programming"]
   links:
     - label: "Read"
@@ -50,7 +50,7 @@
       icon: "fa-file-lines"
 
 - title: "Introduction to ggplot (in Spanish)"
-  type: "Guide"
+  type: "Guides"
   tags: ["programming"]
   links:
     - label: "Read"
@@ -58,7 +58,7 @@
       icon: "fa-chart-bar"
 
 - title: "THINGS-Mooney database"
-  type: "Dataset & code"
+  type: "Datasets & code"
   tags: ["open science"]
   description: >-
     A set of "mooney-style" distorted images created from the original license-free THINGS-plus
