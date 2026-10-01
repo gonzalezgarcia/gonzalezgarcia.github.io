@@ -241,6 +241,7 @@ exclude:
   - purgecss.config.js
   - README.md
   - readme_preview/
+  - redesign/
   - vendor
 keep_files:
   - CNAME
