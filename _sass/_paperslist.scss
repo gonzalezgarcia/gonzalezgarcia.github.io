@@ -67,11 +67,17 @@
   }
 
   ol.bibliography > li {
-    margin-bottom: 1.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .paper-card.filtered-out {
     display: none;
+  }
+
+  .paper-card {
+    padding: 1rem;
+    border-radius: 3px;
+    background-color: rgba(128, 128, 128, 0.04);
   }
 
   .tags-row {
@@ -247,9 +253,6 @@
 
   .paper-card {
     margin-bottom: 1.25rem;
-    padding: 1rem;
-    border-radius: 3px;
-    background-color: rgba(128, 128, 128, 0.04);
   }
 
   // papers.md gets this collapse behavior for free from jekyll-scholar's
