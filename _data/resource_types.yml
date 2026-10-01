@@ -4,7 +4,7 @@
   color: blue
 - name: "Master courses"
   color: green
-- name: "Guide"
+- name: "Guides"
   color: purple
 - name: "Datasets & code"
   color: orange
