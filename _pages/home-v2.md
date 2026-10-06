@@ -67,7 +67,7 @@ sitemap: false
 <section class="home-section" id="publications">
   <h2 class="home-heading">Selected publications</h2>
   <div class="publications">
-    {% bibliography -q "@*[selected=true]" -T bib_papers --group_by none %}
+    {% bibliography --query @*[selected=true]* -T bib_papers --group_by none %}
   </div>
   <div class="paper-actions home-more"><a class="action-btn" href="{{ '/papers/' | relative_url }}"><span class="action-label">All publications</span><i class="fa-solid fa-arrow-right"></i></a></div>
 </section>
