@@ -92,5 +92,5 @@ sitemap: false
       <p>Alongside research I write analysis software and open teaching materials, think about how to mentor well, and follow the debates where neuroscience, cognition and AI meet.</p>
     </div>
   </div>
-  <p class="home-positions">No open positions at the moment. To hear about future PhD or postdoc openings, write to <a href="mailto:{{ site.email | encode_email }}">{{ site.email | encode_email }}</a>.</p>
+  <p class="home-positions">No open positions at the moment. To hear about future PhD or postdoc openings, write to <a href="mailto:{{ site.email | encode_email }}">{{ site.email }}</a>.</p>
 </section>
