@@ -31,13 +31,14 @@
     }
   }
 
-  // original icon row (social.liquid), left-aligned instead of centred
+  // original icon row (social.liquid), tighter and centred in the text column
   .social {
     margin-top: 1rem;
-    text-align: left;
 
-    .contact-icons a {
-      margin-right: 0.75rem;
+    .contact-icons {
+      display: flex;
+      justify-content: center;
+      gap: 0.4rem;
     }
   }
 
@@ -73,20 +74,9 @@ html:not([data-theme="dark"]) body.site-rail {
     // progressBar.liquid (when enabled) sets an inline padding-top on <body>; ignore it
     padding-top: 0 !important;
 
-    // main column: leaves room for the rail and draws the light separator
+    // main column: leaves room for the rail
     .container.mt-5 {
-      position: relative;
       padding-left: 150px;
-
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 125px;
-        width: 1px;
-        background-color: var(--global-divider-color);
-      }
     }
 
     #navbar {
@@ -98,6 +88,17 @@ html:not([data-theme="dark"]) body.site-rail {
       border: none;
       background: none;
       box-shadow: none;
+
+      // light separator, exactly as tall as the rail
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 110px;
+        width: 1px;
+        background-color: var(--global-divider-color);
+      }
 
       .container {
         display: block;
