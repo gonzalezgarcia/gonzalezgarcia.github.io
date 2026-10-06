@@ -281,8 +281,16 @@ body.nav-buttons {
       padding: 0.3rem 0.8rem;
     }
 
+    // the global #light-toggle rule strips the border; restore the button look
     #light-toggle {
       padding: 0.3rem 0.6rem;
+      border: 1px solid var(--global-text-color);
+      border-radius: 6px;
+      line-height: 1;
+
+      &:hover {
+        border-color: var(--global-theme-color);
+      }
     }
   }
 
@@ -294,7 +302,8 @@ body.nav-buttons {
 // Vertical side rail (wide screens only; narrower screens keep the top bar)
 @media (min-width: 1100px) {
   body.nav-rail {
-    padding-top: 0;
+    // progressBar.liquid sets an inline padding-top equal to the navbar height
+    padding-top: 0 !important;
 
     #navbar {
       position: fixed;
