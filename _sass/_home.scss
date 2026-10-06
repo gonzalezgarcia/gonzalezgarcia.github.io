@@ -1,187 +1,4 @@
-// Styles for the draft landing page (/v2/). Reuses the .paperslist component
-// styles from _paperslist.scss (paper-card, topic-pill, action-btn, flare-flag)
-// and the --global-* tokens; only layout and the hero demo live here.
-
-.home-v2 {
-  text-align: left;
-
-  // the theme justifies <p> globally; the draft is left-aligned throughout
-  p,
-  .paper-card,
-  .paper-card * {
-    text-align: left;
-  }
-
-  h2.home-heading {
-    margin: 3rem 0 1rem;
-    font-size: 1.4rem;
-    text-align: left;
-    border: none;
-  }
-
-  .home-eyebrow {
-    margin: 0 0 0.5rem;
-    font-size: 0.75rem;
-    font-weight: 600;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--global-text-color-light);
-  }
-
-  .home-hero {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 260px);
-    gap: 2rem;
-    align-items: center;
-
-    @media (max-width: 767px) {
-      grid-template-columns: minmax(0, 1fr);
-      gap: 1.5rem;
-    }
-  }
-
-  h1.home-name {
-    margin: 0 0 0.75rem;
-    font-size: 2rem;
-    text-align: left;
-  }
-
-  .home-thesis {
-    margin: 0 0 1rem;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 1.3;
-  }
-
-  .home-role {
-    margin: 0 0 1rem;
-    color: var(--global-text-color-light);
-  }
-
-  // ---- Mooney demo ----
-  .home-demo {
-    margin: 0;
-
-    @media (max-width: 767px) {
-      max-width: 320px;
-    }
-  }
-
-  .home-demo-frame {
-    position: relative;
-    display: block;
-    width: 100%;
-    aspect-ratio: 1 / 1;
-    padding: 0;
-    border: 1px solid var(--global-divider-color);
-    border-radius: 6px;
-    background: none;
-    overflow: hidden;
-    cursor: pointer;
-
-    &:focus-visible {
-      outline: 2px solid var(--global-theme-color);
-      outline-offset: 2px;
-    }
-  }
-
-  .home-demo-img {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: opacity 0.4s ease;
-
-    @media (prefers-reduced-motion: reduce) {
-      transition: none;
-    }
-  }
-
-  .home-demo-photo {
-    opacity: 0;
-  }
-
-  .home-demo-frame.is-photo .home-demo-photo {
-    opacity: 1;
-  }
-
-  .home-demo-caption {
-    margin-top: 0.5rem;
-    min-height: 3.2em;
-    font-size: 0.9rem;
-    color: var(--global-text-color-light);
-  }
-
-  // ---- cards (reuse .paper-card; only spacing and non-interactive pills here) ----
-  .home-cards {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .topic-pill {
-    cursor: default;
-  }
-
-  .home-more {
-    margin-top: 1rem;
-  }
-
-  // Abstract/cite panels: _base.scss collapses these inside ol.bibliography li
-  // (justified); resource cards sit outside that, so collapse them here too,
-  // and keep the text left-aligned.
-  .paper-abstract.hidden,
-  .paper-bibtex.hidden {
-    max-height: 0;
-    overflow: hidden;
-    text-align: left;
-    transition: max-height 0.15s ease;
-
-    @media (prefers-reduced-motion: reduce) {
-      transition: none;
-    }
-  }
-
-  .paper-abstract.hidden.open,
-  .paper-bibtex.hidden.open {
-    max-height: 100em;
-  }
-
-  .paper-abstract p {
-    margin: 0.5rem 0 0;
-    font-size: 0.875rem;
-    line-height: 1.4em;
-  }
-
-  // ---- about ----
-  .home-about {
-    display: flex;
-    gap: 1.5rem;
-    align-items: flex-start;
-
-    @media (max-width: 479px) {
-      flex-direction: column;
-      gap: 1rem;
-    }
-  }
-
-  .home-about-pic {
-    flex: none;
-    width: 110px;
-    height: auto;
-    border-radius: 6px;
-  }
-
-  .home-about-text p:first-child {
-    margin-top: 0;
-  }
-
-  .home-positions {
-    margin-top: 1rem;
-    color: var(--global-text-color-light);
-  }
-}
+// Landing page layout (_layouts/about.liquid) and the site-wide side-rail look.
 
 // ---- simplified landing page (_layouts/about.liquid) ----
 .about-grid {
@@ -251,21 +68,32 @@ html:not([data-theme="dark"]) body.site-rail {
 }
 
 // Compact side rail, kept inside the 800px column (wide screens only; narrower
-// screens keep the top bar). The theme toggle floats at the top right instead.
+// screens keep the top bar). The theme toggle sits under the links.
 @media (min-width: 900px) {
   body.site-rail {
-    // progressBar.liquid sets an inline padding-top equal to the navbar height
-    padding-top: 0 !important;
+    padding-top: 0;
 
+    // main column: leaves room for the rail and draws the light separator
     .container.mt-5 {
+      position: relative;
       padding-left: 150px;
+
+      &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 125px;
+        width: 1px;
+        background-color: var(--global-divider-color);
+      }
     }
 
     #navbar {
       position: fixed;
       top: 3.2rem;
       left: calc(50% - 385px);
-      width: 120px;
+      width: 100px;
       padding: 0;
       border: none;
       background: none;
@@ -299,9 +127,7 @@ html:not([data-theme="dark"]) body.site-rail {
       }
 
       .toggle-container {
-        position: fixed;
-        top: 0.75rem;
-        right: calc(50% - 385px);
+        margin-top: 0.75rem;
       }
     }
   }
