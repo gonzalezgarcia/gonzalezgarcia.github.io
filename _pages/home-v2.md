@@ -33,3 +33,33 @@ sitemap: false
       data-after="Now you can't unsee it. That is one-shot perceptual learning, and it is what FLARE is about.">What is this?</figcaption>
   </figure>
 </section>
+
+<section class="home-section" id="work">
+  <h2 class="home-heading">What I work on</h2>
+  <div class="home-cards">
+    <div class="paper-card">
+      <div class="tags-row"><span class="topic-pill topic-purple">Visual Perception &amp; Perceptual Learning</span></div>
+      <div class="paper-main">
+        <span class="paper-title">One-shot perceptual learning</span>
+        <span class="paper-venue">A single disambiguating exposure can turn an unrecognisable image into an obvious one. What does the prior it leaves behind contain?</span>
+        <div class="paper-actions"><a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">About FLARE</span><i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+    </div>
+    <div class="paper-card">
+      <div class="tags-row"><span class="topic-pill topic-green">Memory</span></div>
+      <div class="paper-main">
+        <span class="paper-title">From insight to memory</span>
+        <span class="paper-venue">Moments of sudden understanding are encoded in seconds yet leave enduring traces. Which memory formats do they take, and what does the hippocampus add?</span>
+        <div class="paper-actions"><a class="action-btn" href="{{ '/papers/' | relative_url }}"><span class="action-label">Related papers</span><i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+    </div>
+    <div class="paper-card">
+      <div class="tags-row"><span class="topic-pill topic-yellow">Instructions &amp; Task Implementation</span></div>
+      <div class="paper-main">
+        <span class="paper-title">Novel instructions and control</span>
+        <span class="paper-venue">People can carry out a new task correctly on the first try. How does the brain turn a verbal instruction into an action-ready representation?</span>
+        <div class="paper-actions"><a class="action-btn" href="{{ '/papers/' | relative_url }}"><span class="action-label">Related papers</span><i class="fa-solid fa-arrow-right"></i></a></div>
+      </div>
+    </div>
+  </div>
+</section>
