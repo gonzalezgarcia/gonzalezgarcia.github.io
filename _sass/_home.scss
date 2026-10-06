@@ -116,4 +116,34 @@
   .topic-pill {
     cursor: default;
   }
+
+  .home-more {
+    margin-top: 1rem;
+  }
+
+  // Abstract/cite panels: _base.scss collapses these inside ol.bibliography li
+  // (justified); resource cards sit outside that, so collapse them here too,
+  // and keep the text left-aligned.
+  .paper-abstract.hidden,
+  .paper-bibtex.hidden {
+    max-height: 0;
+    overflow: hidden;
+    text-align: left;
+    transition: max-height 0.15s ease;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
+  }
+
+  .paper-abstract.hidden.open,
+  .paper-bibtex.hidden.open {
+    max-height: 100em;
+  }
+
+  .paper-abstract p {
+    margin: 0.5rem 0 0;
+    font-size: 0.875rem;
+    line-height: 1.4em;
+  }
 }

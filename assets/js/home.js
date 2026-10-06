@@ -47,4 +47,30 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     }
   }
+
+  // ---- paper/resource cards: Abstract, Cite and Copy (same behaviour as /papers/) ----
+  root.addEventListener("click", function (e) {
+    const abstractBtn = e.target.closest(".abstract-toggle");
+    const bibtexBtn = e.target.closest(".bibtex-toggle");
+    const copyBtn = e.target.closest(".copy-bibtex-btn");
+
+    if (abstractBtn) {
+      const el = abstractBtn.closest(".paper-card").querySelector(".paper-abstract");
+      if (el) el.classList.toggle("open");
+    } else if (bibtexBtn) {
+      const el = bibtexBtn.closest(".paper-card").querySelector(".paper-bibtex");
+      if (el) el.classList.toggle("open");
+    } else if (copyBtn) {
+      const pre = copyBtn.parentElement.querySelector(".bibtex-pre");
+      navigator.clipboard.writeText(pre ? pre.innerText : "").then(() => {
+        const label = copyBtn.querySelector(".copy-label");
+        const original = label.textContent;
+        label.textContent = "Copied!";
+        setTimeout(() => (label.textContent = original), 1500);
+      });
+    } else if (e.target.closest("[data-topic-filter]")) {
+      // topic pills filter on /papers/ and /resources/; here they are just labels
+      e.preventDefault();
+    }
+  });
 });
