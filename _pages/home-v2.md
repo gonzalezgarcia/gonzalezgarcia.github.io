@@ -71,3 +71,14 @@ sitemap: false
   </div>
   <div class="paper-actions home-more"><a class="action-btn" href="{{ '/papers/' | relative_url }}"><span class="action-label">All publications</span><i class="fa-solid fa-arrow-right"></i></a></div>
 </section>
+
+<section class="home-section" id="materials">
+  <h2 class="home-heading">Open materials</h2>
+  <div class="home-cards">
+    {% assign featured_resources = site.data.resources | where: "featured", true %}
+    {% for resource in featured_resources %}
+      {% include resource_card.liquid entry=resource %}
+    {% endfor %}
+  </div>
+  <div class="paper-actions home-more"><a class="action-btn" href="{{ '/resources/' | relative_url }}"><span class="action-label">All resources</span><i class="fa-solid fa-arrow-right"></i></a></div>
+</section>
