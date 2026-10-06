@@ -31,14 +31,13 @@
     }
   }
 
-  .about-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.4rem;
-    margin-top: 1.25rem;
+  // original icon row (social.liquid), left-aligned instead of centred
+  .social {
+    margin-top: 1rem;
+    text-align: left;
 
-    .action-btn {
-      @include action-btn;
+    .contact-icons a {
+      margin-right: 0.75rem;
     }
   }
 
@@ -71,7 +70,8 @@ html:not([data-theme="dark"]) body.site-rail {
 // screens keep the top bar). The theme toggle sits under the links.
 @media (min-width: 900px) {
   body.site-rail {
-    padding-top: 0;
+    // progressBar.liquid (when enabled) sets an inline padding-top on <body>; ignore it
+    padding-top: 0 !important;
 
     // main column: leaves room for the rail and draws the light separator
     .container.mt-5 {

@@ -17,13 +17,8 @@ layout: default
         <div class="about-body">{{ content }}</div>
 
         {% if page.social %}
-          <div class="about-links">
-            <a class="action-btn" href="mailto:{{ site.email | encode_email }}"><i class="fa-solid fa-envelope"></i><span class="action-label">Email</span></a>
-            <a class="action-btn" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i><span class="action-label">Google Scholar</span></a>
-            <a class="action-btn" href="https://orcid.org/{{ site.orcid_id }}"><i class="ai ai-orcid"></i><span class="action-label">ORCID</span></a>
-            <a class="action-btn" href="https://osf.io/{{ site.osf_id }}/"><i class="ai ai-osf"></i><span class="action-label">OSF</span></a>
-            <a class="action-btn" href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i><span class="action-label">GitHub</span></a>
-            <a class="action-btn" href="https://bsky.app/profile/{{ site.bluesky_url }}"><i class="fa-brands fa-bluesky"></i><span class="action-label">Bluesky</span></a>
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
           </div>
         {% endif %}
       </div>
