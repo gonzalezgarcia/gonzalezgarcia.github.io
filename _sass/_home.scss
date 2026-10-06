@@ -197,6 +197,7 @@
 
   .post-title {
     margin-top: 0;
+    font-size: 1.6rem;
   }
 
   .about-role {
@@ -240,7 +241,7 @@ body.sticky-bottom-footer {
 // ---- comparison drafts (/compare/*): remove once a direction is chosen ----
 
 // Font: system UI stack, like todd.gureckislab.org (Inter if installed, else the OS font)
-$font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$font-system: system-ui, sans-serif;
 
 body.font-a {
   font-family: $font-system;
