@@ -127,7 +127,18 @@ html:not([data-theme="dark"]) body.site-rail {
       }
 
       .toggle-container {
-        margin-top: 0.75rem;
+        margin-top: 0.5rem;
+
+        // the theme pads these icons to sit in the top bar; align with the links here
+        #light-toggle {
+          padding: 0;
+        }
+
+        #light-toggle-system,
+        #light-toggle-dark,
+        #light-toggle-light {
+          padding: 0;
+        }
       }
     }
   }
