@@ -82,3 +82,15 @@ sitemap: false
   </div>
   <div class="paper-actions home-more"><a class="action-btn" href="{{ '/resources/' | relative_url }}"><span class="action-label">All resources</span><i class="fa-solid fa-arrow-right"></i></a></div>
 </section>
+
+<section class="home-section" id="about">
+  <h2 class="home-heading">About</h2>
+  <div class="home-about">
+    <img class="home-about-pic" src="{{ '/assets/img/pic2026_small.png' | relative_url }}" alt="Portrait of Carlos González-García" width="110" height="145" loading="lazy">
+    <div class="home-about-text">
+      <p>I trained in the Human Neuroscience Lab in Granada, with Marcel Brass in Ghent and with Biyu He at NYU. What I took from those labs is a way of working: rigorous experimental control and advanced neuroimaging, aimed at useful, tractable theories of cognition.</p>
+      <p>Alongside research I write analysis software and open teaching materials, think about how to mentor well, and follow the debates where neuroscience, cognition and AI meet.</p>
+    </div>
+  </div>
+  <p class="home-positions">No open positions at the moment. To hear about future PhD or postdoc openings, write to <a href="mailto:{{ site.email | encode_email }}">{{ site.email | encode_email }}</a>.</p>
+</section>

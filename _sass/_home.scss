@@ -146,4 +146,32 @@
     font-size: 0.875rem;
     line-height: 1.4em;
   }
+
+  // ---- about ----
+  .home-about {
+    display: flex;
+    gap: 1.5rem;
+    align-items: flex-start;
+
+    @media (max-width: 479px) {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  .home-about-pic {
+    flex: none;
+    width: 110px;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .home-about-text p:first-child {
+    margin-top: 0;
+  }
+
+  .home-positions {
+    margin-top: 1rem;
+    color: var(--global-text-color-light);
+  }
 }
