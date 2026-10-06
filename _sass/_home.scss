@@ -238,58 +238,22 @@ body.sticky-bottom-footer {
   padding-bottom: 3rem;
 }
 
-// ---- comparison drafts (/compare/*): remove once a direction is chosen ----
+// ---- site-wide look (body.site-rail is set in _layouts/default.liquid) ----
 
-// Font: system UI stack, like todd.gureckislab.org (Inter if installed, else the OS font)
-$font-system: system-ui, sans-serif;
-
-body.font-a {
-  font-family: $font-system;
+// System UI font, like the reference site; softer text colour in light mode only
+// (dark mode keeps its own light text).
+body.site-rail {
+  font-family: system-ui, sans-serif;
 }
 
-// Softer text colour (light mode only; dark mode keeps its own light text)
-html:not([data-theme="dark"]) body.font-a {
+html:not([data-theme="dark"]) body.site-rail {
   --global-text-color: #3c3c43;
-}
-
-// Navigation as buttons under the paragraph: hide the top bar
-body.nav-buttons {
-  padding-top: 0;
-
-  header {
-    display: none;
-  }
-
-  .about-nav {
-    margin-top: 1.5rem;
-
-    .action-btn {
-      font-size: 0.9rem;
-      padding: 0.3rem 0.8rem;
-    }
-
-    // the global #light-toggle rule strips the border; restore the button look
-    #light-toggle {
-      padding: 0.3rem 0.6rem;
-      border: 1px solid var(--global-text-color);
-      border-radius: 6px;
-      line-height: 1;
-
-      &:hover {
-        border-color: var(--global-theme-color);
-      }
-    }
-  }
-
-  .about-nav + .about-links {
-    margin-top: 0.5rem;
-  }
 }
 
 // Compact side rail, kept inside the 800px column (wide screens only; narrower
 // screens keep the top bar). The theme toggle floats at the top right instead.
 @media (min-width: 900px) {
-  body.nav-rail {
+  body.site-rail {
     // progressBar.liquid sets an inline padding-top equal to the navbar height
     padding-top: 0 !important;
 

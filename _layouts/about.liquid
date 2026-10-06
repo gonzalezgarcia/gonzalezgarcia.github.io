@@ -16,22 +16,6 @@ layout: default
 
         <div class="about-body">{{ content }}</div>
 
-        {% if page.nav_variant == 'buttons' %}
-          <nav class="about-links about-nav" aria-label="Site">
-            <a class="action-btn" href="{{ '/' | relative_url }}"><span class="action-label">About</span></a>
-            <a class="action-btn" href="{{ '/papers/' | relative_url }}"><span class="action-label">Publications</span></a>
-            <a class="action-btn" href="{{ '/resources/' | relative_url }}"><span class="action-label">Resources</span></a>
-            <a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">FLARE</span></a>
-            {% if site.enable_darkmode %}
-              <button id="light-toggle" class="action-btn" type="button" title="Change theme">
-                <i class="ti ti-sun-moon" id="light-toggle-system"></i>
-                <i class="ti ti-moon-filled" id="light-toggle-dark"></i>
-                <i class="ti ti-sun-filled" id="light-toggle-light"></i>
-              </button>
-            {% endif %}
-          </nav>
-        {% endif %}
-
         {% if page.social %}
           <div class="about-links">
             <a class="action-btn" href="mailto:{{ site.email | encode_email }}"><i class="fa-solid fa-envelope"></i><span class="action-label">Email</span></a>
