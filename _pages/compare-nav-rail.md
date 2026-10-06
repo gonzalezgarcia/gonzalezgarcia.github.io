@@ -2,7 +2,7 @@
 layout: about
 title: compare nav rail
 permalink: /compare/nav-rail/
-body_class: nav-rail
+body_class: nav-rail font-a
 profile:
   image: pic2026_400.webp
   alt: Portrait of Carlos González-García

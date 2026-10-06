@@ -239,30 +239,11 @@ body.sticky-bottom-footer {
 
 // ---- comparison drafts (/compare/*): remove once a direction is chosen ----
 
-// Fonts
+// Font: system UI stack, like todd.gureckislab.org (Inter if installed, else the OS font)
 $font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
-$font-serif: Charter, "Iowan Old Style", Georgia, serif;
 
 body.font-a {
   font-family: $font-system;
-}
-
-body.font-b {
-  font-family: $font-system;
-
-  .post-title,
-  .about-role {
-    font-family: $font-serif;
-  }
-}
-
-body.font-c {
-  font-family: "Inter", sans-serif;
-
-  .post-title {
-    font-family: "Newsreader", serif;
-    font-size: 2.4rem;
-  }
 }
 
 // Navigation as buttons under the paragraph: hide the top bar
@@ -299,31 +280,31 @@ body.nav-buttons {
   }
 }
 
-// Vertical side rail (wide screens only; narrower screens keep the top bar)
-@media (min-width: 1100px) {
+// Compact side rail, kept inside the 800px column (wide screens only; narrower
+// screens keep the top bar). The theme toggle floats at the top right instead.
+@media (min-width: 900px) {
   body.nav-rail {
     // progressBar.liquid sets an inline padding-top equal to the navbar height
     padding-top: 0 !important;
 
+    .container.mt-5 {
+      padding-left: 150px;
+    }
+
     #navbar {
       position: fixed;
-      top: 0;
-      bottom: 0;
-      left: 0;
-      width: 170px;
-      height: 100vh;
-      border-right: 1px solid var(--global-divider-color);
-      border-bottom: none;
-      background-color: var(--global-bg-color);
-      align-items: flex-start;
+      top: 3.2rem;
+      left: calc(50% - 385px);
+      width: 120px;
+      padding: 0;
+      border: none;
+      background: none;
+      box-shadow: none;
 
       .container {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        display: block;
         max-width: none;
-        padding: 3.5rem 1.25rem 2rem;
+        padding: 0;
       }
 
       .navbar-brand,
@@ -340,15 +321,17 @@ body.nav-buttons {
         flex-direction: column;
         align-items: flex-start;
         margin: 0 !important;
-        gap: 0.25rem;
       }
 
       .nav-link {
-        padding-left: 0;
+        padding: 0.2rem 0;
+        font-size: 0.95rem;
       }
 
       .toggle-container {
-        margin-top: 0.75rem;
+        position: fixed;
+        top: 0.75rem;
+        right: calc(50% - 385px);
       }
     }
   }
