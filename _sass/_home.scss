@@ -69,7 +69,7 @@ html:not([data-theme="dark"]) body.site-rail {
 
 // Compact side rail, kept inside the 800px column (wide screens only; narrower
 // screens keep the top bar). The theme toggle sits under the links.
-@media (min-width: 900px) {
+@media (min-width: 992px) {
   body.site-rail {
     // progressBar.liquid (when enabled) sets an inline padding-top on <body>; ignore it
     padding-top: 0 !important;
