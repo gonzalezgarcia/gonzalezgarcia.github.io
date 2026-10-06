@@ -182,3 +182,51 @@
     color: var(--global-text-color-light);
   }
 }
+
+// ---- simplified landing page (_layouts/about.liquid) ----
+.about-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 200px;
+  gap: 2rem;
+  align-items: start;
+
+  @media (max-width: 767px) {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .post-title {
+    margin-top: 0;
+  }
+
+  .about-role {
+    margin: 0 0 1.25rem;
+    color: var(--global-text-color-light);
+  }
+
+  .about-body {
+    max-width: 62ch;
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .about-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 1.25rem;
+
+    .action-btn {
+      @include action-btn;
+    }
+  }
+
+  .about-portrait {
+    width: 200px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+}

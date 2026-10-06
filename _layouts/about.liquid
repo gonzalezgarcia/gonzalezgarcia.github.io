@@ -2,46 +2,37 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h2 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h2>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+            {{ site.last_name }}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {{ site.title }}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
-        {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+        </h2>
+        <p class="about-role">Ramón y Cajal fellow · CIMCYC, University of Granada</p>
+
+        <div class="about-body">{{ content }}</div>
+
+        {% if page.social %}
+          <div class="about-links">
+            <a class="action-btn" href="mailto:{{ site.email | encode_email }}"><i class="fa-solid fa-envelope"></i><span class="action-label">Email</span></a>
+            <a class="action-btn" href="https://scholar.google.com/citations?user={{ site.scholar_userid }}"><i class="ai ai-google-scholar"></i><span class="action-label">Google Scholar</span></a>
+            <a class="action-btn" href="https://orcid.org/{{ site.orcid_id }}"><i class="ai ai-orcid"></i><span class="action-label">ORCID</span></a>
+            <a class="action-btn" href="https://osf.io/{{ site.osf_id }}/"><i class="ai ai-osf"></i><span class="action-label">OSF</span></a>
+            <a class="action-btn" href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i><span class="action-label">GitHub</span></a>
+            <a class="action-btn" href="https://bsky.app/profile/{{ site.bluesky_url }}"><i class="fa-brands fa-bluesky"></i><span class="action-label">Bluesky</span></a>
+          </div>
         {% endif %}
       </div>
-    {% endif %}
 
-    <div class="clearfix" p {
-  text-align: justify;
-}>
-{{ content }}</div>
+      {% if page.profile.image %}
+        <img class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263">
+      {% endif %}
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -65,15 +56,6 @@ layout: default
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
-    {% endif %}
-
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
     {% endif %}
 
     {% if site.newsletter.enabled and site.footer_fixed %}
