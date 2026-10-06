@@ -236,3 +236,110 @@
 body.sticky-bottom-footer {
   padding-bottom: 3rem;
 }
+
+// ---- comparison drafts (/compare/*): remove once a direction is chosen ----
+
+// Fonts
+$font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$font-serif: Charter, "Iowan Old Style", Georgia, serif;
+
+body.font-a {
+  font-family: $font-system;
+}
+
+body.font-b {
+  font-family: $font-system;
+
+  .post-title,
+  .about-role {
+    font-family: $font-serif;
+  }
+}
+
+body.font-c {
+  font-family: "Inter", sans-serif;
+
+  .post-title {
+    font-family: "Newsreader", serif;
+    font-size: 2.4rem;
+  }
+}
+
+// Navigation as buttons under the paragraph: hide the top bar
+body.nav-buttons {
+  padding-top: 0;
+
+  header {
+    display: none;
+  }
+
+  .about-nav {
+    margin-top: 1.5rem;
+
+    .action-btn {
+      font-size: 0.9rem;
+      padding: 0.3rem 0.8rem;
+    }
+
+    #light-toggle {
+      padding: 0.3rem 0.6rem;
+    }
+  }
+
+  .about-nav + .about-links {
+    margin-top: 0.5rem;
+  }
+}
+
+// Vertical side rail (wide screens only; narrower screens keep the top bar)
+@media (min-width: 1100px) {
+  body.nav-rail {
+    padding-top: 0;
+
+    #navbar {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      width: 170px;
+      height: 100vh;
+      border-right: 1px solid var(--global-divider-color);
+      border-bottom: none;
+      background-color: var(--global-bg-color);
+
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        max-width: none;
+        padding: 6.5rem 1.25rem 2rem;
+      }
+
+      .navbar-brand,
+      .navbar-toggler {
+        display: none;
+      }
+
+      .navbar-collapse {
+        display: block !important;
+        text-align: left !important;
+      }
+
+      .navbar-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 !important;
+        gap: 0.25rem;
+      }
+
+      .nav-link {
+        padding-left: 0;
+      }
+
+      .toggle-container {
+        margin-top: 0.75rem;
+      }
+    }
+  }
+}
