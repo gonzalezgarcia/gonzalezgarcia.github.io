@@ -231,3 +231,8 @@
     border-radius: 6px;
   }
 }
+
+// The footer is removed site-wide; keep some breathing room under the content.
+body.sticky-bottom-footer {
+  padding-bottom: 3rem;
+}
