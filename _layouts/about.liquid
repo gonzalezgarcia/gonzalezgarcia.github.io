@@ -20,7 +20,10 @@ layout: default
 
       <div class="about-side">
         {% if page.profile.image %}
-          <img class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263">
+          <button class="action-btn about-photo-toggle" type="button" aria-expanded="false" aria-controls="about-portrait">
+            <i class="fa-solid fa-image"></i><span class="action-label">Show photo</span>
+          </button>
+          <img id="about-portrait" class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263" loading="lazy">
         {% endif %}
 
         {% if page.social %}
@@ -30,27 +33,6 @@ layout: default
         {% endif %}
       </div>
     </div>
-
-    {% if page.flare_callout %}
-      <section class="flare-callout paperslist">
-        <div class="paper-card">
-          <p class="flare-callout-eyebrow">Current project</p>
-          <div class="paper-main">
-            <span class="paper-title">FLARE: the representational architecture of fast learning through abstraction</span>
-            <span class="paper-venue">{{ page.flare_blurb }}</span>
-            <div class="paper-actions">
-              <a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">Project page</span><i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-          </div>
-        </div>
-        <h3 class="flare-callout-heading">Related publications</h3>
-        <div class="publications">
-          {% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
-          {% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
-        </div>
-      </section>
-      <script src="{{ '/assets/js/paperslist.js' | relative_url | bust_file_cache }}"></script>
-    {% endif %}
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -81,3 +63,5 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<script src="{{ '/assets/js/about.js' | relative_url | bust_file_cache }}" defer></script>

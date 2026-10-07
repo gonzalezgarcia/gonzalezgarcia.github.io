@@ -15,10 +15,14 @@ profile:
 news: false # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-flare_callout: true # card pointing to the FLARE project and its related publications
+# text of the collapsible FLARE card (_includes/flare_callout.liquid)
 flare_blurb: >-
   How does a single experience leave a lasting prior? FLARE studies the content and format of the
   representations behind one-shot perceptual learning, and how they turn into lasting memories.
 ---
 
-We investigate how prior knowledge and experience shape what we perceive, and how what we perceive becomes memory. Specifically, we are currently interested in the resolution of perceptual ambiguity, rapid learning from very little experience, and the relationship between perception, prediction and episodic memory. I trained in Granada, Ghent and New York. I also write open teaching materials and analysis tools.
+We investigate how prior knowledge shape what we perceive, and how what we perceive becomes memory. We are currently interested in the resolution of perceptual ambiguity, rapid learning from very little experience, and the relationship between perception, prediction and episodic memory.
+
+{% include flare_callout.liquid %}
+
+ In parallel, I like to spend time making [open teaching materials](/resources/), and reflecting about how to mentor well.

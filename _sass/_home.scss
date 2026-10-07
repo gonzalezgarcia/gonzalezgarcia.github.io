@@ -151,42 +151,88 @@ html:not([data-theme="dark"]) body.site-rail {
   }
 }
 
-// ---- FLARE callout on the landing page ----
+// ---- FLARE callout (collapsed by default; _includes/flare_callout.liquid) ----
 .flare-callout {
-  margin-top: 2.5rem;
+  margin: 1.5rem 0;
 
-  > .paper-card {
+  .paper-card {
     border-left: 3px solid var(--global-theme-color);
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+  }
+
+  summary {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    cursor: pointer;
+    list-style: none;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    &:focus-visible {
+      outline: 2px solid var(--global-theme-color);
+      outline-offset: 2px;
+    }
   }
 
   .flare-callout-eyebrow {
-    margin: 0 0 0.4rem;
     font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.08em;
     text-transform: uppercase;
     color: var(--global-text-color-light);
-    text-align: left;
   }
 
-  .flare-callout-heading {
-    margin: 1.5rem 0 0.75rem;
-    font-size: 1rem;
+  .flare-callout-name {
+    font-weight: bolder;
+  }
+
+  .flare-callout-chevron {
+    margin-left: auto;
+    font-size: 0.75rem;
     color: var(--global-text-color-light);
+    transition: transform 0.15s ease;
+
+    @media (prefers-reduced-motion: reduce) {
+      transition: none;
+    }
   }
 
-  // the badge is redundant here; the whole card is about FLARE
-  .flare-flag {
-    display: none;
+  details[open] .flare-callout-chevron {
+    transform: rotate(180deg);
+  }
+
+  .flare-callout-body {
+    margin-top: 0.6rem;
   }
 
   .paper-card,
   .paper-card * {
     text-align: left;
   }
+}
 
-  .paper-abstract.hidden,
-  .paper-bibtex.hidden {
-    text-align: left;
+// ---- portrait toggle: only on narrow screens, where the portrait stacks under the text ----
+.about-photo-toggle {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .about-grid {
+    .about-photo-toggle {
+      display: inline-flex;
+    }
+
+    .about-portrait {
+      display: none;
+      margin-top: 0.75rem;
+    }
+
+    .about-side.photo-open .about-portrait {
+      display: block;
+    }
   }
 }
