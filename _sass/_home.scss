@@ -217,6 +217,7 @@ html:not([data-theme="dark"]) body.site-rail {
 
 // ---- portrait toggle: only on narrow screens, where the portrait stacks under the text ----
 .about-photo-toggle {
+  @include action-btn;
   display: none;
 }
 
@@ -229,6 +230,14 @@ html:not([data-theme="dark"]) body.site-rail {
     .about-portrait {
       display: none;
       margin-top: 0.75rem;
+    }
+
+    .about-side {
+      width: auto;
+    }
+
+    .social .contact-icons {
+      justify-content: flex-start;
     }
 
     .about-side.photo-open .about-portrait {
