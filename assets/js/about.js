@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",function(){const t=document.querySelector(".about-photo-toggle");if(!t)return;const e=t.closest(".about-side"),o=t.querySelector(".action-label");t.addEventListener("click",function(){const n=e.classList.toggle("photo-open");t.setAttribute("aria-expanded",String(n)),o.textContent=n?"Hide photo":"This is me!"})});
