@@ -254,3 +254,11 @@ html:not([data-theme="dark"]) body.site-rail {
     }
   }
 }
+
+// end-of-bio ornament (also the favicon: assets/img/lozenge.svg)
+.lozenge {
+  width: 0.6em;
+  height: 0.6em;
+  margin-left: 0.4em;
+  color: var(--global-theme-color);
+}
