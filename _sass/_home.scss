@@ -395,13 +395,3 @@ html[data-theme="dark"] .flare-funding .flare-funding-logos {
   margin: 0.75rem 0 0;
   text-align: left;
 }
-
-// Section headings on /resources/ (resource types): same look as the name on the landing
-// page (bold, left-aligned), one step smaller. /papers/ keeps the theme's right-aligned,
-// regular-weight headings.
-body.site-rail #resourceslist h2.bibliography {
-  font-size: 1.15rem;
-  font-weight: bold;
-  letter-spacing: normal;
-  text-align: left;
-}
