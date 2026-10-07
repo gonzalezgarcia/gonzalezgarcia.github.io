@@ -1,3 +1,28 @@
+// Outlined action button, shared by .paperslist (/papers/, /resources/) and the landing page.
+@mixin action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid var(--global-text-color);
+  border-radius: 6px;
+  background: none;
+  color: var(--global-text-color);
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  i {
+    font-size: 0.85em;
+  }
+}
+
 // Styles for the /papers/ page (gureckislab-style filterable publications list).
 // Reuses the site's existing --global-* theme tokens and the .publications /
 // ol.bibliography li .hidden/.open collapse behavior already defined in _base.scss.
@@ -192,27 +217,7 @@
   }
 
   .action-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.35rem;
-    font-size: 0.8rem;
-    padding: 0.2rem 0.6rem;
-    border: 1px solid var(--global-text-color);
-    border-radius: 6px;
-    background: none;
-    color: var(--global-text-color);
-    cursor: pointer;
-    text-decoration: none;
-
-    &:hover {
-      color: var(--global-theme-color);
-      border-color: var(--global-theme-color);
-      text-decoration: none;
-    }
-
-    i {
-      font-size: 0.85em;
-    }
+    @include action-btn;
   }
 
   .paper-bibtex {

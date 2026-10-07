@@ -22,13 +22,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>
   {% if site.title == 'blank' %}
-    {% capture title %}{{ author_name }}{% endcapture %}
+    {% capture title %}{{ site.first_name }} {{ site.last_name | replace: ' ', '-' }}{% endcapture %}
   {% else %}
     {% capture title %}{{ site.title }}{% endcapture %}
   {% endif %}
   {% if page.url == '/blog/index.html' %}
     {{ page.title }} | {{ title }}
-  {% elsif page.title != 'blank' and page.url != '/' %}
+  {% elsif page.title != 'blank' %}
     {% if page.title == null or page.title == '' %}
       {{ page.date | date: '%Y' }} | {{ title }}
     {% else %}

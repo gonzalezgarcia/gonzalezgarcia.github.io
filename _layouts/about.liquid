@@ -2,46 +2,37 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-header">
-    <h2 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
-    </h2>
-    <p class="desc">{{ page.subtitle }}</p>
-  </header>
-
   <article>
-    {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
-        {% if page.profile.image %}
-          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
-          {% if page.profile.image_circular %}
-            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="post-title">
+          {% if site.title == 'blank' %}
+            <span class="font-weight-bold">{{ site.first_name }} {{ site.last_name | replace: ' ', '-' }}</span>
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {{ site.title }}
           {% endif %}
-          {% capture sizes %}(min-width: {{site.max_width}}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
-          {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
-            cache_bust=true
-          %}
+        </h2>
+        <p class="about-role">Ramón y Cajal fellow · CIMCYC, University of Granada</p>
+
+        <div class="about-body">{{ content }}</div>
+
+      </div>
+
+      <div class="about-side">
+        {% if page.profile.image %}
+          <button class="action-btn about-photo-toggle" type="button" aria-expanded="false" aria-controls="about-portrait">
+            <i class="fa-solid fa-image"></i><span class="action-label">This is me!</span>
+          </button>
+          <img id="about-portrait" class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263" loading="lazy">
         {% endif %}
-        {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+
+        {% if page.social %}
+          <div class="social">
+            <div class="contact-icons">{% include social.liquid %}</div>
+          </div>
         {% endif %}
       </div>
-    {% endif %}
-
-    <div class="clearfix" p {
-  text-align: justify;
-}>
-{{ content }}</div>
+    </div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
@@ -67,17 +58,10 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
-    {% if page.social %}
-      <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
-
-        <div class="contact-note">{{ site.contact_note }}</div>
-      </div>
-    {% endif %}
-
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
   </article>
 </div>
+
+<script src="{{ '/assets/js/about.js' | relative_url | bust_file_cache }}" defer></script>

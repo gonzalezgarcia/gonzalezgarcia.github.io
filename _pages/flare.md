@@ -9,18 +9,18 @@ toc: true
 show_title: false
 ---
 <p style="text-align: center;">
-  <img src="/assets/img/logo.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
+  <img class="flare-logo-light" src="/assets/img/flare_logo_light.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
+  <img class="flare-logo-dark" src="/assets/img/flare_logo_dark.png" alt="" aria-hidden="true" style="max-width: 200px; height: auto;">
 </p>
 ### The representational architecture of fast learning through abstraction
+{: .flare-title}
 
-_Grant PID2023-149428NB-I00 funded by MICIU/AEI/10.13039/501100011033 and ERDF/EU_
-<div style="display: flex; justify-content: center;">
-  <img src="/assets/img/flare_logo.jpg" alt="FLARE Logo"
-       style="max-width: 300px; height: auto; margin-right: auto;">
+<div class="flare-cards paperslist">
 
-</div>
-
-<br><br>
+<div class="flare-callout flare-card-abstract">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Read the abstract of the project</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body" markdown="1">
 
 Part of the perceptual knowledge we acquire in everyday life does not rely on repeated exposure or training: a single significant event can induce robust changes on brain activity and behavior. Such one-shot perceptual learning emerges during development in parallel to incremental learning and plays a crucial role when evidence is scarce or ambiguous. However, while most cognitive neuroscientists agree on its relevance to our adaptation abilities, the neural and cognitive computations driving one-shot learning remain largely unknown.
  
@@ -30,26 +30,38 @@ The overall aim of FLARE is to provide fundamental insights into how internal mo
  
 The project will tackle two major open questions: 1) What is the content of priors of single perceptual events across the brain? And 2) To what extent does one-shot perceptual learning rely on sensory-specific vs. abstract priors of the episode? For both goals, we will employ a combination of tailored behavioral tasks, computational modeling, and neuroimaging methods. 
 
+</div>
+</details>
+</div>
 
-<br><br>
+<div class="flare-callout flare-card-involved">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Get involved!</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body" markdown="1">
 
-#### Get involved!
-> We do not have any open positions at the moment.
-> If you want to be informed about future postdoctoral or predoctoral openings,
-please send me an email at `cgonzalez@ugr.es`
-{: .block-info }
+We offer master's thesis opportunities for students at the [Master in Cognitive Neuroscience](https://masteres.ugr.es/neurocg/)
 
+We do not have any other open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
 
-<!-- - Postdoctoral researcher (closed!)
-- PhD students: we do not have any open positions at the moment, but if you are interested in joining FLARE as a PhD student, please contact me at `cgonzalez@ugr.es`
-- Research assistant (closed!) -->
+</div>
+</details>
+</div>
 
-<br>
+<div class="flare-callout flare-card-pubs">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Related publications</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body publications">
+{% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
+{% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
+</div>
+</details>
+</div>
 
-#### Related publications
-<div class="publications paperslist">
-  {% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
-  {% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
+</div>
+
+<div class="flare-funding">
+<p class="flare-funding-text">Grant PID2023-149428NB-I00 funded by MICIU/AEI/10.13039/501100011033 and ERDF/EU.</p>
+<img class="flare-funding-logos" src="/assets/img/flare_funders.jpg" alt="Funders: Ministerio de Ciencia, Innovación y Universidades; Cofinanciado por la Unión Europea; Agencia Estatal de Investigación" width="900" height="174">
 </div>
 
 <script src="{{ '/assets/js/paperslist.js' | relative_url | bust_file_cache }}"></script>
