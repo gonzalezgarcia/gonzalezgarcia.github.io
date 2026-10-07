@@ -9,7 +9,7 @@
 
   @media (max-width: 767px) {
     grid-template-columns: minmax(0, 1fr);
-    gap: 1.5rem;
+    gap: 0;
   }
 
   .post-title {
@@ -265,8 +265,39 @@ html:not([data-theme="dark"]) body.site-rail {
       margin-top: 0.75rem;
     }
 
+    // flatten the two columns into one list so the icons can sit right under
+    // the role line: name, role, icons, bio, photo button, photo
+    .about-text,
     .about-side {
-      width: auto;
+      display: contents;
+    }
+
+    .post-title {
+      order: 1;
+    }
+
+    .about-role {
+      order: 2;
+      margin-bottom: 0.75rem;
+    }
+
+    .social {
+      order: 3;
+      margin: 0 0 1.25rem;
+    }
+
+    .about-body {
+      order: 4;
+    }
+
+    .about-photo-toggle {
+      order: 5;
+      justify-self: start;
+      margin-top: 1rem;
+    }
+
+    .about-portrait {
+      order: 6;
     }
 
     .social .contact-icons {
@@ -275,6 +306,7 @@ html:not([data-theme="dark"]) body.site-rail {
 
     .about-side.photo-open .about-portrait {
       display: block;
+      order: 6;
     }
   }
 }
