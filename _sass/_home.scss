@@ -262,3 +262,18 @@ html:not([data-theme="dark"]) body.site-rail {
   margin-left: 0.4em;
   color: var(--global-text-color);
 }
+
+// FLARE logo: dark-lettered version on light backgrounds, light-lettered one in dark mode
+.flare-logo-dark {
+  display: none;
+}
+
+html[data-theme="dark"] {
+  .flare-logo-light {
+    display: none;
+  }
+
+  .flare-logo-dark {
+    display: inline;
+  }
+}

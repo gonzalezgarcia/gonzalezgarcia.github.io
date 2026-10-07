@@ -9,7 +9,8 @@ toc: true
 show_title: false
 ---
 <p style="text-align: center;">
-  <img src="/assets/img/logo.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
+  <img class="flare-logo-light" src="/assets/img/flare_logo_light.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
+  <img class="flare-logo-dark" src="/assets/img/flare_logo_dark.png" alt="" aria-hidden="true" style="max-width: 200px; height: auto;">
 </p>
 ### The representational architecture of fast learning through abstraction
 
