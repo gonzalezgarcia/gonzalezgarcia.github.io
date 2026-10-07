@@ -1,10 +1,11 @@
 ---
 layout: page
-permalink: /flare/
-title: FLARE
+permalink: /compare/flare-a/
+title: compare flare a
 description: 
-nav: true
-nav_order: 7
+nav: false
+sitemap: false
+body_class: flare-colors-a
 toc: true
 show_title: false
 ---
