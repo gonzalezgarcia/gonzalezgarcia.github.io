@@ -17,11 +17,6 @@ show_title: false
     below.
   </p>
 
-  <p>
-    <a href="https://creativecommons.org/licenses/by-sa/4.0/">
-      <img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="License: CC BY-SA 4.0">
-    </a>
-  </p>
 
   <div class="papers-controls" style="grid-template-columns: repeat(2, 1fr); max-width: 480px;">
     <div class="papers-control">

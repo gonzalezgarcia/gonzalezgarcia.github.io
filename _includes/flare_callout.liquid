@@ -1,12 +1,6 @@
 <div class="flare-callout paperslist">
-<details class="paper-card">
-<summary><span class="flare-callout-eyebrow">Read more!</span><span class="flare-callout-name"></span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
-<div class="flare-callout-body">
-<div class="paper-main">
-<span class="paper-title"><strong>FLARE</strong>: The representational architecture of fast learning through abstraction</span>
-<span class="paper-venue">{{ page.flare_blurb }}</span>
-<div class="paper-actions"><a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">Project page</span><i class="fa-solid fa-arrow-right"></i></a></div>
+<div class="paper-card flare-callout-card">
+<p class="flare-callout-text">{{ page.flare_blurb | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
+<div class="paper-actions"><a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">Read more</span><i class="fa-solid fa-arrow-right"></i></a></div>
 </div>
-</div>
-</details>
 </div>

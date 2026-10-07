@@ -8,18 +8,23 @@ nav_order: 7
 toc: true
 show_title: false
 ---
+
 <p style="text-align: center;">
   <img class="flare-logo-light" src="/assets/img/flare_logo_light.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
   <img class="flare-logo-dark" src="/assets/img/flare_logo_dark.png" alt="" aria-hidden="true" style="max-width: 200px; height: auto;">
 </p>
+
 ### The representational architecture of fast learning through abstraction
 {: .flare-title}
+
+A single event can change what we see, as when a meaningless image suddenly makes sense. FLARE explores what the brain keeps from such events: what the resulting predictions contain and in which format they are stored.The key question is whether these priors are sensory-specific or abstract. To answer this question, we combine tailored behavioural tasks, computational modelling and neuroimaging techniques. 
+{: .flare-summary}
 
 <div class="flare-cards paperslist">
 
 <div class="flare-callout flare-card-abstract">
 <details class="paper-card">
-<summary><span class="flare-callout-eyebrow">Read the abstract of the project</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<summary><span class="flare-callout-eyebrow">Extended description</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
 Part of the perceptual knowledge we acquire in everyday life does not rely on repeated exposure or training: a single significant event can induce robust changes on brain activity and behavior. Such one-shot perceptual learning emerges during development in parallel to incremental learning and plays a crucial role when evidence is scarce or ambiguous. However, while most cognitive neuroscientists agree on its relevance to our adaptation abilities, the neural and cognitive computations driving one-shot learning remain largely unknown.
@@ -39,7 +44,7 @@ The project will tackle two major open questions: 1) What is the content of prio
 <summary><span class="flare-callout-eyebrow">Get involved!</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
-We offer master's thesis opportunities for students at the [Master in Cognitive Neuroscience](https://masteres.ugr.es/neurocg/)
+We offer master's thesis opportunities for students at the [Master in Cognitive Neuroscience](https://masteres.ugr.es/neurocg/).
 
 We do not have any other open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
 
