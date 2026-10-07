@@ -28,6 +28,27 @@ layout: default
       {% endif %}
     </div>
 
+    {% if page.flare_callout %}
+      <section class="flare-callout paperslist">
+        <div class="paper-card">
+          <p class="flare-callout-eyebrow">Current project</p>
+          <div class="paper-main">
+            <span class="paper-title">FLARE: the representational architecture of fast learning through abstraction</span>
+            <span class="paper-venue">{{ page.flare_blurb }}</span>
+            <div class="paper-actions">
+              <a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">Project page</span><i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <h3 class="flare-callout-heading">Related publications</h3>
+        <div class="publications">
+          {% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
+          {% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
+        </div>
+      </section>
+      <script src="{{ '/assets/js/paperslist.js' | relative_url | bust_file_cache }}"></script>
+    {% endif %}
+
     <!-- News -->
     {% if page.news and site.announcements.enabled %}
       <h2>

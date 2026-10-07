@@ -144,3 +144,43 @@ html:not([data-theme="dark"]) body.site-rail {
     }
   }
 }
+
+// ---- FLARE callout on the landing page ----
+.flare-callout {
+  margin-top: 2.5rem;
+
+  .paper-card:first-child {
+    border-left: 3px solid var(--global-theme-color);
+  }
+
+  .flare-callout-eyebrow {
+    margin: 0 0 0.4rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+    text-align: left;
+  }
+
+  .flare-callout-heading {
+    margin: 1.5rem 0 0.75rem;
+    font-size: 1rem;
+    color: var(--global-text-color-light);
+  }
+
+  // the badge is redundant here; the whole card is about FLARE
+  .flare-flag {
+    display: none;
+  }
+
+  .paper-card,
+  .paper-card * {
+    text-align: left;
+  }
+
+  .paper-abstract.hidden,
+  .paper-bibtex.hidden {
+    text-align: left;
+  }
+}
