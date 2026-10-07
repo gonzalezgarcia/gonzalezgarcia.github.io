@@ -21,7 +21,7 @@ layout: default
       <div class="about-side">
         {% if page.profile.image %}
           <button class="action-btn about-photo-toggle" type="button" aria-expanded="false" aria-controls="about-portrait">
-            <i class="fa-solid fa-image"></i><span class="action-label">Show photo</span>
+            <i class="fa-solid fa-image"></i><span class="action-label">This is me!</span>
           </button>
           <img id="about-portrait" class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263" loading="lazy">
         {% endif %}

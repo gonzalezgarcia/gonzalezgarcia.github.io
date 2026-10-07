@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function () {
   toggle.addEventListener("click", function () {
     const open = side.classList.toggle("photo-open");
     toggle.setAttribute("aria-expanded", String(open));
-    label.textContent = open ? "Hide photo" : "Show photo";
+    label.textContent = open ? "Hide photo" : "This is me!";
   });
 });
