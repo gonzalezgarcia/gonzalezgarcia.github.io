@@ -73,6 +73,13 @@ html:not([data-theme="dark"]) body.site-rail {
   --global-text-color: #3c3c43;
 }
 
+// Narrow screens (top bar): less space between the bar and the first content
+@media (max-width: 991px) {
+  body.site-rail .container.mt-5 {
+    margin-top: 1.25rem !important;
+  }
+}
+
 // Compact side rail, kept inside the 800px column (wide screens only; narrower
 // screens keep the top bar). The theme toggle sits under the links.
 @media (min-width: 992px) {
