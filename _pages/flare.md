@@ -15,6 +15,9 @@ show_title: false
 ### The representational architecture of fast learning through abstraction
 {: .flare-title}
 
+One-shot perceptual learning lets a single event change what we see, as when a meaningless image suddenly makes sense. FLARE asks what the brain keeps from such events: what the resulting priors contain and in which format they are stored. We combine tailored behavioural tasks, computational modelling and neuroimaging across two experimental series. The key question is whether these priors are sensory-specific or abstract.
+{: .flare-summary}
+
 <div class="flare-cards paperslist">
 
 <div class="flare-callout flare-card-abstract">
