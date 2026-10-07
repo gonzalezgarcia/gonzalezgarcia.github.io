@@ -21,8 +21,8 @@ One-shot perceptual learning lets a single event change what we see, as when a m
 <div class="flare-cards paperslist">
 
 <div class="flare-callout flare-card-abstract">
-<details class="paper-card" open>
-<summary><span class="flare-callout-eyebrow">Read the abstract of the project</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Extended description</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
 Part of the perceptual knowledge we acquire in everyday life does not rely on repeated exposure or training: a single significant event can induce robust changes on brain activity and behavior. Such one-shot perceptual learning emerges during development in parallel to incremental learning and plays a crucial role when evidence is scarce or ambiguous. However, while most cognitive neuroscientists agree on its relevance to our adaptation abilities, the neural and cognitive computations driving one-shot learning remain largely unknown.
