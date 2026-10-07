@@ -1,6 +1,6 @@
 <div class="flare-callout paperslist">
 <div class="paper-card flare-callout-card">
-<p class="flare-callout-text">{{ page.flare_blurb }}</p>
+<p class="flare-callout-text">{{ page.flare_blurb | markdownify | remove: '<p>' | remove: '</p>' | strip }}</p>
 <div class="paper-actions"><a class="action-btn" href="{{ '/flare/' | relative_url }}"><span class="action-label">Read more</span><i class="fa-solid fa-arrow-right"></i></a></div>
 </div>
 </div>

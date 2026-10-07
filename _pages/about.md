@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 # text of the collapsible FLARE card (_includes/flare_callout.liquid)
 flare_blurb: >-
-  How does a single experience leave a lasting prior? FLARE studies the content and format of the
+  **Can a single experience leave a lasting trace in the brain?** Our latest research project studies the content and format of the
   representations behind one-shot perceptual learning, and how they turn into lasting memories.
 ---
 
