@@ -18,7 +18,7 @@ show_title: false
 <div class="flare-cards paperslist">
 
 <div class="flare-callout flare-card-abstract">
-<details class="paper-card">
+<details class="paper-card" open>
 <summary><span class="flare-callout-eyebrow">Read the abstract of the project</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
