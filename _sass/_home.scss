@@ -189,10 +189,17 @@ html:not([data-theme="dark"]) body.site-rail {
     display: none;
   }
 
-  details.paper-card {
+  details.paper-card,
+  > .flare-callout-card {
     border-left: 3px solid var(--flare-accent, var(--global-theme-color));
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+  }
+
+  // landing page card: plain text and a button, no collapsing
+  .flare-callout-text {
+    margin: 0 0 0.6rem;
+    text-align: left;
   }
 
   // publication cards nested inside a card keep the plain look
