@@ -31,14 +31,20 @@
     }
   }
 
-  // original icon row (social.liquid), tighter and centred in the text column
+  // original icon row (social.liquid), tight and centred under the portrait
+  .about-side {
+    width: 200px;
+    max-width: 100%;
+  }
+
   .social {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
 
     .contact-icons {
       display: flex;
       justify-content: center;
-      gap: 0.4rem;
+      gap: 0.3rem;
+      font-size: 1.5rem;
     }
   }
 

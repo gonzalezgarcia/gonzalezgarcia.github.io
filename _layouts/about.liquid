@@ -16,16 +16,19 @@ layout: default
 
         <div class="about-body">{{ content }}</div>
 
+      </div>
+
+      <div class="about-side">
+        {% if page.profile.image %}
+          <img class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263">
+        {% endif %}
+
         {% if page.social %}
           <div class="social">
             <div class="contact-icons">{% include social.liquid %}</div>
           </div>
         {% endif %}
       </div>
-
-      {% if page.profile.image %}
-        <img class="about-portrait" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}" alt="{{ page.profile.alt }}" width="200" height="263">
-      {% endif %}
     </div>
 
     {% if page.flare_callout %}
