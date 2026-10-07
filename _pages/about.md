@@ -25,6 +25,4 @@ We investigate how prior knowledge shape what we perceive, and how what we perce
 
 {% include flare_callout.liquid %}
 
- In parallel, I like to spend time making [open teaching materials](/resources/) and reflecting about how to teach and mentor well.
-
- <svg class="lozenge" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1 9 5 5 9 1 5Z" fill="none" stroke="currentColor" stroke-width="1"/></svg>
+ In parallel, I like to spend time making [open teaching materials](/resources/) and reflecting about how to teach and mentor well. <svg class="lozenge" viewBox="0 0 10 10" aria-hidden="true"><path d="M5 1 9 5 5 9 1 5Z" fill="none" stroke="currentColor" stroke-width="1"/></svg>
