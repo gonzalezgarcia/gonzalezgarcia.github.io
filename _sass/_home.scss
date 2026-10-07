@@ -207,6 +207,15 @@ html:not([data-theme="dark"]) body.site-rail {
 
   .flare-callout-body {
     margin-top: 0.6rem;
+
+    // only the project name is bold in the title
+    .paper-title {
+      font-weight: normal;
+
+      strong {
+        font-weight: bolder;
+      }
+    }
   }
 
   .paper-card,
