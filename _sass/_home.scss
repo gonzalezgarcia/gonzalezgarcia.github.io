@@ -82,14 +82,14 @@ html:not([data-theme="dark"]) body.site-rail {
 
     // main column: leaves room for the rail
     .container.mt-5 {
-      padding-left: 176px;
+      padding-left: 150px;
     }
 
     #navbar {
       position: fixed;
       top: 3.2rem;
       left: calc(50% - 385px);
-      width: 128px;
+      width: 100px;
       padding: 0;
       border: none;
       background: none;
@@ -101,7 +101,7 @@ html:not([data-theme="dark"]) body.site-rail {
         position: absolute;
         top: 0;
         bottom: 0;
-        left: 138px;
+        left: 110px;
         width: 1px;
         background-color: var(--global-divider-color);
       }
