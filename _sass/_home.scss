@@ -288,8 +288,12 @@ html[data-theme="dark"] {
 }
 
 // FLARE page: the three cards sit closer together
-.flare-cards .flare-callout {
-  margin: 0.5rem 0;
+.flare-cards {
+  margin-top: 1.25rem;
+
+  .flare-callout {
+    margin: 0.5rem 0;
+  }
 }
 
 // FLARE page: funding note at the bottom
@@ -308,10 +312,14 @@ html[data-theme="dark"] {
     width: 260px;
     max-width: 100%;
     height: auto;
-    padding: 0.4rem;
-    border-radius: 6px;
-    background-color: #fff; // white chip keeps the logos readable in dark mode
   }
+}
+
+// white chip keeps the logos readable in dark mode
+html[data-theme="dark"] .flare-funding .flare-funding-logos {
+  padding: 0.4rem;
+  border-radius: 6px;
+  background-color: #fff;
 }
 
 // ---- comparison of accent colours (temporary: /compare/flare-a/, /compare/flare-b/) ----
