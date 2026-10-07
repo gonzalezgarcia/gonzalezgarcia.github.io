@@ -85,17 +85,6 @@ html:not([data-theme="dark"]) body.site-rail {
       padding-left: 150px;
     }
 
-    // inner pages have the header bar, so start lower
-    &.inner-page {
-      .container.mt-5 {
-        margin-top: 5rem !important;
-      }
-
-      #navbar {
-        top: 5.2rem;
-      }
-    }
-
     #navbar {
       position: fixed;
       top: 3.2rem;
@@ -123,28 +112,9 @@ html:not([data-theme="dark"]) body.site-rail {
         padding: 0;
       }
 
+      .navbar-brand,
       .navbar-toggler {
         display: none;
-      }
-
-      // site name as the page header, like the top bar on phones: a full-width bar with the
-      // name aligned to the content column (only rendered on inner pages; the landing page
-      // shows the name in its main column)
-      .navbar-brand {
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1030;
-        display: flex;
-        align-items: center;
-        height: 56px;
-        margin: 0;
-        padding: 0 0 0 calc(50% - 385px);
-        border-bottom: 1px solid var(--global-divider-color);
-        background-color: var(--global-bg-color);
-        font-size: 1.25rem;
-        white-space: nowrap;
       }
 
       .navbar-collapse {
