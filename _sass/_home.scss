@@ -155,10 +155,19 @@ html:not([data-theme="dark"]) body.site-rail {
 .flare-callout {
   margin: 1.5rem 0;
 
-  .paper-card {
+  .flare-callout-body .flare-flag {
+    display: none;
+  }
+
+  details.paper-card {
     border-left: 3px solid var(--global-theme-color);
     padding-top: 0.6rem;
     padding-bottom: 0.6rem;
+  }
+
+  // publication cards nested inside a card keep the plain look
+  .flare-callout-body .paper-card {
+    padding: 1rem;
   }
 
   summary {
@@ -276,4 +285,9 @@ html[data-theme="dark"] {
   .flare-logo-dark {
     display: inline;
   }
+}
+
+// FLARE page: the three cards sit closer together
+.flare-cards .flare-callout {
+  margin: 0.5rem 0;
 }

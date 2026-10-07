@@ -21,7 +21,12 @@ _Grant PID2023-149428NB-I00 funded by MICIU/AEI/10.13039/501100011033 and ERDF/E
 
 </div>
 
-<br><br>
+<div class="flare-cards paperslist">
+
+<div class="flare-callout">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Read the abstract of the project</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body" markdown="1">
 
 Part of the perceptual knowledge we acquire in everyday life does not rely on repeated exposure or training: a single significant event can induce robust changes on brain activity and behavior. Such one-shot perceptual learning emerges during development in parallel to incremental learning and plays a crucial role when evidence is scarce or ambiguous. However, while most cognitive neuroscientists agree on its relevance to our adaptation abilities, the neural and cognitive computations driving one-shot learning remain largely unknown.
  
@@ -31,26 +36,31 @@ The overall aim of FLARE is to provide fundamental insights into how internal mo
  
 The project will tackle two major open questions: 1) What is the content of priors of single perceptual events across the brain? And 2) To what extent does one-shot perceptual learning rely on sensory-specific vs. abstract priors of the episode? For both goals, we will employ a combination of tailored behavioral tasks, computational modeling, and neuroimaging methods. 
 
+</div>
+</details>
+</div>
 
-<br><br>
+<div class="flare-callout">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Get involved!</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body" markdown="1">
 
-#### Get involved!
-> We do not have any open positions at the moment.
-> If you want to be informed about future postdoctoral or predoctoral openings,
-please send me an email at `cgonzalez@ugr.es`
-{: .block-info }
+We do not have any open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
 
+</div>
+</details>
+</div>
 
-<!-- - Postdoctoral researcher (closed!)
-- PhD students: we do not have any open positions at the moment, but if you are interested in joining FLARE as a PhD student, please contact me at `cgonzalez@ugr.es`
-- Research assistant (closed!) -->
+<div class="flare-callout">
+<details class="paper-card">
+<summary><span class="flare-callout-eyebrow">Related publications</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
+<div class="flare-callout-body publications">
+{% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
+{% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
+</div>
+</details>
+</div>
 
-<br>
-
-#### Related publications
-<div class="publications paperslist">
-  {% bibliography --group_by none -f preprints -T bib_papers -q @*[keywords=flare]* %}
-  {% bibliography --group_by none -f papers -T bib_papers -q @*[keywords=flare]* %}
 </div>
 
 <script src="{{ '/assets/js/paperslist.js' | relative_url | bust_file_cache }}"></script>
