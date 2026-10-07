@@ -334,3 +334,11 @@ html[data-theme="dark"] .flare-funding .flare-funding-logos {
 .flare-card-pubs {
   --flare-accent: #e8913a;
 }
+
+// FLARE page title: same look as the name on the landing page
+.flare-title {
+  margin: 1.5rem 0 0;
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-align: left;
+}
