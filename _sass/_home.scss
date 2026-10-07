@@ -149,7 +149,7 @@ html:not([data-theme="dark"]) body.site-rail {
 .flare-callout {
   margin-top: 2.5rem;
 
-  .paper-card:first-child {
+  > .paper-card {
     border-left: 3px solid var(--global-theme-color);
   }
 
