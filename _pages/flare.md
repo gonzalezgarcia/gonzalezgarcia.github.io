@@ -38,7 +38,9 @@ The project will tackle two major open questions: 1) What is the content of prio
 <summary><span class="flare-callout-eyebrow">Get involved!</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
-We do not have any open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
+We offer master's thesis projects within the [Master in Cognitive Neuroscience (NeuroCog)](https://masteres.ugr.es/neurocg/) at the University of Granada.
+
+We do not have any other open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
 
 </div>
 </details>

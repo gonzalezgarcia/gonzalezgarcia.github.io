@@ -322,33 +322,15 @@ html[data-theme="dark"] .flare-funding .flare-funding-logos {
   background-color: #fff;
 }
 
-// ---- comparison of accent colours (temporary: /compare/flare-a/, /compare/flare-b/) ----
-// A: the site's topic-pill hues
-body.flare-colors-a {
-  .flare-card-abstract {
-    --flare-accent: #9b6fd0;
-  }
-
-  .flare-card-involved {
-    --flare-accent: #3fa45f;
-  }
-
-  .flare-card-pubs {
-    --flare-accent: #e8913a;
-  }
+// FLARE page: one accent colour per card (the site's topic-pill hues)
+.flare-card-abstract {
+  --flare-accent: #9b6fd0;
 }
 
-// B: taken from the FLARE logo (yellow ray) plus two complementary tones
-body.flare-colors-b {
-  .flare-card-abstract {
-    --flare-accent: #f2b824;
-  }
+.flare-card-involved {
+  --flare-accent: #3fa45f;
+}
 
-  .flare-card-involved {
-    --flare-accent: #e5694f;
-  }
-
-  .flare-card-pubs {
-    --flare-accent: #3a9d9a;
-  }
+.flare-card-pubs {
+  --flare-accent: #e8913a;
 }
