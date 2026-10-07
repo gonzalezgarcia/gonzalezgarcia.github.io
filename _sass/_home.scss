@@ -396,9 +396,10 @@ html[data-theme="dark"] .flare-funding .flare-funding-logos {
   text-align: left;
 }
 
-// Section headings on /papers/ and /resources/ ("Preprints", years, resource types):
-// same look as the name on the landing page (bold, left-aligned), one step smaller
-body.site-rail .publications h2.bibliography {
+// Section headings on /resources/ (resource types): same look as the name on the landing
+// page (bold, left-aligned), one step smaller. /papers/ keeps the theme's right-aligned,
+// regular-weight headings.
+body.site-rail #resourceslist h2.bibliography {
   font-size: 1.15rem;
   font-weight: bold;
   letter-spacing: normal;

@@ -8,14 +8,16 @@ nav_order: 7
 toc: true
 show_title: false
 ---
+
 <p style="text-align: center;">
   <img class="flare-logo-light" src="/assets/img/flare_logo_light.png" alt="FLARE Logo" style="max-width: 200px; height: auto;">
   <img class="flare-logo-dark" src="/assets/img/flare_logo_dark.png" alt="" aria-hidden="true" style="max-width: 200px; height: auto;">
 </p>
+
 ### The representational architecture of fast learning through abstraction
 {: .flare-title}
 
-One-shot perceptual learning lets a single event change what we see, as when a meaningless image suddenly makes sense. FLARE asks what the brain keeps from such events: what the resulting priors contain and in which format they are stored. We combine tailored behavioural tasks, computational modelling and neuroimaging across two experimental series. The key question is whether these priors are sensory-specific or abstract.
+A single event can change what we see, as when a meaningless image suddenly makes sense. FLARE explores what the brain keeps from such events: what the resulting predictions contain and in which format they are stored.The key question is whether these priors are sensory-specific or abstract. To answer this question, we combine tailored behavioural tasks, computational modelling and neuroimaging techniques. 
 {: .flare-summary}
 
 <div class="flare-cards paperslist">
@@ -42,7 +44,7 @@ The project will tackle two major open questions: 1) What is the content of prio
 <summary><span class="flare-callout-eyebrow">Get involved!</span><i class="fa-solid fa-chevron-down flare-callout-chevron" aria-hidden="true"></i></summary>
 <div class="flare-callout-body" markdown="1">
 
-We offer master's thesis opportunities for students at the [Master in Cognitive Neuroscience](https://masteres.ugr.es/neurocg/)
+We offer master's thesis opportunities for students at the [Master in Cognitive Neuroscience](https://masteres.ugr.es/neurocg/).
 
 We do not have any other open positions at the moment. If you want to be informed about future postdoctoral or predoctoral openings, please send me an email at `cgonzalez@ugr.es`.
 
