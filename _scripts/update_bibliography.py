@@ -18,8 +18,11 @@ the same conventions used when adding entries by hand:
   removed from preprints.bib and the published version is added to
   papers.bib instead, reusing the preprint's abstract if the publisher
   didn't deposit one.
-- A preprint on a server other than bioRxiv (no established template on
-  this site) is flagged for manual review instead of guessed at.
+- Preprints on other known servers (PREPRINT_SERVERS, matched by DOI prefix,
+  e.g. PsyArXiv) go into preprints.bib with `journal` set to the server name
+  plus the same award badge. A DOI Crossref types as posted-content/preprint
+  on an unrecognised server is flagged for manual review -- never filed as a
+  paper.
 - `pdf` is filled in via Unpaywall when an open-access copy exists;
   otherwise it's left out and the entry is flagged in the run summary so a
   human can upload an author copy to assets/pdf/ and add the field by hand.
@@ -129,6 +132,22 @@ def classify_topics(text, max_topics=3):
 
 
 PREPRINT_PUBLISHER = "Cold Spring Harbor Laboratory"
+
+# Non-bioRxiv preprint servers we know how to file, keyed by DOI prefix
+# (bioRxiv itself is detected via its API, since it uses more than one prefix).
+PREPRINT_SERVERS = {
+    "10.31234": "PsyArXiv",
+    "10.31219": "OSF Preprints",
+    "10.31235": "SocArXiv",
+    "10.48550": "arXiv",
+    "10.21203": "Research Square",
+    "10.2139": "SSRN",
+    "10.20944": "Preprints.org",
+    "10.36227": "TechRxiv",
+}
+# Publishers whose Crossref "posted-content/preprint" records are filed as
+# papers here (eLife reviewed preprints).
+PAPER_LIKE_POSTED_CONTENT_PREFIXES = {"10.7554"}
 PREPRINT_AWARD = (
     "award={This is a **preprint**! [Read more](https://en.wikipedia.org/wiki/Preprint)},\n"
     "  award_name={preprint},"
@@ -246,6 +265,7 @@ def clean_jats(text):
         return ""
     text = re.sub(r"</?jats:title[^>]*>.*?</jats:title>", "", text, flags=re.DOTALL)
     text = re.sub(r"</?jats:[a-zA-Z]+[^>]*>", "", text)
+    text = re.sub(r"</?[a-zA-Z][a-zA-Z0-9]*(\s[^>]*)?/?>", " ", text)  # plain HTML (<p>, <i>, ...)
     return re.sub(r"\s+", " ", text).strip()
 
 
@@ -444,6 +464,58 @@ def build_preprint_entry(doi, taken_keys, details=None):
     return key, entry, not topics
 
 
+def doi_prefix(doi):
+    return doi.split("/", 1)[0]
+
+
+def preprint_server(doi, crossref_msg):
+    """Return the server name for a known non-bioRxiv preprint server, "" for
+    a Crossref-typed preprint on an unknown server, or None if not a preprint."""
+    prefix = doi_prefix(doi)
+    if prefix in PREPRINT_SERVERS:
+        return PREPRINT_SERVERS[prefix]
+    msg = crossref_msg or {}
+    if (
+        msg.get("type") == "posted-content"
+        and msg.get("subtype") == "preprint"
+        and prefix not in PAPER_LIKE_POSTED_CONTENT_PREFIXES
+    ):
+        return ""
+    return None
+
+
+def build_other_preprint_entry(doi, server, taken_keys, crossref_msg=None):
+    _, cr_key, cr_fields = fetch_doi_bibtex(doi)
+    if not cr_key:
+        return None
+    if crossref_msg is None:
+        crossref_msg = crossref_work(doi) or {}
+    abstract = clean_jats(crossref_msg.get("abstract", ""))
+    html_url = resolve_landing_page(doi) or ""
+    pdf_url = unpaywall_pdf(doi) or ""
+    topics = classify_topics(f"{cr_fields.get('title', '')} {abstract}")
+
+    fields = {
+        "author": cr_fields.get("author", ""),
+        "title": cr_fields.get("title", ""),
+        "year": cr_fields.get("year", ""),
+        "journal": server,
+        "doi": doi,
+        "url": html_url,
+        "html": html_url,
+        "pdf": pdf_url,
+        "abstract": abstract,
+    }
+    if topics:
+        fields["topics"] = ", ".join(topics)
+
+    key = unique_key(cr_key, taken_keys)
+    taken_keys.add(key)
+    order = ["author", "title", "year", "journal", "doi", "url", "html", "pdf", "abstract", "topics"]
+    entry = format_entry("preprint", key, order, fields, trailing_raw=PREPRINT_AWARD)
+    return key, entry, not pdf_url, not abstract, not topics
+
+
 def find_citekeys(content):
     return set(re.findall(r"@\w+\{\s*([^,\s]+)\s*,", content))
 
@@ -542,14 +614,19 @@ def _run(summarize):
     # Papers first, so a same-run preprint+published pair doesn't add both.
     def classify(doi):
         details = biorxiv_details(doi)
-        return ("preprint", details) if details else ("paper", None)
+        if details:
+            return ("preprint", details)
+        msg = crossref_work(doi)
+        server = preprint_server(doi, msg)
+        if server is not None:
+            return ("other_preprint", (server, msg))
+        return ("paper", msg)
 
     classified = {doi: classify(doi) for doi in candidates}
 
-    for doi, (kind, _details) in classified.items():
+    for doi, (kind, msg) in classified.items():
         if kind != "paper":
             continue
-        msg = crossref_work(doi)
         preprint_sibling = next(iter(related_dois(msg, "has-preprint")), None)
         result = build_paper_entry(doi, taken_keys, crossref_msg=msg)
         seen_dois.add(doi)
@@ -589,6 +666,36 @@ def _run(summarize):
             continue
         key, entry, needs_topics = result
         new_preprint_entries.append(entry)
+        if needs_topics:
+            flagged_for_topics.append(key)
+        tracked_dois.add(doi)
+
+    for doi, (kind, payload) in classified.items():
+        if kind != "other_preprint" or doi in seen_dois:
+            continue
+        server, msg = payload
+        published_sibling = next(iter(related_dois(msg, "is-preprint-of")), None)
+        seen_dois.add(doi)
+        if published_sibling and (
+            published_sibling in tracked_dois or published_sibling in seen_dois
+        ):
+            summarize(f"Skipping preprint {doi}: already published as {published_sibling}")
+            continue
+        if not server:
+            flagged_for_review.append(
+                (doi, "preprint on an unrecognised server (add to PREPRINT_SERVERS or file by hand)")
+            )
+            continue
+        result = build_other_preprint_entry(doi, server, taken_keys, crossref_msg=msg)
+        if not result:
+            flagged_for_review.append((doi, f"could not build {server} preprint entry"))
+            continue
+        key, entry, needs_pdf, needs_abstract, needs_topics = result
+        new_preprint_entries.append(entry)
+        if needs_pdf:
+            flagged_for_pdf.append(key)
+        if needs_abstract:
+            flagged_for_abstract.append(key)
         if needs_topics:
             flagged_for_topics.append(key)
         tracked_dois.add(doi)
