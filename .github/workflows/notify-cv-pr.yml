@@ -1,0 +1,23 @@
+# The cv repo opens the cv-update PR with my own PAT, so GitHub sends me no notification.
+# A comment from github-actions[bot] that @mentions me does trigger one (web + email).
+name: Notify on CV PR
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [master]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  notify:
+    if: github.head_ref == 'cv-update'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mention owner
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" \
+            --body "@gonzalezgarcia the full CV PDF was rebuilt by the cv repo — please review and merge."
