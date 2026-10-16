@@ -1,0 +1,247 @@
+Carlos González-García
+Ramón y Cajal fellow, Experimental Psychology
+Mind, Brain and Behavior Research Center (CIMCYC), University of Granada, Spain
+cgonzalez@ugr.es  ·  ugr.es/~cgonzalez  ·  ORCID 0000-0001-6627-5777
+## Research Interests
+Cognitive Neuroscience, Neural representations, Perception, Cognitive Control, Memory.
+## Academic Appointments
+Ramón y Cajal fellow, University of Granada (Spain) [2022–present]
+Juan de la Cierva-Incorporación fellow, University of Granada (Spain) [2021–2022]
+Marie Skłodowska-Curie Individual Fellow, Ghent University (Belgium) · Supervisor: Marcel Brass [2020–2021]
+Postdoctoral researcher, Ghent University (Belgium) · Supervisor: Marcel Brass [2017–2019]
+Pre- and postdoctoral researcher, University of Granada (Spain) · Supervisor: María Ruz [2016–2017]
+Fulbright visiting predoctoral fellow, Laboratory of Functional and Molecular Imaging, National Institutes of Health (USA) · Supervisor: Biyu J. He [2015–2016]
+Research assistant, University of Granada (Spain) · Supervisor: María Ruz [2013–2014]
+## Education
+PhD in Psychology, University of Granada (Spain) [2017]
+MSc in Cognitive and Behavioral Neuroscience, University of Granada (Spain) [2013]
+BSc in Psychology, University of Granada (Spain) [2012]
+Accreditations
+Profesor Titular de Universidad (ANECA, acreditación estatal) [2026]
+R3 accreditation as Established Researcher (Spanish Ministry of Science) [2024]
+Profesor Contratado Doctor (ANECA) [2022]
+Profesor Ayudante Doctor (ANECA) [2020]
+## Fellowships, Honors And Awards
+Ramón y Cajal fellowship, University of Granada (Spain) [2022–present]
+Juan de la Cierva-Incorporación fellowship, University of Granada (Spain) [2021–2022]
+Marie Skłodowska-Curie Individual Fellowship, European Commission (€166,320) [2020–2021]
+Seal of Excellence Postdoctoral Grant, Research Foundation Flanders (FWO) [2019]
+Travel grant, Control Processes expert meeting, Brown University (USA) [2019]
+Research funding (with Evie Vergauwe), Swiss National Science Foundation; University of Geneva (Switzerland) / Ghent University (Belgium) (CHF 15,000 (~€12,800)) [2018–2019]
+Best dissemination activity award, I Spanish Conference of Junior Researchers and University of Granada (Spain) [2018]
+Best oral presentation award, XI Scientific Meeting of Attention (Spain) [2017]
+Best article award, Spanish Experimental Psychology Society (SEPEX) [2017]
+Grant for the organization of scientific events, SEPEX [2017]
+PhD Extraordinary Award (Premio extraordinario de doctorado), University of Granada (Spain) [2017]
+Travel grant, joint meeting of the Spanish and British experimental psychology societies (Oxford, UK), EPS/SEPEX [2016]
+Fulbright Scholarship, US Department of State Fulbright Program; National Institutes of Health (USA) ($27,100) [2015–2016]
+Visiting predoctoral fellowship, National Institutes of Health (USA) [2015–2016]
+Collaboration grant (Beca de colaboración), Spanish research scholarship for undergraduates, Spanish Government / University of Granada [2011–2012]
+ÍCARO scholarship for undergraduate students, University of Granada (Spain) [2011]
+## Research Funding
+As Principal Investigator
+La arquitectura representacional del aprendizaje rápido a través de la abstracción · Spanish Ministry of Science and Innovation, Plan Nacional 2023; PID2023-149428NB-I00; €148,750. Role: Principal Investigator. [2024–2027]
+Caracterización de la influencia de la Atención Selectiva en los contenidos de Memoria de Trabajo · Spanish Ministry of Science and Innovation, Plan Nacional 2020; PID2020-116342GA-I00; €118,580. Role: Co–Principal Investigator (with Elisa Martín-Arévalo). [2021–2025]
+Characterizing the spatiotemporal neural signatures of instruction following · European Commission - Marie Skłodowska-Curie Individual Fellowship; 835767; €166,320. Role: Principal Investigator (Postdoctoral individual fellow). [2020–2021]
+As team member
+A cognitive neurocomputational perspective on human flexibility · Ghent University, Special Research Fund 2016; BOF.GOA.2017.0002.03; €600,000. Role: Postdoctoral researcher (PI: Marcel Brass). [2017–2020]
+Mecanismos neurales de control cognitivo en contextos de novedad de tareas · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2016; PSI2016-78236-P; €85,305. Role: Predoctoral researcher (PI: María Ruz). [2016–2019]
+Mecanismos neurales subyacentes a los efectos estratégicos y automáticos de la información afectiva en la toma de decisiones interpersonales · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2013; PSI2013-45567-P; €78,650. Role: Predoctoral researcher (PI: María Ruz). [2014–2017]
+Behavioral and neural basis of high-speed retrieval in working memory · Swiss National Science Foundation, Ambizione grant 2015; PA00P1_139604; €627,941. Role: Researcher (PI: Evie Vergauwe). [2015–2019]
+## Publications
+Bold: own name. * Equal contribution. Numbered in reverse chronological order (newest first).
+Preprints and manuscripts under review
+P6.	Delmarco, M., González-García, C., & Linde-Domingo, J. (2026). Episodic memory adaptively expands retrieval through typicality-guided transformation while concrete details remain accessible. bioRxiv. doi:10.64898/2026.09.24.754119
+P5.	Gutiérrez-Blanco, F., Gaspar, S., Palenciano, A. F., González-García, C., & Ruz, M. (2026). Flexible predictive processing during face perception. bioRxiv. doi:10.64898/2026.07.29.741445
+P4.	Palenciano, A. F., Pena, P., Woolgar, A., González-García, C., & Ruz, M. (2026). Multiple-Demand Network encoding geometry balances generalization and dimensionality during novel task assembly. bioRxiv. doi:10.64898/2026.04.22.720093
+P3.	Völler, J., Linde-Domingo*, J., & González-García*, C. (2026). Bayesian surprise tracks the strength of perceptual insight. bioRxiv. doi:10.64898/2026.02.26.708200
+P2.	Fuentes-Guerra, A., Botta, F., Lupiáñez, J., González-García*, C., & Martín-Arévalo*, E. (2026). Feature-Based and Spatial Involuntary Internal Attention Differentially Shape Action-Oriented Working Memory Selection. PsyArXiv. doi:10.31234/osf.io/hu6bg_v1
+P1.	Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2026). Retro-cue Characteristics and Visual Masking Differentially Influence Voluntary and Involuntary Attention. doi:10.31234/osf.io/qy6pc_v1
+Peer-reviewed journal articles
+48.	Völler, J., Linde-Domingo, J., Ortiz-Tudela, J., & González-García, C. (2026). From sudden perceptual learning to enduring engrams: a representational perspective. Philosophical Transactions of the Royal Society B: Biological Sciences, 381(1954), 20250245. doi:10.1098/rstb.2025.0245
+47.	Linde-Domingo*, J., Ortiz-Tudela*, J., Völler, J., Hebart, M. N., & González-García, C. (2026). Determinants of visual ambiguity resolution. Communications Psychology. doi:10.1038/s44271-026-00441-8
+46.	Kerrén, C., González-García, C., & Linde-Domingo, J. (2026). Characterising semantic prioritisation in visual working memory. eLife. doi:10.7554/elife.111859.1
+45.	Fuentes-Guerra, Á., Martín-Arévalo, E., van Ede*, F., & González-García*, C. (2026). Exogenously driven neural reactivation of spatially matching visual working-memory contents. eNeuro, ENEURO.0076-26.2026. doi:10.1523/ENEURO.0076-26.2026
+44.	Fuentes-Guerra, Á., Cipriani, G. A., González-García, C., & Botta, F. (2025). Drift-Diffusion Modeling of Accuracy and Reaction Times: A Deeper Insight into Retrospective Attention. Journal of Experimental Psychology: Human Perception and Performance, 51(11), 1461–1463. doi:10.1037/xhp0001349
+43.	Vermeylen, L., Braem, S., Ivanchei, I., Desender, K., García-Román, J. M., González-García, C., Ruz, M., & Notebaert, W. (2025). The Temporal Dynamics of Metacognitive Experiences Track Rational Adaptations in Task Performance. Communications Psychology, 3, 96. doi:10.1101/2023.09.26.559523
+42.	Ponce, R., Lupiáñez, J., González-García, C., Casagrande, M., & Marotta, A. (2025). Investigating the gaze-driven reversed congruency effect in the spatial Stroop task: A distributional approach. British Journal of Psychology, 00, 1–21. doi:10.1111/bjop.70004
+41.	Fuentes-Guerra Toral, Á., Botta, F., Lupiáñez, J., González-García*, C., & Martín-Arévalo*, E. (2025). Exogenous attention and its relationship with working memory contents: beyond spatial selection. Acta Psychologica, 256, 105003. doi:10.1016/j.actpsy.2025.105003
+40.	Pena, P., Palenciano, A. F., González-García, C., & Ruz, M. (2025). Novel verbal instructions recruit abstract neural patterns of time-variable information dimensionality. Journal of Neuroscience. doi:10.1523/JNEUROSCI.1964-24.2025
+39.	Fuentes-Guerra, Á., Botta, F., Lupiáñez, J., Talavera, P., Martín-Arévalo*, E., & González-García*, C. (2025). Exogenous spatial attention selects associated novel bindings in working memory. Journal of Memory and Language, 140, 104571. doi:10.1016/j.jml.2024.104571
+38.	Peñalver, J. M. G., González-García, C., Palenciano, A. F., López-García, D., & Ruz, M. (2024). Context-dependent neural preparation for information relevance vs. probability. Imaging Neuroscience. doi:10.1101/2024.05.20.594985
+37.	Engelmann, N., Hannikainen, I. R., González-García, C., & Ruz, M. (2024). Understanding Rule Enforcement Using Drift Diffusion Models. Proceedings of the Annual Meeting of the Cognitive Science Society, 46(0).
+36.	Formica, S., Palenciano, A. F., Vermeylen, L., Myers, N. E., Brass, M., & González-García, C. (2024). Internal attention modulates the functional state of novel stimulus-response associations in working memory. Cognition, 245, 105739. doi:10.1016/j.cognition.2024.105739
+35.	Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2024). Competing working memory contents: perceptual over semantic prioritization and voluntary retrieval following retro-cueing. Visual Cognition, 0(0), 1–20. doi:10.1080/13506285.2024.2435652
+34.	Ponce, R., Lupiáñez, J., González-García, C., Casagrande, M., & Marotta, A. (2024). Exploring the spatial interference effects elicited by social and non-social targets: A conditional accuracy function approach. British Journal of Psychology. doi:10.1111/bjop.12735
+33.	Palenciano, A. F., González-García, C., Houwer, J. D., Liefooghe, B., & Brass, M. (2024). Concurrent response and action effect representations across the somatomotor cortices during novel task preparation. Cortex. doi:10.1016/j.cortex.2024.05.003
+32.	Wisniewski, D., Braem, S., González-García, C., Houwer, J. D., & Brass, M. (2023). Effects of experiencing CS-US pairings on instructed fear reversal. Journal of Neuroscience. doi:10.1101/2022.04.05.487162
+31.	Ortiz-Tudela, J., & González-García, C. (2023). Exploring the conceptual structure of Spanish Experimental Psychology. Psicologica, 44(2), e15275. doi:10.31234/osf.io/rvtby
+30.	Wisniewski, D., González-García, C., Formica, S., Woolgar, A., & Brass, M. (2023). Adaptive coding of stimulus information in human frontoparietal cortex during visual classification. NeuroImage, 120150. doi:10.1016/j.neuroimage.2023.120150
+29.	Peñalver, J. M. G., López-García, D., González-García, C., Aguado-López, B., Górriz, J. M., & Ruz, M. (2023). Top-down specific preparatory activations for Selective Attention and Perceptual Expectations. NeuroImage, 271, 119960. doi:10.1016/j.neuroimage.2023.119960
+28.	Palenciano, A. F., Senoussi, M., Formica, S., & González-García, C. (2023). Canonical template tracking: measuring the activation state of specific neural representations. Frontiers in Neuroimaging, 1. doi:10.3389/fnimg.2022.974927
+27.	Formica, S., González-García, C., Senoussi, M., Marinazzo, D., & Brass, M. (2022). Theta-Phase Connectivity between Medial Prefrontal and Posterior Areas Underlies Novel Instructions Implementation. eNeuro, 9(4). doi:10.1523/eneuro.0225-22.2022
+26.	Sobrado, A., Palenciano, A. F., González-García, C., & Ruz, M. (2022). The effect of task demands on the neural patterns generated by novel instruction encoding. Cortex, 149, 59–72. doi:10.1016/j.cortex.2022.01.010
+25.	Wisniewski, D., Cracco, E., González-García, C., & Brass, M. (2022). Relating free will beliefs and attitudes. Royal Society Open Science, 9(2), 202018. doi:10.1098/rsos.202018
+24.	Desender*, K., Teuchies*, M., González-García, C., De Baene, W., Demanet, J., & Brass, M. (2021). Metacognitive Awareness of Difficulty in Action Selection: The Role of the Cingulo-opercular Network. Journal of Cognitive Neuroscience, 33(12), 2512–2522. doi:10.1162/jocn_a_01773
+23.	Palenciano, A. F., González-García, C., Houwer, J. D., Brass, M., & Liefooghe, B. (2021). Exploring the Link between Novel Task Proceduralization and Motor Simulation. Journal of Cognition, 4(1), 57. doi:10.5334/joc.190
+22.	Formica, S., González-García, C., Senoussi, M., & Brass, M. (2021). Neural oscillations track the maintenance and proceduralization of novel instructions. NeuroImage, 232, 117870. doi:10.1016/j.neuroimage.2021.117870
+21.	González-García, C., & He, B. J. (2021). A Gradient of Sharpening Effects by Perceptual Prior across the Human Cortical Hierarchy. Journal of Neuroscience, 41(1), 167–178. doi:10.1523/JNEUROSCI.2023-20.2020
+20.	González-García, C., Formica, S., Wisniewski, D., & Brass, M. (2021). Frontoparietal action-oriented codes support novel instruction implementation. NeuroImage, 226, 117608. doi:10.1016/j.neuroimage.2020.117608
+19.	González-García, C., García-Carrión, B., López-Benítez, R., Sobrado, A., Acosta, A., & Ruz, M. (2020). Induced affective states do not modulate effort avoidance. Psychological Research, 85(3), 1016–1028. doi:10.1007/s00426-020-01300-9
+18.	Botvinik-Nezer, R., Holzmeister, F., Camerer, C. F., Dreber, A., Huber, J., Johannesson, M., Kirchler, M., Iwanir, R., Mumford, J. A., Adcock, R. A., Avesani, P., Baczkowski, B. M., Bajracharya, A., Bakst, L., Ball, S., Barilari, M., Bault, N., Beaton, D., Beitner, J., Benoit, R. G., Berkers, R. M. W. J., Bhanji, J. P., Biswal, B. B., Bobadilla-Suarez, S., Bortolini, T., Bottenhorn, K. L., Bowring, A., Braem, S., Brooks, H. R., Brudner, E. G., Calderon, C. B., Camilleri, J. A., Castrellon, J. J., Cecchetti, L., Cieslik, E. C., Cole, Z. J., Collignon, O., Cox, R. W., Cunningham, W. A., Czoschke, S., Dadi, K., Davis, C. P., Luca, A. D., Delgado, M. R., Demetriou, L., Dennison, J. B., Di, X., Dickie, E. W., Dobryakova, E., Donnat, C. L., Dukart, J., Duncan, N. W., Durnez, J., Eed, A., Eickhoff, S. B., Erhart, A., Fontanesi, L., Fricke, G. M., Fu, S., Galván, A., Gau, R., Genon, S., Glatard, T., Glerean, E., Goeman, J. J., Golowin, S. A. E., González-García, C., Gorgolewski, K. J., Grady, C. L., Green, M. A., Guassi Moreira, J. F., Guest, O., Hakimi, S., Hamilton, J. P., Hancock, R., Handjaras, G., Harry, B. B., Hawco, C., Herholz, P., Herman, G., Heunis, S., Hoffstaedter, F., Hogeveen, J., Holmes, S., Hu, C. P., Huettel, S. A., Hughes, M. E., Iacovella, V., Iordan, A. D., Isager, P. M., Isik, A. I., Jahn, A., Johnson, M. R., Johnstone, T., Joseph, M. J. E., Juliano, A. C., Kable, J. W., Kassinopoulos, M., Koba, C., Kong, X. Z., Koscik, T. R., Kucukboyaci, N. E., Kuhl, B. A., Kupek, S., Laird, A. R., Lamm, C., Langner, R., Lauharatanahirun, N., Lee, H., Lee, S., Leemans, A., Leo, A., Lesage, E., Li, F., Li, M. Y. C., Lim, P. C., Lintz, E. N., Liphardt, S. W., Losecaat Vermeer, A. B., Love, B. C., Mack, M. L., Malpica, N., Marins, T., Maumet, C., McDonald, K., McGuire, J. T., Melero, H., Méndez Leal, A. S., Meyer, B., Meyer, K. N., Mihai, G., Mitsis, G. D., Moll, J., Nielson, D. M., Nilsonne, G., Notter, M. P., Olivetti, E., Onicas, A. I., Papale, P., Patil, K. R., Peelle, J. E., Pérez, A., Pischedda, D., Poline, J. B., Prystauka, Y., Ray, S., Reuter-Lorenz, P. A., Reynolds, R. C., Ricciardi, E., Rieck, J. R., Rodriguez-Thompson, A. M., Romyn, A., Salo, T., Samanez-Larkin, G. R., Sanz-Morales, E., Schlichting, M. L., Schultz, D. H., Shen, Q., Sheridan, M. A., Silvers, J. A., Skagerlund, K., Smith, A., Smith, D. V., Sokol-Hessner, P., Steinkamp, S. R., Tashjian, S. M., Thirion, B., Thorp, J. N., Tinghög, G., Tisdall, L., Tompson, S. H., Toro-Serey, C., Torre Tresols, J. J., Tozzi, L., Truong, V., Turella, L., van ?t Veer, A. E., Verguts, T., Vettel, J. M., Vijayarajah, S., Vo, K., Wall, M. B., Weeda, W. D., Weis, S., White, D. J., Wisniewski, D., Xifra-Porxas, A., Yearling, E. A., Yoon, S., Yuan, R., Yuen, K. S. L., Zhang, L., Zhang, X., Zosky, J. E., Nichols, T. E., Poldrack, R. A., & Schonberg, T. (2020). Variability in the analysis of a single neuroimaging dataset by many teams. Nature, 582(7810), 84–88.
+17.	Vermeylen, L., Wisniewski, D., González-García, C., Hoofs, V., Notebaert, W., & Braem, S. (2020). Shared Neural Representations of Cognitive Conflict and Negative Affect in the Medial Frontal Cortex. Journal of Neuroscience, 40(45), 8715–8725. doi:10.1523/JNEUROSCI.1744-20.2020
+16.	Cracco*, E., González-García*, C., Hussey, I., Braem, S., & Wisniewski, D. (2020). Cultural pressure and biased responding in free will attitudes. Royal Society Open Science, 7(8), 191824. doi:10.1098/rsos.191824
+15.	Díaz-Gutiérrez, P., Arco, J. E., Alguacil, S., González-García, C., & Ruz, M. (2020). Neural representations of social valence bias economic interpersonal choices. Neuropsychologia, 147, 107584. doi:10.1016/j.neuropsychologia.2020.107584
+14.	Formica, S., González-García, C., & Brass, M. (2020). The effects of declaratively maintaining and proactively proceduralizing novel stimulus-response mappings. Cognition, 201, 104295. doi:10.1016/j.cognition.2020.104295
+13.	Van der Biest, M., Cracco, E., Wisniewski, D., Brass, M., & González-García, C. (2020). Investigating the effect of trustworthiness on instruction-based reflexivity. Acta Psychologica, 207, 103085. doi:10.1016/j.actpsy.2020.103085
+12.	Kostandyan, M., Park, H. R. P., Bundt, C., González-García, C., Wisniewski, D., Krebs, R. M., & Boehler, C. N. (2020). Are all behavioral reward benefits created equally? An EEG-fMRI study. NeuroImage, 215, 116829. doi:10.1016/j.neuroimage.2020.116829
+11.	González-García, C., Formica, S., Liefooghe, B., & Brass, M. (2020). Attentional prioritization reconfigures novel instructions into action-oriented task sets. Cognition, 194, 104059. doi:10.1016/j.cognition.2019.104059
+10.	Palenciano, A. F., González-García, C., Arco, J. E., & Ruz, M. (2019). Transient and Sustained Control Mechanisms Supporting Novel Instructed Behavior. Cerebral Cortex, 29(9), 3948–3960. doi:10.1093/cercor/bhy273
+9.	Flounders, M. W., González-García, C., Hardstone, R., & He, B. J. (2019). Neural dynamics of visual ambiguity resolution by perceptual prior. eLife, 8, e41861. doi:10.7554/eLife.41861
+8.	Palenciano, A. F., González-García, C., Arco, J. E., Pessoa, L., & Ruz, M. (2019). Representational Organization of Novel Task Sets during Proactive Encoding. Journal of Neuroscience, 39(42), 8386–8397. doi:10.1523/JNEUROSCI.0725-19.2019
+7.	González-García, C., Flounders, M. W., Chang, R., Baria, A. T., & He, B. J. (2018). Content-specific activity in frontoparietal and default-mode networks during prior-guided visual perception. eLife, 7, e36068. doi:10.7554/eLife.36068
+6.	Arco, J. E., González-García, C., Díaz-Gutiérrez, P., Ramírez, J., & Ruz, M. (2018). Influence of activation pattern estimates and statistical significance tests in fMRI decoding analysis. Journal of Neuroscience Methods, 308, 248–260. doi:10.1016/j.jneumeth.2018.06.017
+5.	González-García, C., Arco, J. E., Palenciano, A. F., Ramírez, J., & Ruz, M. (2017). Encoding, preparation and implementation of novel complex verbal instructions. NeuroImage, 148, 264–273. doi:10.1016/j.neuroimage.2017.01.037
+4.	Palenciano, A. F., Díaz-Gutiérrez, P., González-García, C., & Ruz, M. (2017). Neural mechanisms of cognitive control / Mecanismos neurales de control cognitivo. Studies in Psychology, 38(2), 311–337. doi:10.1080/02109395.2017.1305060
+3.	González-García, C., Mas-Herrero, E., de Diego-Balaguer, R., & Ruz, M. (2016). Task-specific preparatory neural activations in low-interference contexts. Brain Structure and Function, 221(8), 3997 – 4006. doi:10.1007/s00429-015-1141-5
+2.	González-García, C., Tudela, P., & Ruz, M. (2015). Unconscious biases in task choices depend on conscious expectations. Consciousness and Cognition, 37, 44–56. doi:10.1016/j.concog.2015.08.001
+1.	González-García, C., Tudela, P., & Ruz, M. (2014). Functional magnetic resonance imaging: a critical analysis of its technical, statistical and theoretical implications in human neuroscience. Revista de neurologia, 58(7), 318—325. doi:10.33588/rn.5807.2013212
+Science communication articles
+Fuentes-Guerra Toral, Á., González-García, C., & Martín-Arévalo, E. (2026). ¿Cómo percibimos objetos estables en un mundo en constante cambio? El papel de la atención involuntaria en la memoria de trabajo. Ciencia Cognitiva. www.cienciacognitiva.org/?p=2696
+Pena, P., Ruz, M., González-García, C., & Palenciano, A. F. (2023). Seguir instrucciones puede parecer fácil, pero ¿es suficiente con entenderlas?. Ciencia Cognitiva. www.cienciacognitiva.org/?p=2363
+Peñalver, J. M. G., González-García, C., & Ruz, M. (2023). La experiencia cambia la percepción: Codificación predictiva. Ciencia Cognitiva. www.cienciacognitiva.org/?p=2296
+González-García, C. (2018). En qué consiste el aprendizaje automático (machine learning) y qué está aportando a la Neurociencia Cognitiva. Ciencia Cognitiva, 12(2), 48–50. www.cienciacognitiva.org/?p=1697
+Sobrado, A., González-García, C., & Ruz, M. (2018). ¿Por qué unas tareas mentales nos cuestan más que otras? El esfuerzo cognitivo y la percepción subjetiva de la dificultad. Ciencia Cognitiva, 12(2), 42–44. www.cienciacognitiva.org/?p=1658
+González-García, C., Alguacil, S., Tudela, P., & Ruz, M. (2014). Descifrando el ruido del cerebro: Actividad cerebral espontánea. Ciencia Cognitiva, 8(1), 5–7. www.cienciacognitiva.org/?p=805
+González-García, C., Tudela, P., & Ruz, M. (2012). De la frenología a la lectura de mentes: Neuroimagen funcional y libre albedrío. Ciencia Cognitiva, 6(3), 70–72. www.cienciacognitiva.org/?p=591
+## Invited Talks
+Department of Experimental Psychology, University of Granada (Spain) [11/2020]
+Perception and Brain Dynamics Laboratory, New York University (USA) [06/2020]
+Department of Experimental Psychology, Ghent University (Belgium) [06/2017]
+## Conference Presentations
+Symposia organized
+Völler, J. & González-García, C. (Organizers) (2025). Sudden Learning Across Systems. International Conference on Cognitive Neuroscience (ICON), Porto, Portugal.
+González-García, C. (Organizer) (2022). The role of predictions across neurocognitive processes. International APPE-SEPEX meeting, Portugal.
+González-García, C. (Organizer) (2018). Cognitive control: Two control modes or three orthogonal dimensions?. SEPEX/SEPNECA/AIP meeting, Spain.
+Oral presentations
+Völler, J., Moreno-Alcaide, P., González-García, C.*, & Linde-Domingo, J.* (2026). Gaze-derived and semantic predictions explain the intensity of perceptual insights following Bayesian inference principles. 15th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Valencia, Spain.
+Delmarco, M., González-García, C.*, & Linde-Domingo, J.* (2026). Schema-matching generalization of episodic memories expands cue efficacy without sacrificing perceptual precision. 15th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Valencia, Spain.
+Völler, J., González-García, C.*, & Linde-Domingo, J.* (2025). Perceptual insight as a prediction error readout and its role in memory. International Conference on Cognitive Neuroscience (ICON), Porto, Portugal.
+Völler, J., & González-García, C. (2025). Both the accuracy and the uncertainty of predictions track the strength of sudden perceptual insight. Meetings of the Alhambra: The cognitive neuroscience of consciousness, Granada, Spain.
+Fuentes-Guerra Toral, Á., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2025). Can feature-based involuntary attention select stimulus-response bindings held in working memory?. XIV Reunión Científica sobre Atención (RECA), Spain.
+Fuentes-Guerra Toral, Á., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2024). Exogenous spatial retro-cues select associated novel stimulus-response mappings held in working memory. 14th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Almería, Spain.
+Padezhki, I., González-García, C., Linde-Domingo, J., Formica, S., Palenciano, A. F., & Brass, M. (2024). Decoding stimulus category in EEG under different functional relevance priorities. Working Memory Symposium (online).
+Fuentes-Guerra Toral, Á., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2024). Can central involuntary attention select stimulus-response bindings held in working memory?. Working Memory Symposium (online).
+Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2024). Orienting attention to perceptual and semantic working memory contents using peripheral retrocues. Working Memory Symposium (online).
+Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2023). The effects of voluntary and involuntary internal attention on different types of working memory contents. European Society for Cognitive Psychology (ESCoP), Universidade do Porto, Portugal.
+González-García, C. (2022). Characterizing the neural signatures of prior-guided perception across the cortical hierarchy. International APPE-SEPEX meeting, Portugal.
+González-García, C. (2022). Implicit measures of one-shot perceptual learning. XIII Reunión Científica sobre Atención (RECA), Granada, Spain.
+Fuentes-Guerra Toral, Á., González-García, C., & Martín-Arévalo, E. (2022). Exogenous attention and its relationship with working memory contents: Not only “Where?”, but also “What?”. XIII Reunión Científica sobre Atención (RECA), Granada, Spain.
+Cipriani, G. A., González-García, C., Martín-Arévalo, E., Fuentes-Guerra, Á., Lupiáñez, J., & Botta, F. (2022). The modulation of the retro-cue effect by the type of selective attention and retrieval task. XIII Reunión Científica sobre Atención (RECA), Granada, Spain.
+González-García, C. (2021). Characterizing the representation of different functional states in working memory-guided novel actions. XII SEPNECA, Spain.
+González-García, C. (2020). From instructions to actions: characterizing the spatiotemporal neural signatures of cognitive flexibility. International APPE-SEPEX meeting, Portugal.
+González-García, C. (2019). Tracking the emergence of declarative and procedural representations in frontoparietal cortices during the implementation of novel task sets. 21st ESCOP, Spain.
+González-García, C., Formica, S., & Brass, M. (2018). Attentional influences in the implementation of novel task sets. SEPEX/SEPNECA/AIP meeting, Spain.
+González-García, C. (2017). Perceptual priors shift neural representations throughout the visual hierarchy. XI Scientific Meeting of Attention, Spain. Best oral presentation award.
+González-García, C. (2016). Selective tuning of cognitive control during instructed task preparation. EPS/SEPEX, England.
+González-García, C., Palenciano, A. F., Arco, J. E., & Ruz, M. (2015). Selective tuning of cognitive control brain areas during instructed task preparation. 19th Conference of the European Society for Cognitive Psychology (ESCOP), Cyprus.
+González-García, C., Tudela, P., & Ruz, M. (2015). Unconscious biases on task choices depend on conscious expectations. International Workshop in Learning, Memory and Attention, Spain.
+González-García, C., Tudela, P., & Ruz, M. (2013). Unconscious bias in decision-making. IX Scientific Meeting of Attention, Spain.
+Posters
+Delmarco, M., González-García, C.*, & Linde-Domingo, J.* (2026). Typicality effects in visual memory: Co-occurring representational drift and global bias. APS Annual Convention, Barcelona, Spain.
+Moreno-Alcaide, P., Ortiz-Tudela, J., & González-García, C. (2026). The space of uncertainty as a modulator of perceptual insight. 15th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Valencia, Spain.
+Delmarco, M., González-García, C.*, & Linde-Domingo, J.* (2026). Typicality shapes recognition memory across delays. 15th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Valencia, Spain.
+Delmarco, M., González-García, C., & Linde-Domingo, J. (2026). Typicality effects reveal both representational drift and global bias in long-term memory. Workshop on Concepts, Actions, and Objects (CAOs), Rovereto, Italy.
+Völler, J., Moreno-Alcaide, P., González-García, C.*, & Linde-Domingo, J.* (2026). The role of gaze-derived and semantic predictions in perceptual insight. Workshop on Concepts, Actions, and Objects (CAOs), Rovereto, Italy.
+González-García, C. (2025). Assessing the consequences of abstraction in one-shot perceptual learning. International Conference on Cognitive Neuroscience (ICON), Porto, Portugal.
+Padezhki, I., Linde-Domingo, J., González-García, C., & Ortiz-Tudela, J. (2025). Modelling the adaptive transformation of representations in brains and artificial networks. International Conference on Cognitive Neuroscience (ICON), Porto, Portugal.
+Padezhki, I., Linde-Domingo, J., & González-García, C. (2025). Neural geometry dynamics of working memory-guided actions. International Conference on Cognitive Neuroscience (ICON), Porto, Portugal.
+Padezhki, I., Ortiz-Tudela, J., González-García, C., & Linde-Domingo, J. (2025). Schemas as memory triggers: Initial evidence from human retrieval and autoencoders. NeuroCog Meeting, Brussels, Belgium.
+Pena, P., Aguado-López, B., García-Román, J. M., González-García, C., Gutiérrez-Blanco, F., Hefner, M., Moreno-Alcaide, P., Palenciano, A. F., Richter, D., Shoebridge-Martin, C., Sokoliuk, R., Völler, J., & Ruz, M. (2025). Human neuroscience lab: Multi-faceted exploration of top-down mechanisms. 7th Meetings of the CIMCYC (Jornadas de Investigación CIMCYC), Granada, Spain.
+Linde-Domingo, J., Bajo, T., Bernal, A., González-García, C., Funes, M. J., Hebart, M. N., Maraver, M. J., Marful, A., Martín-Arévalo, E., Ortiz-Tudela, J., Pérez, A. I., & Völler, J. (2025). Bridging Minds: Collaborative research on memory & language. 7th Meetings of the CIMCYC (Jornadas de Investigación CIMCYC), Granada, Spain.
+Völler, J., González-García, C.*, & Linde-Domingo, J.* (2024). Semantic distance reduction predicts the intensity of the Aha! experience in one-shot perceptual learning. 14th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Almería, Spain.
+Padezhki, I., González-García, C., & Linde-Domingo, J. (2024). Decoding neural codes of stimulus category in EEG under different functional relevance priorities. 14th Meeting of the Spanish Society for Experimental Psychology (SEPEX), Almería, Spain.
+Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2024). The voluntariness of attention and the competition between low- and high-level dimensions in visual working memory. 4th International Conference on Working Memory, University of Leeds, UK.
+Fuentes-Guerra Toral, Á., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2024). Exogenous spatial retro-cues select associated novel stimulus-response mappings held in working memory. 4th International Conference on Working Memory, University of Leeds, UK.
+González-García, C., et al. (2023). Functional relevance alters the neural geometry of novel instructed actions. Cognitive Computational Neuroscience (CCN), Oxford, UK.
+Fuentes-Guerra Toral, Á., Talavera, P., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2023). Exogenous spatial retrocues select associated novel stimulus-response bindings in working memory. Seeing and Acting Workshop: Functional and Neural Perspectives.
+Fuentes-Guerra Toral, Á., Lupiáñez, J., Botta, F., González-García, C., & Martín-Arévalo, E. (2023). Exploring the oscillatory patterns of exogenous attentional selection and prioritization of novel stimulus-response mappings held in working memory. CuttingGardens, Donostia-San Sebastián, Spain.
+Fuentes-Guerra, Á., Cipriani, G., Talavera, P., Sánchez-García, E., Fernández Pérez, S., Lupiáñez, J., Martín-Arévalo, E., Botta, F., & González-García, C. (2023). Selective internal attention and working memory. Jornadas CIMCYC 10º Aniversario, Granada, Spain.
+González-García, C. (2019). Emergence of procedural representations in the frontoparietal network during the implementation of novel task sets. Control Processes Expert Meeting, USA.
+González-García, C., et al. (2019). Attentional prioritization transforms task-relevant rules into action-oriented representations. Organization for Human Brain Mapping (OHBM) Annual Meeting, Italy.
+González-García, C., et al. (2018). Retrospective proceduralization of previously instructed task sets. 59th Annual Meeting of the Psychonomic Society, USA.
+González-García, C., López-Benítez, R., García-Carrión, B., Acosta, A., & Ruz, M. (2018). The role of emotion on task selection and cognitive effort. SEPEX/SEPNECA/AIP meeting, Spain.
+Ortiz-Tudela, J., Arco, J. E., & González-García, C. (2018). There's more that meets the fixations and the saccades: Multivariate analyses of eye movement data. SEPEX/SEPNECA/AIP meeting, Spain.
+Palenciano, A. F., González-García, C., Arco, J. E., Padmala, S., Pessoa, L., & Ruz, M. (2018). Different control dimensions organize task-set representations in novel, instructed behavior. 25th Cognitive Neuroscience Society (CNS) Annual Meeting, USA.
+Palenciano, A. F., González-García, C., Padmala, S., Pessoa, L., & Ruz, M. (2018). Variable representational organization during preparatory encoding of novel instructions. Bridging Attention and Perception, Spain.
+Flounders, M. W., González-García, C., Hardstone, R., & He, B. J. (2017). Neural dynamics of visual ambiguity resolution by perceptual prior. Organization for Human Brain Mapping (OHBM) Annual Meeting, Canada.
+González-García, C., et al. (2016). Neural mechanisms underlying priors in conscious perception. 20th ASSC, Argentina.
+Palenciano, A. F., González-García, C., Arco, J. E., & Ruz, M. (2016). Sustained and transient control mechanisms during the implementation of novel instructions: A mixed-design fMRI study. Organization for Human Brain Mapping (OHBM) Annual Meeting, Switzerland.
+González-García, C., Palenciano, A. F., Díaz-Gutiérrez, P., Tudela, P., & Ruz, M. (2014). Brain networks underpinning encoding, preparation and implementation of new tasks. 10th Meeting of the SEPEX-SEPNECA, Spain.
+Ruz, M., González-García, C., Mas-Herrero, E., & de Diego-Balaguer, R. (2014). Expectations of different stimulus types engage category-specific brain areas. Organization for Human Brain Mapping (OHBM) Annual Meeting, Germany.
+González-García, C., Tudela, P., & Ruz, M. (2013). Unconscious modulation of human decision-making. Rovereto Attention Workshop, Italy.
+González-García, C., Tudela, P., & Ruz, M. (2013). Unconscious biasing of decision-making: are we completely free?. 21st Meeting of the European Society for Philosophy and Psychology (ESPP), Spain.
+González-García, C., Del Río-Bermúdez, C., & Lupiáñez, J. (2013). Chronotype and time-of-day influences on vigilance and three attentional networks. IX Scientific Meeting of Attention, Spain.
+## Mentoring
+Postdoctoral researchers
+Almudena Ramírez-Haro [2026–present]
+Doctoral students
+Mattia Delmarco; Co-supervisor (with Dr. Juan Linde-Domingo) · Thesis: Characterizing the role of typicality in perception and memory [2025–present]
+Francisco Gutiérrez; FPI; Co-supervisor (with Dr. María Ruz) · Thesis: Neural Mechanisms of Perceptual Expectations During Preparation and Encoding of Information [2024–present]
+Johannah Völler; FPI; Co-supervisor (with Dr. Juan Linde-Domingo) · Thesis: Learning from Single Experiences: Formation and Temporal Evolution of Memory Traces in One-Shot Perceptual Learning [2023–present]
+Águeda Fuentes-Guerra Toral; FPI; Co-supervisor (with Dr. Elisa Martín-Arévalo) · Thesis: Caracterización de los efectos de la atención exógena sobre los contenidos en memoria de trabajo · Defended 10/07/2026 (Sobresaliente cum laude, international doctorate) [2022–2026]
+José M. G. Peñalver; FPU; Co-supervisor (with Dr. María Ruz) · Thesis: Mecanismos neurales de preparación en diferentes dominios cognitivos · Defended 19/01/2024 (Sobresaliente cum laude, international doctorate) [2019–2023]
+Master's students
+Noelia Martín López; Beca de Colaboración (Spanish Ministry of Education), 2026/2027 · Thesis: Trayectorias inferenciales y codificación de objetos [2026–present]
+Mehr Un Nisa Naghman [2025–2026]
+Miguel Ibarguren [2024–2025]
+Pablo Moreno Alcaide [2024–2025]
+Carlos Lucena [2023–2024]
+Mattia Delmarco [2023–2024]
+Ricardo de Haro [2022–2023]
+Tara Beilner [2021–2022]
+Águeda Fuentes-Guerra Toral [2021–2022]
+Nel Tavernier, Ghent University (Belgium) [2020–2021]
+Lise Vanden Hautte, Ghent University (Belgium) [2020–2021]
+Lidia Izquierdo [2016–2017]
+Ana F. Palenciano [2014–2015]
+Visiting students
+Bazil Pasques (Ghent University, Belgium) and Nika Vrlinič (University of Maribor, Slovenia); Host, Erasmus+ research stays for their MSc projects (eye-tracking data with Dr. Juan Linde-Domingo)
+## Teaching
+Research Methods; Cognitive Neuroscience (Master's courses), University of Granada (Spain) (Instructor) [2023–present]
+Introductory course to programming and data analysis in R (graduate students), University of Granada (Spain) [2023, 2025]
+Introductory course to Magnetic Resonance Imaging (graduate students), University of Granada (Spain) [2022, 2024]
+Research seminars for the Cognitive Neuroscience Master's students, University of Granada (Spain) (Coordinator) [2021–2024]
+Cognitive Neuroscience (Bachelor's course), University of Granada (Spain) (Instructor) [2021–2024]
+Cognitive Neuroscience; Perspectives in Cognitive Neuroscience; Advanced Neuroimaging Techniques
+Técnicas de neuroimagen avanzadas, Máster de Neuropsicología, Universitat Oberta de Catalunya (Spain)
+Course on functional MRI analysis for graduate students, New York University (USA); 20 h [2016–2017]
+Workshop on multivariate analysis of fMRI data, SEPNECA, Madrid (Spain); 12 h [2017]
+fMRI course for graduate students, University of Granada (Spain) [2019]
+Cognitive Psychology lecture, Vrije Universiteit Brussel (Belgium) [2018, 2019]
+## Professional Service
+Event organization
+CIMCYC International Doctoral Summer School: Representations in Cognitive Neuroscience, Granada (Spain). Organizer [2024]
+CIMCYC Workshop on computational modelling of behavioral data, Granada (Spain). Organizing committee [2022–2025]
+CIMCYC sessions on AI, Mind and Brain (deep learning models in neuroimaging analysis), Granada (Spain). Launched and organized (with Javier Ortiz-Tudela)
+XIII Reunión Científica sobre Atención (RECA), Granada (Spain). Organizing committee (with Elisa Martín-Arévalo) [2022]
+CIMCYC I International Workshop on Brain and Cognition, Granada (Spain). Organizing committee [2017]
+Ad hoc reviewer
+Acta Psychologica, Attention, Perception, & Psychophysics, Cerebral Cortex, Cognitive Processing, Communications Biology, Consciousness and Cognition, Cortex, eLife, Human Brain Mapping, Imaging Neuroscience, iScience, Journal of Cognitive Neuroscience, Journal of Experimental Psychology: General, Journal of Neuroscience, NeuroImage, Neuroscience of Consciousness, Oxford Open Neuroscience, PLoS Computational Biology, Psicológica, Psychological Research, Scientific Reports, The Spanish Journal of Psychology, Visual Cognition.
+Grant review
+European Commission (Marie Skłodowska-Curie individual fellowships)
+Spanish Ministry of Science and Innovation (national projects; also panel member)
+University committees
+Selection committee for PhD students, Ghent University and University of Granada
+BSc and MSc theses evaluation committees, University of Granada (2021–present)
+Professional memberships
+Psychonomic Society, Cognitive Neuroscience Society (CNS), Spanish Experimental Psychology Society (SEPEX).
+## Open Science And Research Resources
+THINGS–Mooney open database and toolbox. doi.org/10.5281/zenodo.14040189
+Institutional adoption of SONA participant recruitment and dissemination platform at CIMCYC (2021–2023). ugr-cimcyc.sona-systems.com/Default.aspx
+Open-source experimental paradigms and analysis pipelines. github.com/gonzalezgarcia
+Introductory programming guide for early-career researchers. wobc.github.io/programming_book/
+## Outreach
+Talk: Atención exógena, más allá del espacio (with Á. Fuentes-Guerra Toral and E. Martín-Arévalo), Jornadas del Día Internacional de la Mujer y la Niña en la Ciencia (Instituto de Neurociencias Federico Olóriz and CIMCYC, Granada) [2023]
+Media coverage: work on rapid disambiguation featured in 50+ international news articles (e.g., Yahoo News, Politico, ABC, NBC, CBS, FOX) and science sites (Neuroskeptic, Science Daily, EurekAlert) [link]
+Coordinator, PIIISA project (connecting research with high-school students) [2012–2013]
