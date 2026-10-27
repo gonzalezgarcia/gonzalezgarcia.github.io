@@ -56,7 +56,7 @@ P5.	Gutiérrez-Blanco, F., Gaspar, S., Palenciano, A. F., González-García, C.,
 P4.	Palenciano, A. F., Pena, P., Woolgar, A., González-García, C., & Ruz, M. (2026). Multiple-Demand Network encoding geometry balances generalization and dimensionality during novel task assembly. bioRxiv. doi:10.64898/2026.04.22.720093
 P3.	Völler, J., Linde-Domingo*, J., & González-García*, C. (2026). Bayesian surprise tracks the strength of perceptual insight. bioRxiv. doi:10.64898/2026.02.26.708200
 P2.	Fuentes-Guerra, A., Botta, F., Lupiáñez, J., González-García*, C., & Martín-Arévalo*, E. (2026). Feature-Based and Spatial Involuntary Internal Attention Differentially Shape Action-Oriented Working Memory Selection. PsyArXiv. doi:10.31234/osf.io/hu6bg_v1
-P1.	Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2026). Retro-cue Characteristics and Visual Masking Differentially Influence Voluntary and Involuntary Attention. doi:10.31234/osf.io/qy6pc_v1
+P1.	Cipriani, G. A., González-García, C., Martín-Arévalo, E., Lupiáñez, J., & Botta, F. (2026). Retro-cue Characteristics and Visual Masking Differentially Influence Voluntary and Involuntary Attention. doi:10.31234/osf.io/qy6pc_v2
 Peer-reviewed journal articles
 48.	Völler, J., Linde-Domingo, J., Ortiz-Tudela, J., & González-García, C. (2026). From sudden perceptual learning to enduring engrams: a representational perspective. Philosophical Transactions of the Royal Society B: Biological Sciences, 381(1954), 20250245. doi:10.1098/rstb.2025.0245
 47.	Linde-Domingo*, J., Ortiz-Tudela*, J., Völler, J., Hebart, M. N., & González-García, C. (2026). Determinants of visual ambiguity resolution. Communications Psychology. doi:10.1038/s44271-026-00441-8
@@ -186,7 +186,7 @@ González-García, C., Del Río-Bermúdez, C., & Lupiáñez, J. (2013). Chronoty
 Postdoctoral researchers
 Almudena Ramírez-Haro [2026–present]
 Doctoral students
-Mattia Delmarco; Co-supervisor (with Dr. Juan Linde-Domingo) · Thesis: Characterizing the role of typicality in perception and memory [2025–present]
+Mattia Delmarco; Co-supervisor (with Dr. Juan Linde-Domingo) · Thesis: Tracing typicality to understand episodic memory [2025–present]
 Francisco Gutiérrez; FPI; Co-supervisor (with Dr. María Ruz) · Thesis: Neural Mechanisms of Perceptual Expectations During Preparation and Encoding of Information [2024–present]
 Johannah Völler; FPI; Co-supervisor (with Dr. Juan Linde-Domingo) · Thesis: Learning from Single Experiences: Formation and Temporal Evolution of Memory Traces in One-Shot Perceptual Learning [2023–present]
 Águeda Fuentes-Guerra Toral; FPI; Co-supervisor (with Dr. Elisa Martín-Arévalo) · Thesis: Caracterización de los efectos de la atención exógena sobre los contenidos en memoria de trabajo · Defended 10/07/2026 (Sobresaliente cum laude, international doctorate) [2022–2026]
