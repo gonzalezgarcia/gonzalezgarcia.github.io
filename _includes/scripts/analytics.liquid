@@ -30,3 +30,21 @@
     data-code="{{ site.pirsch_analytics }}"
   ></script>
 {% endif %}
+{% if site.enable_goatcounter_analytics and site.goatcounter_analytics %}
+  <!--
+    GoatCounter: cookieless visit counts. Not loaded at all when the browser sends Do Not Track or Global Privacy Control.
+    count.js itself skips localhost and other local addresses.
+  -->
+  <script>
+    (function () {
+      if (navigator.doNotTrack === '1' || window.doNotTrack === '1' || navigator.globalPrivacyControl === true) return;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://gc.zgo.at/count.v5.js';
+      s.integrity = 'sha384-atnOLvQb9t+jTSipvd75X2yginT4PjVbqDdlJAmxMm+wYElFmeR6EmLP5bYeoRVQ';
+      s.crossOrigin = 'anonymous';
+      s.dataset.goatcounter = 'https://{{ site.goatcounter_analytics }}.goatcounter.com/count';
+      document.head.appendChild(s);
+    })();
+  </script>
+{% endif %}
