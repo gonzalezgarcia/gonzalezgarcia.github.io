@@ -40,13 +40,13 @@ Collaboration grant (Beca de colaboración), Spanish research scholarship for un
 ÍCARO scholarship for undergraduate students, University of Granada (Spain) [2011]
 ## Research Funding
 As Principal Investigator
-La arquitectura representacional del aprendizaje rápido a través de la abstracción · Spanish Ministry of Science and Innovation, Plan Nacional 2023; PID2023-149428NB-I00; €148,750. Role: Principal Investigator. [2024–2027]
-Caracterización de la influencia de la Atención Selectiva en los contenidos de Memoria de Trabajo · Spanish Ministry of Science and Innovation, Plan Nacional 2020; PID2020-116342GA-I00; €118,580. Role: Co–Principal Investigator (with Elisa Martín-Arévalo). [2021–2025]
+The representational architecture of fast learning through abstraction · Original title: La arquitectura representacional del aprendizaje rápido a través de la abstracción · Spanish Ministry of Science and Innovation, Plan Nacional 2023; PID2023-149428NB-I00; €148,750. Role: Principal Investigator. [2024–2027]
+Characterizing the influence of selective attention on working memory contents · Original title: Caracterización de la influencia de la Atención Selectiva en los contenidos de Memoria de Trabajo · Spanish Ministry of Science and Innovation, Plan Nacional 2020; PID2020-116342GA-I00; €118,580. Role: Co–Principal Investigator (with Elisa Martín-Arévalo). [2021–2025]
 Characterizing the spatiotemporal neural signatures of instruction following · European Commission - Marie Skłodowska-Curie Individual Fellowship; 835767; €166,320. Role: Principal Investigator (Postdoctoral individual fellow). [2020–2021]
 As team member
 A cognitive neurocomputational perspective on human flexibility · Ghent University, Special Research Fund 2016; BOF.GOA.2017.0002.03; €600,000. Role: Postdoctoral researcher (PI: Marcel Brass). [2017–2020]
-Mecanismos neurales de control cognitivo en contextos de novedad de tareas · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2016; PSI2016-78236-P; €85,305. Role: Predoctoral researcher (PI: María Ruz). [2016–2019]
-Mecanismos neurales subyacentes a los efectos estratégicos y automáticos de la información afectiva en la toma de decisiones interpersonales · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2013; PSI2013-45567-P; €78,650. Role: Predoctoral researcher (PI: María Ruz). [2014–2017]
+Neural mechanisms of cognitive control in novel task contexts · Original title: Mecanismos neurales de control cognitivo en contextos de novedad de tareas · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2016; PSI2016-78236-P; €85,305. Role: Predoctoral researcher (PI: María Ruz). [2016–2019]
+Neural mechanisms underlying the strategic and automatic effects of affective information on interpersonal decision-making · Original title: Mecanismos neurales subyacentes a los efectos estratégicos y automáticos de la información afectiva en la toma de decisiones interpersonales · Spanish Ministry of Economy and Competitiveness, Plan Nacional 2013; PSI2013-45567-P; €78,650. Role: Predoctoral researcher (PI: María Ruz). [2014–2017]
 Behavioral and neural basis of high-speed retrieval in working memory · Swiss National Science Foundation, Ambizione grant 2015; PA00P1_139604; €627,941. Role: Researcher (PI: Evie Vergauwe). [2015–2019]
 ## Publications
 Bold: own name. * Equal contribution. Numbered in reverse chronological order (newest first).
